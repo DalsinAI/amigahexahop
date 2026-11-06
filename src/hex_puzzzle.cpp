@@ -23,7 +23,9 @@
 #include <iostream>
 #include <cctype> // TODO: remove it later
 #include <errno.h>
+#ifndef __amigaos__
 #include <pwd.h>
+#endif
 #include <SDL_image.h>
 
 //////////////////////////////////////////////////////
@@ -92,7 +94,7 @@ String GetFilePath(const char* file, const char* flags)
 	extern String base_path;
 	String filename;
 
-#ifdef WIN32
+#if defined(WIN32) || defined(__amigaos__) // Amiga: the saves in the drawer's data/
 	filename = base_path + file;
 #else
 	if (strncmp(file, "save", 4) == 0)

@@ -1,0 +1,25 @@
+Hex-a-hop's data in this drawer, and its licences
+(from the .xml file beside each sound in upstream's data/, and Debian's
+debian/copyright for hex-a-hop 1.1.0+git20140926)
+
+Pictures and levels (levels.dat, *.png): Tom Beaumont and the Hex-a-hop
+team, GPL 2 or later, like the program (COPYING.txt in the drawer).
+
+Music (music-*.wav, made from upstream's .ogg) and sound-used-jump.wav:
+remaxim, Creative Commons BY-SA 3.0
+http://creativecommons.org/licenses/by-sa/3.0/
+
+sound-crack, sound-explode-big, sound-explode-small, sound-floater-enter,
+sound-ice, sound-trampoline, sound-win: Stephen Cameron, remaxim, Ari
+Mustonen; public domain.
+
+sound-death, sound-laser, sound-used-antiice: Michel Baradari, Sander M,
+Tomasz Mazurek; Creative Commons BY 3.0
+http://creativecommons.org/licenses/by/3.0/
+
+DejaVuSans-Bold.ttf: the DejaVu fonts (Bitstream Vera licence; DejaVu's
+changes public domain): DejaVu-LICENSE.txt.
+
+Hex-a-hop 1.1.0 had music and sounds under non-free licences
+(CC BY-NC-SA, CC Sampling Plus); this tree, and this drawer, have none of
+them.

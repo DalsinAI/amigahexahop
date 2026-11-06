@@ -221,7 +221,7 @@ bool TextInit(const char* base)
 #endif
 		name = fontname;
 	else
-		name = dir + "/" + fontname;
+		name = dir + (dir.empty() || dir[dir.size() - 1] == '/' || dir[dir.size() - 1] == ':' ? "" : "/") + fontname; // no "//": AmigaDOS's parent
 #else
 #error "Font path not configured, please use the --with-font-path configure argument"
 #endif
