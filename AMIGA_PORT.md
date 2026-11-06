@@ -13,7 +13,12 @@ Debian packages it: hex-a-hop_1.1.0+git20140926.orig.tar.xz (sha256
 tree has free music and sounds in place of the 1.1.0 release's non-free
 ones (CC BY-NC-SA and CC Sampling Plus). Branch team2/hexahop-amiga.
 
-Status: builds; not yet run in the lab.
+Status: plays in the lab (Instance-45 on GFOpenUp 0.8.19, 6 November
+2026): the title (the picture, the TrueType menu), Start New Game with its
+help panels, the first level (Emi hopping, the green tiles breaking
+behind her), the pause menu, Return to Title and Quit back to the Shell.
+Not yet tried: finishing a level, which is when the game writes its
+progress to data/.
 
 
 What you need
@@ -30,7 +35,8 @@ How to play
 
 Open the HexAHop icon, or run HexAHop from a Shell. The game reads its
 levels, pictures, sounds and font from the drawer's data/, and keeps its
-saved games there too.
+progress there too. Q, W, E, A, S, D (or the numeric keypad, or a click
+on a tile) move, U or Backspace undoes, Escape is the menu.
 
 
 Building
@@ -58,7 +64,7 @@ What was changed
 - src/text.cpp: no "//" between the drawer and the font's name.
 - src/hex_puzzzle.cpp: the saved games in the drawer's data/, as on
   Windows (upstream on Unix: ~/.hex-a-hop).
-- The paths: DATADIR is PROGDIR:data/, the font DejaVu Sans Bold (as
+- The paths: DATADIR is PROGDIR:data (GetBasePath adds the /), the font DejaVu Sans Bold (as
   upstream's configure recommends; this tree has no font of its own).
 - No SDL_image, SDL_mixer or SDL_ttf 1.2 for OpenGPU's SDL 1.2: the Team's
   amiga/sdl_image_lite.c (PNG on libpng), amiga/sdl_mixer_lite.c (WAV) and

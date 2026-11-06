@@ -34,7 +34,7 @@ GEN     = $(BUILD)/gen
 PROG    = HexAHop
 OUT     = dist/HexAHop
 
-DEFS    = -D__amigaos__ -DNDEBUG -DHAVE_CONFIG_H -DDATADIR=\"PROGDIR:data/\" \
+DEFS    = -D__amigaos__ -DNDEBUG -DHAVE_CONFIG_H -DDATADIR=\"PROGDIR:data\" \
           -DFONT_PATH=\"DejaVuSans-Bold.ttf\"
 INC     = -I$(GEN) -Iamiga/include/SDL -Iamiga/include -Iamiga/sdl_ttf -Isrc \
           -I$(SDLKIT)/include/SDL -I$(SDLKIT)/include -I$(DEPS)/include
