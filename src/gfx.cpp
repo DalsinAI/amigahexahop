@@ -229,8 +229,15 @@ String GetBasePath()
 #endif
 }
 
+#ifdef __amigaos__
+extern "C" void amiga_start(void); // amiga/amiga_start.c: into the drawer
+#endif
+
 int main(int /*argc*/, char * /*argv*/[])
 {
+#ifdef __amigaos__
+	amiga_start();
+#endif
 	base_path = GetBasePath();
 
 /*
@@ -246,7 +253,7 @@ int main(int /*argc*/, char * /*argv*/[])
 	if (!TextInit(base_path))
 		return 1;
 
-	SDL_Surface* icon = IMG_Load(base_path + "/hex-a-hop-16.png");
+	SDL_Surface* icon = IMG_Load(base_path + "hex-a-hop-16.png"); // base_path ends in '/'; "//" is AmigaDOS's parent
 	if (icon)
 	{
 		SDL_SetColorKey(icon, SDL_SRCCOLORKEY, SDL_MapRGB(icon->format, 0, 255, 255));

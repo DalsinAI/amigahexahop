@@ -1,0 +1,119 @@
+# Hex-a-hop (upstream's tree of 26 September 2014) for AmigaOS 3.x,
+# 68040/68060 + FPU, on OpenGPU's SDL 1.2 (sdl12-compat).
+#
+#   make -f amiga/Makefile.amigaos -j2 dist \
+#        STOVE=/path/to/openamigagcc-16.2.0-open4 \
+#        NDK=/path/to/OpenNDK/Include_H SDLKIT=/path/to/opengpu-sdk \
+#        DEPS=/path/to/m68k-amigaos
+#
+# CMakeLists.txt's sources, without OpenGL (upstream's default) and without
+# gettext (English). SDLKIT is the OpenGPU developer kit: libSDL.a,
+# sdl12-compat on SDL2.module. It has no SDL_image, SDL_mixer or SDL_ttf
+# 1.2: the Team's amiga/sdl_image_lite.c (PNG on libpng), amiga/
+# sdl_mixer_lite.c (WAV) and SDL_ttf 2.0.11 (amiga/sdl_ttf, on the Team's
+# static FreeType) stand in. DEPS has the Team's static FreeType, libpng,
+# zlib and bzip2 (/mnt/amigachrome/team2/deps/m68k-amigaos). SDL_RWFromFile
+# is plain stdio (amiga/amiga_rwops.c, -Wl,--wrap). The font is DejaVu Sans
+# Bold, as upstream's configure recommends (amiga/fonts).
+
+STOVE   ?= $(HOME)/CradleLab/toolchain/openamigagcc-16.2.0-open4-x86_64-linux
+NDK     ?= $(HOME)/CradleLab/gfopensdk/OpenNDK/Include_H
+SDLKIT  ?= /mnt/amigachrome/team2/deps/opengpu-sdk
+DEPS    ?= /mnt/amigachrome/team2/deps/m68k-amigaos
+CC      = $(STOVE)/bin/m68k-amigaos-gcc
+CXX     = $(STOVE)/bin/m68k-amigaos-g++
+STRIP   = $(STOVE)/bin/m68k-amigaos-strip
+CPU     ?= -m68040 -m68881
+# -fno-tree-loop-distribute-patterns: GCC 16's loop miscompile (the kit's
+# sdl2-config gives it for GCC 16 too).
+OPT     ?= -O2 -fomit-frame-pointer -fno-tree-loop-distribute-patterns
+
+BUILD   = build/amigaos
+OBJDIR  = $(BUILD)/obj
+GEN     = $(BUILD)/gen
+PROG    = HexAHop
+OUT     = dist/HexAHop
+
+DEFS    = -D__amigaos__ -DNDEBUG -DHAVE_CONFIG_H -DDATADIR=\"PROGDIR:data\" \
+          -DFONT_PATH=\"DejaVuSans-Bold.ttf\"
+INC     = -I$(GEN) -Iamiga/include/SDL -Iamiga/include -Iamiga/sdl_ttf -Isrc \
+          -I$(SDLKIT)/include/SDL -I$(SDLKIT)/include -I$(DEPS)/include
+CFLAGS  = -noixemul $(OPT) $(CPU) -fno-common -MMD -MP $(DEFS) $(INC) -w
+CXXFLAGS = $(CFLAGS) -std=gnu++98 -Wno-psabi
+LDFLAGS = -noixemul $(CPU) -Wl,--wrap=SDL_RWFromFile
+LIBS    = -L$(SDLKIT)/lib -L$(DEPS)/lib -lSDL -lfreetype -lpng -lz -lbz2 -lpthread -lm
+
+CXXSRC  = src/gfx.cpp src/hex_puzzzle.cpp src/i18n.cpp src/sfx.cpp src/text.cpp
+SRC_C   = src/system-directory.c src/system-relative.c
+CSRC    = amiga/amiga_start.c amiga/amiga_screens.c amiga/stack.c \
+          amiga/amiga_rwops.c amiga/sdl_image_lite.c amiga/sdl_mixer_lite.c \
+          amiga/png_rgba.c amiga/sdl_ttf/SDL_ttf.c
+
+OBJS    = $(CXXSRC:%.cpp=$(OBJDIR)/%.o) $(SRC_C:%.c=$(OBJDIR)/%.o) $(CSRC:%.c=$(OBJDIR)/%.o)
+ICONS   = $(wildcard amiga/icons/*.info)
+
+all: $(BUILD)/$(PROG)
+
+$(GEN)/config.h: src/config.h.cmake
+	@mkdir -p $(dir $@)
+	sed -e 's/#cmakedefine HAVE_WINDOWS_H/\/* no windows.h *\//' \
+	    -e 's/#cmakedefine \(HAVE_[A-Z_]*_H\)$$/#define \1 1/' \
+	    -e 's/#cmakedefine \([A-Z_]*\)/\/* #undef \1 *\//' \
+	    -e 's/@hah_EXENAME@/hex-a-hop/; s/@hah_PACKAGENAME@/Hex-a-hop/' \
+	    -e 's/@hah_VERSION@/1.1.0/g; s,@hah_HOMEPAGE@,http://hexahop.sourceforge.net,g' $< > $@
+
+$(OBJS): $(GEN)/config.h
+
+$(BUILD)/$(PROG): $(OBJS)
+	$(CXX) $(LDFLAGS) -o $@.debug $(OBJS) $(LIBS)
+	$(STRIP) -o $@ $@.debug
+
+$(OBJDIR)/%.o: %.cpp
+	@mkdir -p $(dir $@)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+$(OBJDIR)/src/%.o: src/%.c
+	@mkdir -p $(dir $@)
+	$(CC) $(CFLAGS) -std=gnu99 -c -o $@ $<
+
+$(OBJDIR)/amiga/sdl_ttf/%.o: amiga/sdl_ttf/%.c
+	@mkdir -p $(dir $@)
+	$(CC) -noixemul $(OPT) $(CPU) -fno-common -MMD -MP -std=gnu99 -I$(SDLKIT)/include/SDL \
+	  -I$(DEPS)/include/freetype2 -DAMIGA_NO_FT_STROKER -w -c -o $@ $<
+
+$(OBJDIR)/amiga/%.o: amiga/%.c
+	@mkdir -p $(dir $@)
+	$(CC) -noixemul $(OPT) $(CPU) -fno-common -MMD -MP -std=gnu99 -Iamiga/include/SDL \
+	  -I$(SDLKIT)/include/SDL -I$(DEPS)/include -I$(NDK) -Wall -c -o $@ $<
+
+# The drawer: the program, the game's data/ (its levels and pictures; the
+# sounds and music made WAV by amiga/tools/ogg2wav.py with the host's
+# GStreamer: 16-bit PCM effects, IMA ADPCM music; the .flac copies left
+# out), the font, ReadMe and the licences. The saved games go in data/.
+DATA_FILES = levels.dat emi.png gradient.png map.png map_top.png tiles.png \
+          tiles_reflect.png title.png hex-a-hop-16.png
+dist: $(BUILD)/$(PROG) $(ICONS) AMIGA_PORT.md
+	rm -rf $(OUT) && mkdir -p $(OUT)/data
+	cp $(BUILD)/$(PROG) $(OUT)/
+	for f in $(DATA_FILES); do cp data/$$f $(OUT)/data/; done
+	for f in data/sound-*.ogg; do b=$$(basename $$f .ogg); \
+	  python3 amiga/tools/ogg2wav.py pcm $$f $(OUT)/data/$$b.wav || exit 1; done
+	for f in data/music-*.ogg; do b=$$(basename $$f .ogg); \
+	  python3 amiga/tools/ogg2wav.py adpcm $$f $(OUT)/data/$$b.wav || exit 1; done
+	cp amiga/fonts/DejaVuSans-Bold.ttf $(OUT)/data/
+	cp AMIGA_PORT.md $(OUT)/ReadMe
+	cp COPYING $(OUT)/COPYING.txt
+	cp amiga/data-LICENCES.txt $(OUT)/data/LICENCES.txt
+	cp amiga/fonts/DejaVu-LICENSE.txt $(OUT)/data/DejaVu-LICENSE.txt
+	cp amiga/sdl_ttf/COPYING $(OUT)/SDL_ttf-COPYING.txt
+	cp amiga/icons/HexAHop.info amiga/icons/ReadMe.info $(OUT)/
+	for f in COPYING.txt SDL_ttf-COPYING.txt; do cp amiga/icons/ReadMe.info $(OUT)/$$f.info; done
+	cp amiga/icons/Folder.info $(OUT)/data.info
+	cp amiga/icons/HexAHop-drawer.info dist/HexAHop.info
+
+-include $(OBJS:.o=.d)
+
+clean:
+	rm -rf $(BUILD)
+
+.PHONY: all clean dist
