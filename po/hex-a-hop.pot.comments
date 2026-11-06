@@ -1,0 +1,31 @@
+# Translators: A few hints:
+#
+# Support for translations is still experimental. You may find a few minor
+# flaws. If you do not understand a message please ask to allow us adding
+# helpful comments.
+#
+# The English help messages contain unusual spaces. "  " is internally
+# replaced by a newline, "    " starts a new paragraph. You may ignore
+# these spaces for now. You can also use "\n" (or "  ") in translations to
+# force a linebreak and "\n\n" (or "    ") to start a new paragraph. It is
+# suggested not to use fixed line breaks in paragraphs as this depends on
+# font settings. You should also avoid "  " or "    " as this is unusual.
+#
+# The manpage is also created from this file. If you want to add an extra
+# paragraph, e.g. describing your copyright for the translation or other
+# language dependent information, create a file named hex-a-hop.<lang>.add.
+# The first line of this file must read:
+# PO4A-HEADER:mode=after;position=AUTHOR;beginboundary=\.SH
+# Please *only* replace the word "AUTHOR" by the translation of this word to
+# your language. For more details read po4a(7).
+#
+# The manpage uses \\(hy. This is a hyphen sign (looks like -) and is used to
+# connect two words such as "real-time". If you use "-" it will be wrongly
+# rendered by po4a as minus sign (\- in output). See also
+# http://lists.debian.org/debian-devel/2003/03/msg01481.html. If you read
+# a message containing \\(hy consider it as usual hyphen. In your translation
+# you should also replace all hyphens by \\(hy. Commands, file names, ... never
+# contain hyphens but 7 bit minus signs!
+#
+# There is also a desktop file hex-a-hop.desktop containing two translatable
+# strings. Please update it as well.

@@ -1,0 +1,17 @@
+# List of source files which contain translatable strings.
+
+src/gfx_list.h
+src/level_list.h
+src/sfx.cpp
+src/text.h
+src/hex_puzzzle.cpp
+src/menus.h
+src/sfx.h
+src/tiletypes.h
+src/packfile.h
+src/state.h
+src/video.h
+src/gfx.cpp
+src/savestate.h
+src/text.cpp
+

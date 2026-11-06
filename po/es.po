@@ -1,0 +1,1164 @@
+# Translation of es to Spanish
+# Copyright (C) 2007 Miriam Ruiz
+# Copyright (C) 2007 Enrique Matias Sanchez (aka Quique)
+# This file is distributed under the same license as the hex-a-hop package.
+#
+# Translators: A few hints:
+#
+# Support for translations is still experimental. You may find a few minor
+# flaws. If you do not understand a message please ask to allow us adding
+# helpful comments.
+#
+# The English help messages contain unusual spaces. "  " is internally
+# replaced by a newline, "    " starts a new paragraph. You may ignore
+# these spaces for now. You can also use "\n" (or "  ") in translations to
+# force a linebreak and "\n\n" (or "    ") to start a new paragraph. It is
+# suggested not to use fixed line breaks in paragraphs as this depends on
+# font settings. You should also avoid "  " or "    " as this is unusual.
+#
+# The manpage is also created from this file. If you want to add an extra
+# paragraph, e.g. describing your copyright for the translation or other
+# language dependent information, create a file named hex-a-hop.<lang>.add.
+# The first line of this file must read:
+# PO4A-HEADER:mode=after;position=AUTHOR;beginboundary=\.SH
+# Please *only* replace the word "AUTHOR" by the translation of this word to
+# your language. For more details read po4a(7).
+#
+# There is also a desktop file hex-a-hop.desktop containing two translatable
+# strings. Please update it as well.
+#
+# Miriam Ruiz <little_miry@yahoo.es>, 2007.
+# Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: hex-a-hop\n"
+"Report-Msgid-Bugs-To: hex-a-hop@packages.debian.org\n"
+"POT-Creation-Date: 2009-03-15 02:02+0200\n"
+"PO-Revision-Date: 2007-08-24 08:44+0200\n"
+"Last-Translator: Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>\n"
+"Language-Team: Spanish <kde-es@kybs.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/hex_puzzzle.cpp:1473
+#, c-format
+msgid "Complete 1  more level  to unlock!"
+msgid_plural "Complete %d  more levels  to unlock!"
+msgstr[0] "¡Completa un  nivel más  para desbloquear!"
+msgstr[1] "¡Completa %d  niveles más  para desbloquear!"
+
+#: src/hex_puzzzle.cpp:1480
+msgid "<<NO NAME>>"
+msgstr "<<SIN NOMBRE>>"
+
+#. TRANSLATORS: Anti-Ice are pickups, which turn ice plates into solid
+#. plates once you step on them. Each pickup changes one ice plate
+#: src/hex_puzzzle.cpp:2577
+#, c-format
+msgid "Anti-Ice: %d"
+msgstr "Antihielo: %d"
+
+#: src/hex_puzzzle.cpp:2578
+#, c-format
+msgid "Jumps: %d"
+msgstr "Saltos: %d"
+
+#: src/hex_puzzzle.cpp:2579
+#, c-format
+msgid "Score: %d (%d)"
+msgstr "Puntuación: %d (%d)"
+
+#. TRANSLATORS: Par is similar to golf, a pre defined score which you
+#. can attempt to beat
+#: src/hex_puzzzle.cpp:2582
+#, c-format
+msgid "Par:   %d"
+msgstr "Par:   %d"
+
+#: src/hex_puzzzle.cpp:2583
+#, c-format
+msgid "Diff:  %d"
+msgstr "Diferencia:  %d"
+
+#: src/hex_puzzzle.cpp:2586
+#, c-format
+msgid " Par: %d   Current: %d"
+msgstr " Par: %d   Actual: %d"
+
+#: src/hex_puzzzle.cpp:2589
+#, c-format
+msgid " Anti-Ice: %d"
+msgstr " Antihielo: %d"
+
+#: src/hex_puzzzle.cpp:2591
+#, c-format
+msgid " Jumps: %d"
+msgstr " Saltos: %d"
+
+#: src/hex_puzzzle.cpp:2597
+#, c-format
+msgid "Points: %d"
+msgstr "Puntos: %d"
+
+#: src/hex_puzzzle.cpp:2598
+#, c-format
+msgid "Discovered: %d%% (%d/%d)"
+msgstr "Descubierto: %d%% (%d/%d)"
+
+#: src/hex_puzzzle.cpp:2599
+#, c-format
+msgid "Complete: %d%% (%d)"
+msgstr "Terminado: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2600
+#, c-format
+msgid "Mastered: %d%% (%d)"
+msgstr "Dominado: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2603
+#, c-format
+msgid " %d%% Mastered"
+msgstr " %d%% dominado"
+
+#: src/hex_puzzzle.cpp:2605
+#, c-format
+msgid " %d%% Complete"
+msgstr " %d%% terminado"
+
+#: src/hex_puzzzle.cpp:2657
+#, c-format
+msgid "Best:% 3d"
+msgstr "El mejor:% 3d"
+
+#: src/hex_puzzzle.cpp:2658
+#, c-format
+msgid "Par:% 3d"
+msgstr "Par:% 3d"
+
+#: src/hex_puzzzle.cpp:2661
+msgid "Completed"
+msgstr "Terminado"
+
+#: src/hex_puzzzle.cpp:2664
+msgid "Incomplete"
+msgstr "Incompleto"
+
+#: src/hex_puzzzle.cpp:2705 src/menus.h:574
+msgid "Level Complete!"
+msgstr "¡Nivel terminado!"
+
+#: src/hex_puzzzle.cpp:2821
+#, c-format
+msgid "Special(%d,%d): %s (%d)"
+msgstr "Especial(%d,%d): %s (%d)"
+
+#: src/hex_puzzzle.cpp:2821
+msgid "<None>"
+msgstr "<Ninguno>"
+
+#: src/hex_puzzzle.cpp:2966
+msgid "Select level"
+msgstr "Seleccionar un nivel"
+
+#: src/hex_puzzzle.cpp:4068
+msgid "Save level"
+msgstr "Guardar el nivel"
+
+#: src/hex_puzzzle.cpp:4074
+msgid "Open level"
+msgstr "Abrir un nivel"
+
+#: src/menus.h:88
+msgid ""
+"Basic controls:|Move around with the keys Q,W,E,A,S,D or the numeric  "
+"keypad. Alternatively, you can use the mouse and  click on the tile you'd "
+"like to move to.    Use 'U', backspace or the right mouse button to  undo "
+"mistakes.    The 'Esc' key (or middle mouse button) brings up a  menu from "
+"which you can restart if you get stuck."
+msgstr ""
+"Controles básicos:|Muévete con las teclas Q, W, E, A, S, D o con el teclado "
+"numérico. Como alternativa, puedes usar el ratón y pulsar en la baldosa a la "
+"que desees moverte.\n"
+"\n"
+"Usa «U», Borrar, o el botón derecho del ratón para deshacer equivocaciones.\n"
+"\n"
+"La tecla «Esc» (o el botón central del ratón) muestra un menú desde el que "
+"puedes volver a empezar si te quedas atascado."
+
+#: src/menus.h:92
+msgid ""
+"Objective:|Your goal is to break all the green tiles.    You mainly do this "
+"by jumping on them.    They will crack when you land on them, and  only "
+"disintegrate when you jump off.    Try not to trap yourself!"
+msgstr ""
+"Objetivo:|Tu meta es romper todas las baldosas verdes.\n"
+"\n"
+"Esto se hace principalmente saltando sobre ellas.\n"
+"\n"
+"Se romperán cuando aterrices sobre ellas, y se desintegrarán cuando las "
+"abandones.\n"
+"\n"
+"¡Procura no quedarte atrapado!"
+
+#: src/menus.h:94
+msgid ""
+"The coloured walls flatten themselves when there  are no matching coloured "
+"tiles remaining."
+msgstr ""
+"Las paredes coloreadas dejan paso cuando ya no quedan baldosas del mismo "
+"color."
+
+#: src/menus.h:96
+msgid ""
+"You can bounce on the purple trampoline tiles to  get around.    But try not "
+"to fall in the water.    If you do, remember you can undo with 'U',  "
+"backspace or the right mouse button!"
+msgstr ""
+"Puedes rebotar en las baldosas-trampolín de color púrpura para moverte.\n"
+"\n"
+"Pero intenta no caer en el agua.\n"
+"\n"
+"Si lo haces, recuerda que puedes volver atrás con «U», Borrar, o el botón "
+"derecho del ratón."
+
+#: src/menus.h:98
+msgid ""
+"A red spinner tile will rotate the pieces around  it when you step on it."
+msgstr ""
+"Una baldosa giratoria de color rojo rotará las piezas a su alrededor cuando "
+"pises sobre ella."
+
+#: src/menus.h:102
+msgid ""
+"You don't need to destroy blue tiles to complete  the level.    But they'll "
+"turn green when you step off them, and  you know what you have to do to "
+"green tiles..."
+msgstr ""
+"No necesitas destruir las baldosas azules para terminal el nivel.\n"
+"\n"
+"Pero se volverán verdes cuando salgas de ellas, y ya sabes lo que tienes que "
+"hacer con las baldosas verdes..."
+
+#: src/menus.h:106
+msgid ""
+"Yellow laser tiles fire when you step on them.    Shooting other laser tiles "
+"is more destructive."
+msgstr ""
+"Las baldosas láser amarillas disparan cuando pisas sobre ellas.\n"
+"\n"
+"Disparar a otras baldosas láser es más destructivo."
+
+#: src/menus.h:108
+msgid "Ice is slippery!    Please be careful!!"
+msgstr ""
+"¡El hielo es resbaladizo!\n"
+"\n"
+"¡Ten cuidado!"
+
+#: src/menus.h:112
+msgid ""
+"The dark grey tiles with arrows on are builders.    Landing on one creates "
+"green tiles in any adjacent  empty tile, and turns green tiles into walls."
+msgstr ""
+"Las baldosas de color gris oscuro con flechas encima son constructoras.\n"
+"\n"
+"Al aterrizar sobre una, se crean baldosas verdes en cualquier baldosa vacía "
+"contigua, y las baldosas verdes se convierten en paredes."
+
+#. TRANSLATORS: pop means vanish and Emy drowns (you loose)
+#: src/menus.h:117
+msgid ""
+"You can ride on the pink floating boats to get  across water.    They'll pop "
+"if you try and float off the edge of the  screen though, so look where "
+"you're going."
+msgstr ""
+"Puedes montar en los barcos flotantes de color rosa para cruzar el agua.\n"
+"\n"
+"Sin embargo, si lo intentas desembarcarán y flotarán hasta más allá del "
+"borde de la pantalla, así que mira a donde vas."
+
+#: src/menus.h:119
+msgid "The blue lifts go up or down when you land on them."
+msgstr "Los ascensores azules suben o bajan cuando aterrizas sobre ellos."
+
+#: src/menus.h:125
+msgid ""
+"The spiky anti-ice pickups turn icy tiles into blue ones.    They get used "
+"automatically when you land on ice."
+msgstr ""
+"Las puntiagudos objetos antihielo convierten las baldosas de hilo en "
+"azules.\n"
+"\n"
+"Se usan automáticamente cuando aterrizas sobre hielo."
+
+#. TRANSLATORS: Normally you jump from one plate to another. The golden jump (a
+#. pickup) allows you to jump and land on the *same* plate
+#: src/menus.h:129
+msgid ""
+"Collecting the golden jump pickups will allow you to  do a big vertical "
+"jump.    Try it out on different types of tiles.    Use the space bar or "
+"return key to jump. Or click  on the tile you're currently on with the mouse."
+msgstr ""
+"Recoger los objetos de salto dorados te permitirá dar un gran salto "
+"vertical.\n"
+"\n"
+"Inténtalo en diferentes tipos de baldosa.\n"
+"\n"
+"Usa la barra espaciadora o la tecla Intro para saltar. O pulsa con el ratón "
+"la baldosa en la que te encuentres."
+
+#: src/menus.h:134
+msgid ""
+"Map Screen:|You can choose which level to attempt next from  the map "
+"screen.    Silver levels are ones you've cleared.    Black levels are ones "
+"you haven't completed yet,  but are available to play."
+msgstr ""
+"Mapa:|Puedes elegir qué nivel intentar a continuación desde el mapa.\n"
+"\n"
+"Los niveles plateados son los que ya has pasado.\n"
+"\n"
+"Los niveles negros son los que todavía no has terminado, pero están "
+"disponibles para que los juegues."
+
+#. TRANSLATORS: Levels are depicted as black balls. Once you passed them, they
+#. turn silver. If you reached the par, they turn golden (with a crown), and if
+#. you beat the par, they turn their shape/color once more
+#: src/menus.h:140
+msgid ""
+"New feature unlocked!|Each level has an efficiency target for you to try  "
+"and beat.    Every move you make and each non-green tile  you destroy counts "
+"against you.    Why not try replaying some levels and going  for gold?"
+msgstr ""
+"¡Se ha desbloqueado una nueva función!|Cada nivel tiene un objetivo de "
+"eficiencia para que intentes batirlo.\n"
+"\n"
+"Cada movimiento que hagas y cada baldosa que destruyas sin ser de color "
+"verde cuenta contra ti.\n"
+"\n"
+"¿Por qué no intentas volver a jugar algunos niveles y conseguir el oro?"
+
+#: src/menus.h:145
+msgid ""
+"Thanks for playing this little game.    I hope you  enjoy it!    -- --    "
+"All content is Copyright 2005 Tom Beaumont    email: tombeaumont@yahoo.com  "
+"Any constructive criticism gratefully received!"
+msgstr ""
+"Gracias por jugar a este pequeño juego.\n"
+"\n"
+"Espero que lo disfrutes.\n"
+"\n"
+"-- --\n"
+"\n"
+"Todo el contenido es (c) 2005 Tom Beaumont\n"
+"\n"
+"Correo electrónico: tombeaumont@yahoo.com\n"
+"Toda crítica constructiva será bien recibida."
+
+#. TRANSLATORS: This string is copied twice into the POT file to workaround a
+#. gettext limitation (no macro expansion). The extracted string "Welcome to "
+#. will not be used.
+#: src/menus.h:151
+msgid "Welcome to "
+msgstr "Welcome to "
+
+#: src/menus.h:197
+msgid "Info:"
+msgstr ""
+
+#: src/menus.h:229
+msgid "Press any key"
+msgstr "Pulsa una tecla"
+
+#. TRANSLATORS: This specifies how the text in the help dialog should
+#. be aligned. Do *not* translate the text itself but use one of "left",
+#. "center" or "right" (untranslated!). The default is "center".
+#: src/menus.h:251
+msgid "text alignment"
+msgstr ""
+
+#: src/menus.h:337
+#, c-format
+msgid "Help (Page --)"
+msgstr "Ayuda (Página --)"
+
+#: src/menus.h:339
+#, c-format
+msgid "Help (Page %d/%d)"
+msgstr "Ayuda (Página %d/%d)"
+
+#: src/menus.h:426
+msgid "Resume"
+msgstr "Reanudar"
+
+#: src/menus.h:427
+msgid "Restart Level"
+msgstr "Empezar el nivel de nuevo"
+
+#: src/menus.h:428
+msgid "Return to Map"
+msgstr "Volver al mapa"
+
+#: src/menus.h:429
+msgid "Continue"
+msgstr "Seguir"
+
+#: src/menus.h:430
+msgid "Toggle Fullscreen"
+msgstr "Conmutar la pantalla completa"
+
+#: src/menus.h:431 src/menus.h:1109
+msgid "Options"
+msgstr "Opciones"
+
+#: src/menus.h:432
+msgid "Quit"
+msgstr "Salir"
+
+#: src/menus.h:433
+msgid "Yes"
+msgstr "Sí"
+
+#: src/menus.h:434
+msgid "No"
+msgstr "No"
+
+#: src/menus.h:435
+msgid "Return to Title"
+msgstr "Volver al menú principal"
+
+#: src/menus.h:436
+msgid "Help"
+msgstr "Ayuda"
+
+#: src/menus.h:437
+msgid "Start New Game"
+msgstr "Comenzar un nuevo juego"
+
+#: src/menus.h:438
+msgid "Yes, really delete it!"
+msgstr "Sí, borrarlo"
+
+#: src/menus.h:439
+msgid "Don't do it!"
+msgstr "No hacerlo"
+
+#: src/menus.h:440
+msgid "Undo Last Move"
+msgstr "Deshacer el último movimiento"
+
+#: src/menus.h:441
+msgid "OK"
+msgstr "Aceptar"
+
+#: src/menus.h:442
+msgid "View Credits Sequence"
+msgstr "Ver la secuencia de créditos"
+
+#: src/menus.h:574
+msgid "Emi can't swim..."
+msgstr "Emi no sabe nadar..."
+
+#: src/menus.h:613
+#, c-format
+msgid "New Best Score: %d  Par Score: %d  Par Beaten!"
+msgstr "Nueva puntuación máxima: %d  Par: %d  ¡Mejor que el par!"
+
+#: src/menus.h:615
+#, c-format
+msgid "New Best Score: %d  Par Score: %d"
+msgstr "Nueva puntuación máxima: %d  Par: %d"
+
+#: src/menus.h:617
+#, c-format
+msgid "Score: %d  Previous Best: %d  Par Score: %d"
+msgstr "Puntuación: %d  Anterior máximo: %d  Par: %d"
+
+#: src/menus.h:619
+msgid "Well Done!  Level Completed!"
+msgstr "¡Bien hecho!  Nivel terminado"
+
+#: src/menus.h:698
+msgid " Very Well Done! "
+msgstr " ¡Muy bien hecho!"
+
+#: src/menus.h:703
+msgid "All Levels Cleared!"
+msgstr "Terminados todos los niveles"
+
+#: src/menus.h:707
+msgid "Not a single green hexagon is left unbroken."
+msgstr "No ha quedado ni un solo hexágono sin romper."
+
+#: src/menus.h:709
+msgid "Truly, you are a master of hexagon hopping!"
+msgstr "Verdaderamente, eres un as del salto entre hexágonos"
+
+#: src/menus.h:713
+msgid "Credits"
+msgstr "Créditos"
+
+#: src/menus.h:714
+msgid "<Design & Direction:"
+msgstr "<Diseño y dirección:"
+
+#: src/menus.h:715
+msgid "<Programming:"
+msgstr "<Programación:"
+
+#: src/menus.h:716
+msgid "<Graphics:"
+msgstr "<Gráficos:"
+
+#: src/menus.h:717
+msgid "<Thanks to:"
+msgstr "<Gracias a:"
+
+#: src/menus.h:719
+msgid "<Tools and libraries used:"
+msgstr "<Herramientas y bibliotecas usadas:"
+
+#: src/menus.h:720
+msgid "<Fonts used:"
+msgstr "<Tipos de letra usados:"
+
+#: src/menus.h:724
+msgid "Thanks for playing!"
+msgstr "Gracias por jugar"
+
+#: src/menus.h:728
+msgid " Absolutely Amazing! "
+msgstr " Realmente increíble "
+
+#: src/menus.h:733
+msgid "All Levels Mastered!!"
+msgstr "¡¡Dominados todos los niveles!!"
+
+#: src/menus.h:737
+msgid "You crushed every last green hexagon with"
+msgstr "Has roto todos los últimos hexágonos verdes con"
+
+#: src/menus.h:738
+msgid "breathtaking efficiency!"
+msgstr "una eficiencia que corta la respiración"
+
+#: src/menus.h:740
+msgid "You truly are a grand master of hexagon hopping!"
+msgstr "Verdaderamente eres el no va más del salto entre hexágonos"
+
+#: src/menus.h:890
+msgid "The End"
+msgstr "Fin"
+
+#: src/menus.h:979
+#, c-format
+msgid "Continue game %d (All Clear!)"
+msgstr "Continuar el juego %d (todo terminado)"
+
+#: src/menus.h:981
+#, c-format
+msgid "Continue game %d (%d%% + %d%%)"
+msgstr "Continuar el juego %d (%d%% + %d%%)"
+
+#: src/menus.h:983
+#, c-format
+msgid "Continue game %d (%d%% complete)"
+msgstr "Continuar el juego %d (%d%% terminado)"
+
+#: src/menus.h:1022
+msgid "Quit: Are you sure?"
+msgstr "Salir: ¿Estás seguro?"
+
+#: src/menus.h:1042
+#, c-format
+msgid "Really delete game %d?"
+msgstr "¿Seguro que quieres borrar el juego %d?"
+
+#: src/menus.h:1082
+msgid "Paused"
+msgstr "En pausa"
+
+#. TRANSLATORS: The following strings (in level_list.h) are level names, which
+#. should give (in a humerous way) the player an indication about this level.
+#: src/level_list.h:27
+msgid "  Map"
+msgstr "  Mapa"
+
+#: src/level_list.h:28
+msgid "  Orbital"
+msgstr "  Orbital"
+
+#: src/level_list.h:29
+msgid "  Hive"
+msgstr "  Colmena"
+
+#: src/level_list.h:30
+msgid "  There  and Back"
+msgstr "  Allí y vuelta"
+
+#: src/level_list.h:31
+msgid "  Triangular"
+msgstr "  Triangular"
+
+#: src/level_list.h:32
+msgid "  Mini  Island"
+msgstr "  Miniisla"
+
+#: src/level_list.h:33
+msgid "  Island  Variation"
+msgstr "  Variación de la isla"
+
+#: src/level_list.h:34
+msgid "  Archipelago"
+msgstr "  Archipiélago"
+
+#: src/level_list.h:35
+msgid "  Weathervane"
+msgstr "  Veleta"
+
+#: src/level_list.h:36
+msgid "  Bridges"
+msgstr "  Puentes"
+
+#: src/level_list.h:37
+msgid "  Explorer"
+msgstr "  Explorador"
+
+#: src/level_list.h:38
+msgid "  Trampolines"
+msgstr "  Trampolines"
+
+#: src/level_list.h:39
+msgid "  Not a Knot"
+msgstr "  Ningún nudo"
+
+#: src/level_list.h:40
+msgid "  Another  Mountain"
+msgstr "  Otra  montaña"
+
+#: src/level_list.h:41
+msgid "  A  Mountain"
+msgstr "  Una  montaña"
+
+#: src/level_list.h:42
+msgid "  Green  Walls"
+msgstr "  Paredes  verdes"
+
+#: src/level_list.h:43
+msgid "  Winding  Order"
+msgstr "  Orden serpenteante"
+
+#: src/level_list.h:44
+msgid "  Rental  Boat"
+msgstr "  Bote de alquiler"
+
+#: src/level_list.h:45
+msgid "  Ferrying"
+msgstr "  Ferry"
+
+#: src/level_list.h:46
+msgid "  Transport  Hub"
+msgstr "  Estación intermodal"
+
+#: src/level_list.h:47
+msgid "  Lifts"
+msgstr "  Ascensores"
+
+#: src/level_list.h:48
+msgid "  Leftovers"
+msgstr "  Restos"
+
+#: src/level_list.h:49
+msgid "  Trampoline  Retrieval"
+msgstr "  Recuperación del trampolín"
+
+#: src/level_list.h:50
+msgid "  Rolling  Hexagons"
+msgstr "  Hexágonos ondulados"
+
+#: src/level_list.h:51
+msgid "  Telephone"
+msgstr "  Teléfono"
+
+#: src/level_list.h:52
+msgid "  Breakthrough"
+msgstr "  Gran paso adelante"
+
+#: src/level_list.h:53
+msgid "  Laser  Safety"
+msgstr "  Seguridad láser"
+
+#: src/level_list.h:54
+msgid "  Branching  Pathway"
+msgstr "  Camino que se bifurca"
+
+#: src/level_list.h:55
+msgid "  Only One  Way Up"
+msgstr "  Solo una subida"
+
+#: src/level_list.h:56
+msgid "  Outposts"
+msgstr "  Puesto fronterizo"
+
+#: src/level_list.h:57
+msgid "  Roundabouts"
+msgstr "  Tiovivos"
+
+#: src/level_list.h:58
+msgid "  Two  Fish"
+msgstr "  Dos  peces"
+
+#: src/level_list.h:59
+msgid "All  Wound  Up"
+msgstr "Todo concluido"
+
+#: src/level_list.h:60
+msgid "  Toughened  Tiles"
+msgstr "  Baldosas endurecidas"
+
+#: src/level_list.h:61
+msgid "  Island"
+msgstr "  Isla"
+
+#: src/level_list.h:62
+msgid "  More  Stripes"
+msgstr "  Más rayas"
+
+#: src/level_list.h:63
+msgid "  Stripes"
+msgstr "  Rayas"
+
+#: src/level_list.h:64
+msgid "  One Two  One Two"
+msgstr "  Uno dos  uno dos"
+
+#: src/level_list.h:65
+msgid "  Turtle"
+msgstr "  Tortuga"
+
+#: src/level_list.h:66
+msgid "  Wand"
+msgstr "  Varita"
+
+#: src/level_list.h:67
+msgid "  Deathtrap"
+msgstr "  Trampa mortal"
+
+#: src/level_list.h:68
+msgid "  Eagerness"
+msgstr "  Impaciencia"
+
+#: src/level_list.h:69
+msgid "  Gun  Platform"
+msgstr "  Plataforma pistola"
+
+#: src/level_list.h:70
+msgid "  Nucleus"
+msgstr "  Núcleo"
+
+#: src/level_list.h:71
+msgid "  Sniper"
+msgstr "  Francotirador"
+
+#: src/level_list.h:72
+msgid "  Deadly  Snowflake"
+msgstr "  Copo de nieve mortal"
+
+#: src/level_list.h:73
+msgid "  Snowflake"
+msgstr "  Copo de nieve"
+
+#: src/level_list.h:74
+msgid "  Laser  Tiles"
+msgstr "  Baldosas láser"
+
+#: src/level_list.h:75
+msgid "  Trigger  Happy"
+msgstr "  Gatillo feliz"
+
+#: src/level_list.h:76
+msgid "  Lure"
+msgstr "  Señuelo"
+
+#: src/level_list.h:77
+msgid "  Maze"
+msgstr "  Laberinto"
+
+#: src/level_list.h:78
+msgid "  Motion  Sickness"
+msgstr "  Enfermedad motora"
+
+#: src/level_list.h:79
+msgid "  All About  Preparation"
+msgstr "  Todo sobre la preparación"
+
+#: src/level_list.h:80
+msgid "  Revolver  Cannon"
+msgstr "  Cañón del revólver"
+
+#: src/level_list.h:81
+msgid "  Small  Cog"
+msgstr "  Pequeño diente"
+
+#: src/level_list.h:82
+msgid "  Sprocket"
+msgstr "  Rueda dentada"
+
+#: src/level_list.h:83
+msgid "  Switch"
+msgstr "  Conmutador"
+
+#: src/level_list.h:84
+msgid "  Spinner  Tiles"
+msgstr "  Baldosas giratorias"
+
+#: src/level_list.h:85
+msgid "  Three  More Ways"
+msgstr "  Tres maneras más"
+
+#: src/level_list.h:86
+msgid "  Three  Ways To Go"
+msgstr "  Tres posibilidades"
+
+#: src/level_list.h:87
+msgid "Please  Skate  Safely"
+msgstr "Patina de forma segura"
+
+#: src/level_list.h:88
+msgid "  Refraction"
+msgstr "  Refracción"
+
+#: src/level_list.h:89
+msgid "  Route  Finder"
+msgstr "  Buscarutas"
+
+#: src/level_list.h:90
+msgid "A  Slippery  Situation"
+msgstr "Un situación resbaladiza"
+
+#: src/level_list.h:91
+msgid "  Crooked"
+msgstr "  Tortuoso"
+
+#: src/level_list.h:92
+msgid "  Green  Honey"
+msgstr "  Miel  verde"
+
+#: src/level_list.h:93
+msgid "  Carefully  Does It"
+msgstr "  Con cuidado se hace"
+
+#: src/level_list.h:94
+msgid "  Radioactive  Ice"
+msgstr "  Hielo  radiactivo"
+
+#: src/level_list.h:95
+msgid "  Pro  Skater"
+msgstr "  Patinador profesional"
+
+#: src/level_list.h:96
+msgid "  Spinners  II"
+msgstr "  Giratorias II"
+
+#: src/level_list.h:97
+msgid "  Spinners"
+msgstr "  Giratorias"
+
+#. TRANSLATORS: There is a special kind of pickup, which will turn ice
+#. plates into "normal" plates (you won't slip on them). So the name
+#. is (probably) related to "Make less slippery".
+#: src/level_list.h:101
+msgid "  Deslippify"
+msgstr "  Menos resbaladizo"
+
+#: src/level_list.h:102
+msgid "  Tri Mesh"
+msgstr "  Tres mallas"
+
+#: src/level_list.h:103
+msgid "  Wheel"
+msgstr "  Rueda"
+
+#: src/level_list.h:104
+msgid "  Finishing  Strike"
+msgstr "  Golpe final"
+
+#: src/level_list.h:105
+msgid "  Big  Jumps"
+msgstr "  Grandes saltos"
+
+#: src/level_list.h:106
+msgid "  Wave  Cannon"
+msgstr "  Cañón de la ola"
+
+#: src/level_list.h:107
+msgid "  Clearance"
+msgstr "  Evacuación"
+
+#: src/level_list.h:108
+msgid "  Floating"
+msgstr "  Flotante"
+
+#: src/level_list.h:109
+msgid "  Forced  Fire"
+msgstr "  Fuego forzado"
+
+#: src/level_list.h:110
+msgid "No  Swimming  Allowed"
+msgstr "No se permite nadar"
+
+#: src/level_list.h:111
+msgid "A Little  Light  Lifting"
+msgstr "Un poco de levantamiento de pesos"
+
+#: src/level_list.h:112
+msgid "  House"
+msgstr "  Casa"
+
+#: src/level_list.h:113
+msgid "  Hunting"
+msgstr "  Caza"
+
+#: src/level_list.h:114
+msgid "  More  Lifting"
+msgstr "  Más levantamientos"
+
+#: src/level_list.h:115
+msgid "  Opportunist"
+msgstr "  Oportunista"
+
+#: src/level_list.h:116
+msgid "  Demolition"
+msgstr "  Demolición"
+
+#: src/level_list.h:117
+msgid "  Upper"
+msgstr "  Superior"
+
+#: src/level_list.h:118
+msgid "Beware  Feedback  Loops"
+msgstr "Cuidado con los bucles de retroalimentación"
+
+#: src/level_list.h:119
+msgid "  Somewhat  Constructive"
+msgstr "  Algo constructivo"
+
+#: src/level_list.h:120
+msgid "  Overbuild"
+msgstr "  Sobreconstruir"
+
+#: src/level_list.h:121
+msgid "  Reversing  Space"
+msgstr "  Espacio marcha atrás"
+
+#: src/level_list.h:122
+msgid "Burn  Your  Bridges"
+msgstr "Quema  tus  puentes"
+
+#: src/level_list.h:123
+msgid "A  Strange  Place"
+msgstr "Un  lugar  extraño"
+
+#: src/level_list.h:124
+msgid "  Commute"
+msgstr "  Conmutar"
+
+#: src/level_list.h:125
+msgid "  Bouncing  Required"
+msgstr "  Hay que rebotar"
+
+#: src/level_list.h:126
+msgid "  Fetch  Quest"
+msgstr "  Búsqueda"
+
+#: src/level_list.h:127
+msgid "  Laser  Surgery"
+msgstr "  Cirugía  láser"
+
+#: src/level_list.h:128
+msgid "  Icy  Tiles"
+msgstr "  Baldosas heladas"
+
+#: src/level_list.h:129
+msgid "  Icy  Road"
+msgstr "  Carretera helada"
+
+#: src/level_list.h:130
+msgid "  Inversion"
+msgstr "  Inversión"
+
+#: src/level_list.h:132 src/level_list.h:133 src/level_list.h:134
+#: src/level_list.h:135 src/level_list.h:136
+msgid "Complete __ levels to unlock"
+msgstr "Completa __ niveles para desbloquear"
+
+# type: TH
+#: debian/hex-a-hop.6:18
+#, no-wrap
+msgid "Hex\\(hya\\(hyhop"
+msgstr "Hex\\(hya\\(hyhop"
+
+# type: SH
+#: debian/hex-a-hop.6:19
+#, no-wrap
+msgid "NAME"
+msgstr "NOMBRE"
+
+# type: Plain text
+#: debian/hex-a-hop.6:21
+msgid "hex-a-hop - puzzle game based on hexagonal tiles"
+msgstr "hex-a-hop - rompecabezas basado en baldosas hexagonales"
+
+# type: SH
+#: debian/hex-a-hop.6:21
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "DESCRIPCIÓN"
+
+# type: Plain text
+#: debian/hex-a-hop.6:23
+msgid ""
+"Hex\\(hya\\(hyhop is a puzzle game based on hexagonal tiles. There is no "
+"time limit and no real\\(hytime element."
+msgstr ""
+"Hex\\(hya\\(hyhop es un rompecabezas basado en baldosas hexagonales. No hay "
+"tiempo límite ni ningún elemento de tiempo real."
+
+# type: Plain text
+#: debian/hex-a-hop.6:25
+msgid ""
+"The objective is simply to destroy all the green hexagonal tiles on each of "
+"the 100 levels. As you progress through the game, more types of tiles are "
+"introduced which make things more difficult and interesting."
+msgstr ""
+"El objetivo es simplemente destruir todas las baldosas hexagonales de color "
+"verde en cada uno de los 100 niveles. Según vayas progresando en el juego, "
+"se introducen más tipos de baldosa, que lo hacen más difícil e interesante."
+
+# type: SH
+#: debian/hex-a-hop.6:26
+#, no-wrap
+msgid "USAGE"
+msgstr "MANEJO"
+
+# type: Plain text
+#: debian/hex-a-hop.6:28
+msgid ""
+"You can move the character around with the keys Q,W,E,A,S,D, or with the "
+"numeric keypad. Alternatively, you can use the mouse and click on the tile "
+"you'd like to move to."
+msgstr ""
+"Puedes mover el personaje con las teclas Q, W, E, A, S, D, o con el teclado "
+"numérico. Como alternativa, puedes usar el ratón y pulsar en las baldosa a "
+"la que desees moverte."
+
+#: debian/hex-a-hop.6:31
+msgid ""
+"Use 'U', backspace or the right mouse button to undo mistakes.  The 'Esc' "
+"key (or middle mouse button) brings up a menu from which you can restart if "
+"you get stuck."
+msgstr ""
+"Usa «U», Borrar, o el botón derecho del ratón para deshacer equivocaciones. "
+"La tecla «Esc» (o el botón central del ratón) muestra un menú desde el que "
+"puedes volver a empezar si te quedas atascado."
+
+#: debian/hex-a-hop.6:33
+msgid ""
+"Your goal is to break all the green tiles. You mainly do this by jumping on "
+"them. They will crack when you land on them, and only disintegrate when you "
+"jump off. Try not to trap yourself!"
+msgstr ""
+"Tu meta es romper todas las baldosas verdes. Se hace principalmente saltando "
+"sobre ellas. Se romperán cuando aterrices sobre ellas, y se desintegrarán "
+"cuando las abandones. ¡Procura no quedarte atrapado!"
+
+#: debian/hex-a-hop.6:35
+msgid ""
+"During the game, you will be given hints and instructions on what to do. Use "
+"the cursor keys or click on the arrows to scroll through the help pages. "
+"More pages will be added as you progress through the game, as new tiles will "
+"keep appearing."
+msgstr ""
+"Durante el juego, se te darán consejos e instrucciones sobre qué hacer. "
+"Utiliza las teclas cursores o pulsa las flechas para desplazarte por las "
+"páginas de ayuda. Se añadirán más páginas según vayas progresando en el "
+"juego, cada vez que aparezcan nuevas baldosas."
+
+#: debian/hex-a-hop.6:37
+msgid ""
+"You can choose which level to attempt next from the map screen. Silver "
+"levels are ones you've cleared. Black levels are ones you haven't completed "
+"yet, but are available to play."
+msgstr ""
+"Puedes elegir qué nivel intentar a continuación desde el mapa. Los niveles "
+"plateados son los que ya has pasado. Los niveles negros son los que todavía "
+"no has terminado, pero están disponibles para que los juegues."
+
+# type: Plain text
+#: debian/hex-a-hop.6:39
+msgid ""
+"There is no time limit and no real\\(hytime element, so take as long as you "
+"like."
+msgstr ""
+"No hay tiempo límite ni ningún elemento de tiempo real, así que tómate el "
+"tiempo que necesites."
+
+# type: SH
+#: debian/hex-a-hop.6:39
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "MIRA TAMBIÉN"
+
+# type: Plain text
+#: debian/hex-a-hop.6:41
+msgid ""
+"You can find more about the game on its homepage: http://hexahop.sourceforge.net/"
+msgstr ""
+"Puedes encontrar más información sobre el juego en su página web: http://hexahop.sourceforge.net/"
+
+# type: Plain text
+#: debian/hex-a-hop.6:43
+msgid ""
+"In Debian's version, game data is stored in the directory $HOME/.hex-a-hop/. "
+"If the environment variable $HOME is not set, it'll use /tmp/ instead."
+msgstr ""
+"En la versión de Debian, los datos del juego se almacenan en el directorio "
+"$HOME/.hex-a-hop/. Si la variable de entorno $HOME no existiese, se usará /"
+"tmp/ en su lugar."
+
+# type: SH
+#: debian/hex-a-hop.6:44
+#, no-wrap
+msgid "AUTHOR"
+msgstr "AUTOR"
+
+# type: Plain text
+#: debian/hex-a-hop.6:46
+msgid ""
+"The game has been written by Tom Beaumont, and is distributed under the GNU "
+"General Public License, either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"El juego fue escrito por Tom Beaumont, y se distribuye bajo los términos de "
+"la Licencia Pública General de GNU, bien los de la versión 2 de la licencia, "
+"o bien (a su elección) los de cualquier versión posterior."
+
+#~ msgid ""
+#~ "Welcome to Hex-a-hop!    This is a puzzle game based on hexagonal tiles.  "
+#~ "There is no time limit and no real-time element, so  take as long as you "
+#~ "like.    Use the cursor keys or click on the arrows to  scroll through "
+#~ "the help pages. More pages will be  added as you progress through the "
+#~ "game."
+#~ msgstr ""
+#~ "¡Bienvenido a Hex-a-hop!\n"
+#~ "\n"
+#~ "Este es un rompecabezas basado en baldosas hexagonales.\n"
+#~ "\n"
+#~ "No hay tiempo límite ni ningún elemento de tiempo real, así que tómate el "
+#~ "tiempo que necesites.\n"
+#~ "\n"
+#~ "Utiliza las teclas cursores o pulsa las flechas para desplazarte por las "
+#~ "páginas de ayuda. Se añadirán más páginas según vayas progresando en el "
+#~ "juego."

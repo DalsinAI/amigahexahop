@@ -1,0 +1,21 @@
+Release:
+
+Add support for po4a manual page translations
+Replace the non-free sound files
+
+Later:
+
+Fix up and enable the edit mode by default
+Investigate the OpenGL thingi
+Investigate the tablet thingi
+get rid of cmake
+better source form for graphics
+Replace the levels file format with something else
+Get some audio in source form
+fontconfig support when using sdlttf
+font name config for sdl pango
+Strip out unused lips of suna code
+Move the hints into the game interface
+Fix cppcheck, gcc & i18nspector warnings
+Add makefile methods to reencode ogg files
+Switch to opus or a better encoding

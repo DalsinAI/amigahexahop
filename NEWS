@@ -1,0 +1,13 @@
+1.2.0:
+ * Fixed broken translation support.
+ * Converted image files to PNG.
+ * Included manual and desktop files.
+
+1.1.0:
+ * Support for sound and music.
+ * Non-free sound and music data files.
+
+1.0.1:
+ * Autotoolized the project.
+ * Changed the directory structure a bit.
+ * Resolved some compiler warnings.

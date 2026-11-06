@@ -1,0 +1,1175 @@
+# Japanese translations for Hex-a-hop
+# Hex-a-hop の日本語訳
+# This file is distributed under the same license as the hex-a-hop package.
+# Noritada Kobayashi <nori1@dolphin.c.u-tokyo.ac.jp>, 2007.
+#
+# Translators: A few hints:
+#
+# Support for translations is still experimental. You may find a few minor
+# flaws. If you do not understand a message please ask to allow us adding
+# helpful comments.
+#
+# The English help messages contain unusual spaces. "  " is internally
+# replaced by a newline, "    " starts a new paragraph. You may ignore
+# these spaces for now. You can also use "\n" (or "  ") in translations to
+# force a linebreak and "\n\n" (or "    ") to start a new paragraph. It is
+# suggested not to use fixed line breaks in paragraphs as this depends on
+# font settings. You should also avoid "  " or "    " as this is unusual.
+#
+# The manpage is also created from this file. If you want to add an extra
+# paragraph, e.g. describing your copyright for the translation or other
+# language dependent information, create a file named hex-a-hop.<lang>.add.
+# The first line of this file must read:
+# PO4A-HEADER:mode=after;position=AUTHOR;beginboundary=\.SH
+# Please *only* replace the word "AUTHOR" by the translation of this word to
+# your language. For more details read po4a(7).
+#
+# The manpage uses \\(hy. This is a hyphen sign (looks like -) and is used to
+# connect two words such as "real-time". If you use "-" it will be wrongly
+# rendered by po4a as minus sign (\- in output). See also
+# http://lists.debian.org/debian-devel/2003/03/msg01481.html. If you read
+# a message containing \\(hy consider it as usual hyphen. In your translation
+# you should also replace all hyphens by \\(hy. Commands, file names, ... never
+# contain hyphens but 7 bit minus signs!
+#
+# There is also a desktop file hex-a-hop.desktop containing two translatable
+# strings. Please update it as well.
+msgid ""
+msgstr ""
+"Project-Id-Version: hex-a-hop\n"
+"Report-Msgid-Bugs-To: hex-a-hop@packages.debian.org\n"
+"POT-Creation-Date: 2009-03-15 02:02+0200\n"
+"PO-Revision-Date: 2007-09-20 00:11+0200\n"
+"Last-Translator: Noritada Kobayashi <nori1@dolphin.c.u-tokyo.ac.jp>\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/hex_puzzzle.cpp:1473
+#, c-format
+msgid "Complete 1  more level  to unlock!"
+msgid_plural "Complete %d  more levels  to unlock!"
+msgstr[0] ""
+"あと%d個のレベルを\n"
+"クリアすると、\n"
+"鍵が開きます!"
+
+#: src/hex_puzzzle.cpp:1480
+msgid "<<NO NAME>>"
+msgstr ""
+
+#. TRANSLATORS: Anti-Ice are pickups, which turn ice plates into solid
+#. plates once you step on them. Each pickup changes one ice plate
+#: src/hex_puzzzle.cpp:2577
+#, c-format
+msgid "Anti-Ice: %d"
+msgstr "防氷剤: %d"
+
+#: src/hex_puzzzle.cpp:2578
+#, c-format
+msgid "Jumps: %d"
+msgstr "ジャンプ剤: %d"
+
+#: src/hex_puzzzle.cpp:2579
+#, c-format
+msgid "Score: %d (%d)"
+msgstr "スコア:     %d (%d)"
+
+#. TRANSLATORS: Par is similar to golf, a pre defined score which you
+#. can attempt to beat
+#: src/hex_puzzzle.cpp:2582
+#, c-format
+msgid "Par:   %d"
+msgstr "標準スコア: %d"
+
+#: src/hex_puzzzle.cpp:2583
+#, c-format
+msgid "Diff:  %d"
+msgstr ""
+
+# The head whitespace seems to be necessary for space between the window edge and text.
+#: src/hex_puzzzle.cpp:2586
+#, c-format
+msgid " Par: %d   Current: %d"
+msgstr " 標準: %d   現在: %d"
+
+#: src/hex_puzzzle.cpp:2589
+#, c-format
+msgid " Anti-Ice: %d"
+msgstr " 防氷剤: %d"
+
+#: src/hex_puzzzle.cpp:2591
+#, c-format
+msgid " Jumps: %d"
+msgstr " ジャンプ剤: %d"
+
+#: src/hex_puzzzle.cpp:2597
+#, c-format
+msgid "Points: %d"
+msgstr ""
+
+#: src/hex_puzzzle.cpp:2598
+#, c-format
+msgid "Discovered: %d%% (%d/%d)"
+msgstr ""
+
+#: src/hex_puzzzle.cpp:2599
+#, c-format
+msgid "Complete: %d%% (%d)"
+msgstr "クリア: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2600
+#, c-format
+msgid "Mastered: %d%% (%d)"
+msgstr "マスター: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2603
+#, c-format
+msgid " %d%% Mastered"
+msgstr " %d%% マスター"
+
+#: src/hex_puzzzle.cpp:2605
+#, c-format
+msgid " %d%% Complete"
+msgstr " %d%% クリア"
+
+#: src/hex_puzzzle.cpp:2657
+#, c-format
+msgid "Best:% 3d"
+msgstr "ベスト:% 3d"
+
+#: src/hex_puzzzle.cpp:2658
+#, c-format
+msgid "Par:% 3d"
+msgstr "標準:% 3d"
+
+#: src/hex_puzzzle.cpp:2661
+msgid "Completed"
+msgstr "クリア済み"
+
+#: src/hex_puzzzle.cpp:2664
+msgid "Incomplete"
+msgstr "未クリア"
+
+#: src/hex_puzzzle.cpp:2705 src/menus.h:574
+msgid "Level Complete!"
+msgstr "レベルクリア!"
+
+#: src/hex_puzzzle.cpp:2821
+#, c-format
+msgid "Special(%d,%d): %s (%d)"
+msgstr ""
+
+#: src/hex_puzzzle.cpp:2821
+msgid "<None>"
+msgstr ""
+
+#: src/hex_puzzzle.cpp:2966
+msgid "Select level"
+msgstr ""
+
+#: src/hex_puzzzle.cpp:4068
+msgid "Save level"
+msgstr ""
+
+#: src/hex_puzzzle.cpp:4074
+msgid "Open level"
+msgstr ""
+
+#: src/menus.h:88
+msgid ""
+"Basic controls:|Move around with the keys Q,W,E,A,S,D or the numeric  "
+"keypad. Alternatively, you can use the mouse and  click on the tile you'd "
+"like to move to.    Use 'U', backspace or the right mouse button to  undo "
+"mistakes.    The 'Esc' key (or middle mouse button) brings up a  menu from "
+"which you can restart if you get stuck."
+msgstr ""
+"基本操作:|キーQ・W・E・A・S・D、またはテンキーを用いて移動してください。代わ"
+"りに、移動したいタイルをマウスでクリックしても移動できます。\n"
+"\n"
+"間違いを取り消すには「U」やバックスペースキー、マウスの右ボタンを使用してくだ"
+"さい。\n"
+"\n"
+"行き詰まった場合は、「Esc」キー (またはマウスの中ボタン) を使用すると、メ"
+"ニューを立ち上げて最初からやりなおすことが可能です。"
+
+#: src/menus.h:92
+msgid ""
+"Objective:|Your goal is to break all the green tiles.    You mainly do this "
+"by jumping on them.    They will crack when you land on them, and  only "
+"disintegrate when you jump off.    Try not to trap yourself!"
+msgstr ""
+"目標:|目標は、緑色のタイルをすべて壊すことです。\n"
+"\n"
+"大抵の場合、壊すために、緑色のタイルを踏むことになります。\n"
+"\n"
+"タイルに足を踏み入れるとひびが入り、さらに別のものへ跳び移るだけでバラバラに"
+"なります。\n"
+"\n"
+"自分で自分を罠にはめないようにしてくださいね!"
+
+#: src/menus.h:94
+msgid ""
+"The coloured walls flatten themselves when there  are no matching coloured "
+"tiles remaining."
+msgstr ""
+"色のついた高台は、同じ色のついたタイルがなくなったときにタイルになります。"
+
+#: src/menus.h:96
+msgid ""
+"You can bounce on the purple trampoline tiles to  get around.    But try not "
+"to fall in the water.    If you do, remember you can undo with 'U',  "
+"backspace or the right mouse button!"
+msgstr ""
+"紫色のトランポリンタイルの上で飛び跳ねて、あちこちに移動できます。\n"
+"\n"
+"しかし、海には落ちないようにしてくださいね。\n"
+"\n"
+"水に落ちてしまった場合は、「U」・バックスペース・マウスの右ボタンで取り消せる"
+"ということを思い出してください!"
+
+#: src/menus.h:98
+msgid ""
+"A red spinner tile will rotate the pieces around  it when you step on it."
+msgstr "赤色の回転タイルを踏むと、その周りにあるものが回転します。"
+
+#: src/menus.h:102
+msgid ""
+"You don't need to destroy blue tiles to complete  the level.    But they'll "
+"turn green when you step off them, and  you know what you have to do to "
+"green tiles..."
+msgstr ""
+"レベルをクリアするのに青色のタイルを壊す必要はありません。\n"
+"\n"
+"しかし、青色のタイルから別のタイルに移ると緑色のタイルになります。\n"
+"\n"
+"緑色のタイルについては何をしなければならないか、もちろん分かりますよね……?"
+
+#: src/menus.h:106
+msgid ""
+"Yellow laser tiles fire when you step on them.    Shooting other laser tiles "
+"is more destructive."
+msgstr ""
+"黄色のレーザータイルは、踏むと火を噴きます。\n"
+"\n"
+"他のレーザータイルを撃つとさらに破壊力が増します。"
+
+#: src/menus.h:108
+msgid "Ice is slippery!    Please be careful!!"
+msgstr ""
+"氷は滑りやすいですよ!\n"
+"\n"
+"気をつけてくださいね!!"
+
+#: src/menus.h:112
+msgid ""
+"The dark grey tiles with arrows on are builders.    Landing on one creates "
+"green tiles in any adjacent  empty tile, and turns green tiles into walls."
+msgstr ""
+"矢印の書かれた濃い灰色のタイルはビルダです。\n"
+"\n"
+"ビルダの上に乗ると、その周りのタイルがない場所には緑色のタイルが作られ、緑色"
+"のタイルは高台になります。"
+
+#. TRANSLATORS: pop means vanish and Emy drowns (you loose)
+#: src/menus.h:117
+msgid ""
+"You can ride on the pink floating boats to get  across water.    They'll pop "
+"if you try and float off the edge of the  screen though, so look where "
+"you're going."
+msgstr ""
+"ピンク色のボートに乗って海を渡ることができます。\n"
+"\n"
+"しかし、ボートで画面の外側に行こうとすると爆発してしまいますので、行き先は確"
+"認しましょう。"
+
+#: src/menus.h:119
+msgid "The blue lifts go up or down when you land on them."
+msgstr "青色のリフトの上に乗ると、リフトは上下に動きます。"
+
+#: src/menus.h:125
+msgid ""
+"The spiky anti-ice pickups turn icy tiles into blue ones.    They get used "
+"automatically when you land on ice."
+msgstr ""
+"尖った防氷剤を拾っておくと、氷のタイルが青いタイルになります。\n"
+"\n"
+"防氷剤は、氷に足を踏み入れた際に自動的に使われます。"
+
+#. TRANSLATORS: Normally you jump from one plate to another. The golden jump (a
+#. pickup) allows you to jump and land on the *same* plate
+#: src/menus.h:129
+msgid ""
+"Collecting the golden jump pickups will allow you to  do a big vertical "
+"jump.    Try it out on different types of tiles.    Use the space bar or "
+"return key to jump. Or click  on the tile you're currently on with the mouse."
+msgstr ""
+"金色のジャンプ剤を拾って集めておくと、タイルから真上に向けて大きなジャンプを"
+"できるようになります。\n"
+"\n"
+"様々な種類のタイルの上でジャンプしてみてください。\n"
+"\n"
+"ジャンプするには、スペースバーかリターンキーを押すか、または現在いるタイルを"
+"マウスでクリックしてください。"
+
+#: src/menus.h:134
+msgid ""
+"Map Screen:|You can choose which level to attempt next from  the map "
+"screen.    Silver levels are ones you've cleared.    Black levels are ones "
+"you haven't completed yet,  but are available to play."
+msgstr ""
+"マップ画面:|マップ画面では、次に挑戦するレベルを選択できます。\n"
+"\n"
+"銀色のレベルはクリア済みのレベルです。\n"
+"\n"
+"黒色のレベルは、まだクリアしていないもののプレイ可能なレベルです。"
+
+#. TRANSLATORS: Levels are depicted as black balls. Once you passed them, they
+#. turn silver. If you reached the par, they turn golden (with a crown), and if
+#. you beat the par, they turn their shape/color once more
+#: src/menus.h:140
+msgid ""
+"New feature unlocked!|Each level has an efficiency target for you to try  "
+"and beat.    Every move you make and each non-green tile  you destroy counts "
+"against you.    Why not try replaying some levels and going  for gold?"
+msgstr ""
+"新機能が開放!|各レベルにはクリア効率の基準が定められており、その基準の達成に"
+"挑戦できるようになっています。\n"
+"\n"
+"移動したり、緑色以外のタイルを壊したりすると、そのたびに不利になってしまいま"
+"す。\n"
+"\n"
+"レベルを金色にしに、いくつかのレベルをもう一度プレイしてみてはいかがでしょう?"
+
+#: src/menus.h:145
+msgid ""
+"Thanks for playing this little game.    I hope you  enjoy it!    -- --    "
+"All content is Copyright 2005 Tom Beaumont    email: tombeaumont@yahoo.com  "
+"Any constructive criticism gratefully received!"
+msgstr ""
+"この小さなゲームで遊んでくれてありがとう。\n"
+"\n"
+"お楽しみください!\n"
+"\n"
+"-- --\n"
+"\n"
+"All content is Copyright 2005 Tom Beaumont\n"
+"\n"
+"email: tombeaumont@yahoo.com\n"
+"建設的な批判はどんなものでも潔く受け止めます!"
+
+#. TRANSLATORS: This string is copied twice into the POT file to workaround a
+#. gettext limitation (no macro expansion). The extracted string "Welcome to "
+#. will not be used.
+#: src/menus.h:151
+msgid "Welcome to "
+msgstr ""
+
+#: src/menus.h:197
+msgid "Info:"
+msgstr ""
+
+#: src/menus.h:229
+msgid "Press any key"
+msgstr "いずれかのキーを押してください"
+
+#. TRANSLATORS: This specifies how the text in the help dialog should
+#. be aligned. Do *not* translate the text itself but use one of "left",
+#. "center" or "right" (untranslated!). The default is "center".
+#: src/menus.h:251
+msgid "text alignment"
+msgstr "right"
+
+#: src/menus.h:337
+#, c-format
+msgid "Help (Page --)"
+msgstr "ヘルプ (--ページ)"
+
+#: src/menus.h:339
+#, c-format
+msgid "Help (Page %d/%d)"
+msgstr "ヘルプ (%d/%dページ)"
+
+#: src/menus.h:426
+msgid "Resume"
+msgstr "再開"
+
+#: src/menus.h:427
+msgid "Restart Level"
+msgstr "このレベルをやりなおす"
+
+#: src/menus.h:428
+msgid "Return to Map"
+msgstr "マップに戻る"
+
+#: src/menus.h:429
+msgid "Continue"
+msgstr "続ける"
+
+#: src/menus.h:430
+msgid "Toggle Fullscreen"
+msgstr "フルスクリーンモード"
+
+#: src/menus.h:431 src/menus.h:1109
+msgid "Options"
+msgstr "オプション"
+
+#: src/menus.h:432
+msgid "Quit"
+msgstr "終了"
+
+#: src/menus.h:433
+msgid "Yes"
+msgstr "はい"
+
+#: src/menus.h:434
+msgid "No"
+msgstr "いいえ"
+
+#: src/menus.h:435
+msgid "Return to Title"
+msgstr "タイトルに戻る"
+
+#: src/menus.h:436
+msgid "Help"
+msgstr "ヘルプ"
+
+#: src/menus.h:437
+msgid "Start New Game"
+msgstr "新たにゲームを開始"
+
+#: src/menus.h:438
+msgid "Yes, really delete it!"
+msgstr "はい、本当に削除してください!"
+
+#: src/menus.h:439
+msgid "Don't do it!"
+msgstr ""
+
+#: src/menus.h:440
+msgid "Undo Last Move"
+msgstr "最後の移動を取り消す"
+
+#: src/menus.h:441
+msgid "OK"
+msgstr "OK"
+
+#: src/menus.h:442
+msgid "View Credits Sequence"
+msgstr ""
+
+#: src/menus.h:574
+msgid "Emi can't swim..."
+msgstr "Emiは泳げないのです……"
+
+#: src/menus.h:613
+#, c-format
+msgid "New Best Score: %d  Par Score: %d  Par Beaten!"
+msgstr "新しいベストスコア: %d  標準スコア: %d  標準スコアを達成しました!"
+
+#: src/menus.h:615
+#, c-format
+msgid "New Best Score: %d  Par Score: %d"
+msgstr "新しいベストスコア: %d  標準スコア: %d"
+
+#: src/menus.h:617
+#, c-format
+msgid "Score: %d  Previous Best: %d  Par Score: %d"
+msgstr "スコア: %d  以前のベストスコア: %d  標準スコア: %d"
+
+#: src/menus.h:619
+msgid "Well Done!  Level Completed!"
+msgstr "よくできました!  このレベルをクリアしました!"
+
+#: src/menus.h:698
+msgid " Very Well Done! "
+msgstr " 大変よくできました! "
+
+#: src/menus.h:703
+msgid "All Levels Cleared!"
+msgstr "すべてのレベルをクリアしました!"
+
+#: src/menus.h:707
+msgid "Not a single green hexagon is left unbroken."
+msgstr "壊されずに残った緑色の六角形は1枚もありません。"
+
+#: src/menus.h:709
+msgid "Truly, you are a master of hexagon hopping!"
+msgstr ""
+
+#: src/menus.h:713
+msgid "Credits"
+msgstr "クレジット"
+
+#: src/menus.h:714
+msgid "<Design & Direction:"
+msgstr "<デザイン・監督:"
+
+#: src/menus.h:715
+msgid "<Programming:"
+msgstr "<プログラミング:"
+
+#: src/menus.h:716
+msgid "<Graphics:"
+msgstr "<グラフィック:"
+
+#: src/menus.h:717
+msgid "<Thanks to:"
+msgstr ""
+
+#: src/menus.h:719
+msgid "<Tools and libraries used:"
+msgstr "<使用しているツールおよびライブラリ:"
+
+#: src/menus.h:720
+msgid "<Fonts used:"
+msgstr "<使用しているフォント:"
+
+#: src/menus.h:724
+msgid "Thanks for playing!"
+msgstr "遊んでくれてありがとう!"
+
+#: src/menus.h:728
+msgid " Absolutely Amazing! "
+msgstr "なんということでしょう!"
+
+#: src/menus.h:733
+msgid "All Levels Mastered!!"
+msgstr "すべてのレベルをマスターしました!!"
+
+#: src/menus.h:737
+msgid "You crushed every last green hexagon with"
+msgstr ""
+
+#: src/menus.h:738
+msgid "breathtaking efficiency!"
+msgstr ""
+
+#: src/menus.h:740
+msgid "You truly are a grand master of hexagon hopping!"
+msgstr ""
+
+#: src/menus.h:890
+msgid "The End"
+msgstr ""
+
+#: src/menus.h:979
+#, c-format
+msgid "Continue game %d (All Clear!)"
+msgstr "ゲーム%dを再開 (完全にクリア!)"
+
+#: src/menus.h:981
+#, c-format
+msgid "Continue game %d (%d%% + %d%%)"
+msgstr "ゲーム%dを再開 (%d%% + %d%%)"
+
+#: src/menus.h:983
+#, c-format
+msgid "Continue game %d (%d%% complete)"
+msgstr "ゲーム%dを再開 (%d%%クリア)"
+
+#: src/menus.h:1022
+msgid "Quit: Are you sure?"
+msgstr "本当に終了しますか?"
+
+#: src/menus.h:1042
+#, c-format
+msgid "Really delete game %d?"
+msgstr "ゲーム%dを本当に消去しますか?"
+
+#: src/menus.h:1082
+msgid "Paused"
+msgstr "一時中断"
+
+#. TRANSLATORS: The following strings (in level_list.h) are level names, which
+#. should give (in a humerous way) the player an indication about this level.
+#: src/level_list.h:27
+msgid "  Map"
+msgstr "  マップ"
+
+#: src/level_list.h:28
+msgid "  Orbital"
+msgstr "  軌道"
+
+#: src/level_list.h:29
+msgid "  Hive"
+msgstr "  ハチの巣"
+
+#: src/level_list.h:30
+msgid "  There  and Back"
+msgstr "  行ったり  来たり"
+
+#: src/level_list.h:31
+msgid "  Triangular"
+msgstr "  三角"
+
+#: src/level_list.h:32
+msgid "  Mini  Island"
+msgstr "  小島"
+
+#: src/level_list.h:33
+msgid "  Island  Variation"
+msgstr "  少し異なる  小島"
+
+#: src/level_list.h:34
+msgid "  Archipelago"
+msgstr "  群島"
+
+#: src/level_list.h:35
+msgid "  Weathervane"
+msgstr "  風見鶏"
+
+#: src/level_list.h:36
+msgid "  Bridges"
+msgstr "  橋"
+
+#: src/level_list.h:37
+msgid "  Explorer"
+msgstr "  冒険者"
+
+#: src/level_list.h:38
+msgid "  Trampolines"
+msgstr "  トランポリン"
+
+#: src/level_list.h:39
+msgid "  Not a Knot"
+msgstr ""
+
+#: src/level_list.h:40
+msgid "  Another  Mountain"
+msgstr "  また別の山"
+
+#: src/level_list.h:41
+msgid "  A  Mountain"
+msgstr "  とある山"
+
+#: src/level_list.h:42
+msgid "  Green  Walls"
+msgstr "  緑の高台"
+
+#: src/level_list.h:43
+msgid "  Winding  Order"
+msgstr "  くねくね"
+
+#: src/level_list.h:44
+msgid "  Rental  Boat"
+msgstr "  レンタルボート"
+
+#: src/level_list.h:45
+msgid "  Ferrying"
+msgstr ""
+
+#: src/level_list.h:46
+msgid "  Transport  Hub"
+msgstr "  交通・輸送の  中心地"
+
+#: src/level_list.h:47
+msgid "  Lifts"
+msgstr "  リフト"
+
+#: src/level_list.h:48
+msgid "  Leftovers"
+msgstr "  壊し残し"
+
+#: src/level_list.h:49
+msgid "  Trampoline  Retrieval"
+msgstr "  トランポリンを  回収せよ"
+
+#: src/level_list.h:50
+msgid "  Rolling  Hexagons"
+msgstr "  転がっていく  六角形"
+
+#: src/level_list.h:51
+msgid "  Telephone"
+msgstr "  電話"
+
+# unconfirmed
+#: src/level_list.h:52
+msgid "  Breakthrough"
+msgstr "  突破口"
+
+#: src/level_list.h:53
+msgid "  Laser  Safety"
+msgstr ""
+
+#: src/level_list.h:54
+msgid "  Branching  Pathway"
+msgstr "  分岐だらけの道"
+
+#: src/level_list.h:55
+msgid "  Only One  Way Up"
+msgstr ""
+
+#: src/level_list.h:56
+msgid "  Outposts"
+msgstr "  辺境の島々"
+
+#: src/level_list.h:57
+msgid "  Roundabouts"
+msgstr "  回り道"
+
+#: src/level_list.h:58
+msgid "  Two  Fish"
+msgstr "  2匹の魚"
+
+#: src/level_list.h:59
+msgid "All  Wound  Up"
+msgstr ""
+
+#: src/level_list.h:60
+msgid "  Toughened  Tiles"
+msgstr "  強化タイル"
+
+#: src/level_list.h:61
+msgid "  Island"
+msgstr "  島"
+
+#: src/level_list.h:62
+msgid "  More  Stripes"
+msgstr "  さらに縞々"
+
+#: src/level_list.h:63
+msgid "  Stripes"
+msgstr "  縞々"
+
+#: src/level_list.h:64
+msgid "  One Two  One Two"
+msgstr "  いちにっ  いちにっ"
+
+#: src/level_list.h:65
+msgid "  Turtle"
+msgstr "  亀"
+
+#: src/level_list.h:66
+msgid "  Wand"
+msgstr "  魔法の杖"
+
+#: src/level_list.h:67
+msgid "  Deathtrap"
+msgstr "  死の罠"
+
+#: src/level_list.h:68
+msgid "  Eagerness"
+msgstr ""
+
+#: src/level_list.h:69
+msgid "  Gun  Platform"
+msgstr "  砲床"
+
+#: src/level_list.h:70
+msgid "  Nucleus"
+msgstr "  核"
+
+#: src/level_list.h:71
+msgid "  Sniper"
+msgstr "  スナイパー"
+
+#: src/level_list.h:72
+msgid "  Deadly  Snowflake"
+msgstr ""
+
+#: src/level_list.h:73
+msgid "  Snowflake"
+msgstr "  雪の結晶"
+
+#: src/level_list.h:74
+msgid "  Laser  Tiles"
+msgstr "  レーザータイル"
+
+#: src/level_list.h:75
+msgid "  Trigger  Happy"
+msgstr ""
+
+#: src/level_list.h:76
+msgid "  Lure"
+msgstr ""
+
+#: src/level_list.h:77
+msgid "  Maze"
+msgstr "  迷路"
+
+#: src/level_list.h:78
+msgid "  Motion  Sickness"
+msgstr ""
+
+#: src/level_list.h:79
+msgid "  All About  Preparation"
+msgstr ""
+
+#: src/level_list.h:80
+msgid "  Revolver  Cannon"
+msgstr ""
+
+#: src/level_list.h:81
+msgid "  Small  Cog"
+msgstr "  小さな歯車"
+
+#: src/level_list.h:82
+msgid "  Sprocket"
+msgstr ""
+
+#: src/level_list.h:83
+msgid "  Switch"
+msgstr "  スイッチ"
+
+#: src/level_list.h:84
+msgid "  Spinner  Tiles"
+msgstr "  回転タイル"
+
+#: src/level_list.h:85
+msgid "  Three  More Ways"
+msgstr "  さらに  3つの道"
+
+#: src/level_list.h:86
+msgid "  Three  Ways To Go"
+msgstr "  進むべき  3つの道"
+
+#: src/level_list.h:87
+msgid "Please  Skate  Safely"
+msgstr "  スケートは  安全に"
+
+#: src/level_list.h:88
+msgid "  Refraction"
+msgstr "  屈折"
+
+#: src/level_list.h:89
+msgid "  Route  Finder"
+msgstr "  道を  見つけないと"
+
+#: src/level_list.h:90
+msgid "A  Slippery  Situation"
+msgstr "  滑りやすい状況"
+
+#: src/level_list.h:91
+msgid "  Crooked"
+msgstr "  ゆがみ"
+
+#: src/level_list.h:92
+msgid "  Green  Honey"
+msgstr "  緑の蜂蜜"
+
+#: src/level_list.h:93
+msgid "  Carefully  Does It"
+msgstr "  慎重にやろう"
+
+#: src/level_list.h:94
+msgid "  Radioactive  Ice"
+msgstr ""
+
+#: src/level_list.h:95
+msgid "  Pro  Skater"
+msgstr "  プロの  スケート選手"
+
+#: src/level_list.h:96
+msgid "  Spinners  II"
+msgstr ""
+
+#: src/level_list.h:97
+msgid "  Spinners"
+msgstr ""
+
+#. TRANSLATORS: There is a special kind of pickup, which will turn ice
+#. plates into "normal" plates (you won't slip on them). So the name
+#. is (probably) related to "Make less slippery".
+#: src/level_list.h:101
+msgid "  Deslippify"
+msgstr "  滑り止め"
+
+#: src/level_list.h:102
+msgid "  Tri Mesh"
+msgstr "  三角メッシュ"
+
+#: src/level_list.h:103
+msgid "  Wheel"
+msgstr "  車輪"
+
+#: src/level_list.h:104
+msgid "  Finishing  Strike"
+msgstr ""
+
+#: src/level_list.h:105
+msgid "  Big  Jumps"
+msgstr "  大ジャンプ"
+
+#: src/level_list.h:106
+msgid "  Wave  Cannon"
+msgstr ""
+
+#: src/level_list.h:107
+msgid "  Clearance"
+msgstr "  撤去"
+
+#: src/level_list.h:108
+msgid "  Floating"
+msgstr "  海の上を  行こう"
+
+#: src/level_list.h:109
+msgid "  Forced  Fire"
+msgstr "  やむをえない  砲撃"
+
+#: src/level_list.h:110
+msgid "No  Swimming  Allowed"
+msgstr "  遊泳禁止"
+
+#: src/level_list.h:111
+msgid "A Little  Light  Lifting"
+msgstr "ちょっとした  簡単な  リフト操作"
+
+#: src/level_list.h:112
+msgid "  House"
+msgstr "  家"
+
+#: src/level_list.h:113
+msgid "  Hunting"
+msgstr "  狩り"
+
+#: src/level_list.h:114
+msgid "  More  Lifting"
+msgstr "  さらなる  リフト操作"
+
+#: src/level_list.h:115
+msgid "  Opportunist"
+msgstr "  日和見主義"
+
+#: src/level_list.h:116
+msgid "  Demolition"
+msgstr "  解体"
+
+#: src/level_list.h:117
+msgid "  Upper"
+msgstr ""
+
+#: src/level_list.h:118
+msgid "Beware  Feedback  Loops"
+msgstr "フィードバック  ループに  御用心"
+
+# unconfirmed
+#: src/level_list.h:119
+msgid "  Somewhat  Constructive"
+msgstr "  何か  建設的なことを"
+
+#: src/level_list.h:120
+msgid "  Overbuild"
+msgstr ""
+
+#: src/level_list.h:121
+msgid "  Reversing  Space"
+msgstr "  空白を反転"
+
+# TRANSLATION-COMMENT: 一般には burn one's bridges で「後には引き返せない」だが、直訳したほうが状況には合う
+#: src/level_list.h:122
+msgid "Burn  Your  Bridges"
+msgstr "  自分でかけた橋を  自分で壊せ"
+
+#: src/level_list.h:123
+msgid "A  Strange  Place"
+msgstr ""
+
+#: src/level_list.h:124
+msgid "  Commute"
+msgstr "  通勤"
+
+#: src/level_list.h:125
+msgid "  Bouncing  Required"
+msgstr "  飛び跳ねることが  必要"
+
+#: src/level_list.h:126
+msgid "  Fetch  Quest"
+msgstr ""
+
+#: src/level_list.h:127
+msgid "  Laser  Surgery"
+msgstr "  レーザー手術"
+
+#: src/level_list.h:128
+msgid "  Icy  Tiles"
+msgstr "  氷のタイル"
+
+#: src/level_list.h:129
+msgid "  Icy  Road"
+msgstr "  凍った道"
+
+#: src/level_list.h:130
+msgid "  Inversion"
+msgstr "  さかさま"
+
+#: src/level_list.h:132 src/level_list.h:133 src/level_list.h:134
+#: src/level_list.h:135 src/level_list.h:136
+msgid "Complete __ levels to unlock"
+msgstr ""
+
+# type: TH
+#: debian/hex-a-hop.6:18
+#, no-wrap
+msgid "Hex\\(hya\\(hyhop"
+msgstr "Hex\\(hya\\(hyhop"
+
+# type: SH
+#: debian/hex-a-hop.6:19
+#, no-wrap
+msgid "NAME"
+msgstr "名前"
+
+# type: Plain text
+#: debian/hex-a-hop.6:21
+msgid "hex-a-hop - puzzle game based on hexagonal tiles"
+msgstr "hex-a-hop - 六角形のタイルを用いたパズルゲーム"
+
+# type: SH
+#: debian/hex-a-hop.6:21
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "説明"
+
+# type: Plain text
+#: debian/hex-a-hop.6:23
+msgid ""
+"Hex\\(hya\\(hyhop is a puzzle game based on hexagonal tiles. There is no "
+"time limit and no real\\(hytime element."
+msgstr ""
+"Hex\\(hya\\(hyhop は、六角形のタイルを用いたパズルゲームです。時間制限も実時"
+"間要素もありません。"
+
+# type: Plain text
+#: debian/hex-a-hop.6:25
+msgid ""
+"The objective is simply to destroy all the green hexagonal tiles on each of "
+"the 100 levels. As you progress through the game, more types of tiles are "
+"introduced which make things more difficult and interesting."
+msgstr ""
+"目標は、単純に、100 個のレベルそれぞれにおいて緑色の六角形のタイルをすべて壊"
+"すことです。ゲームが進むにつれて別の種類のタイルが導入され、それによってゲー"
+"ムはさらに難しく、そして面白くなっていきます。"
+
+# type: SH
+#: debian/hex-a-hop.6:26
+#, no-wrap
+msgid "USAGE"
+msgstr "使用方法"
+
+# type: Plain text
+#: debian/hex-a-hop.6:28
+msgid ""
+"You can move the character around with the keys Q,W,E,A,S,D, or with the "
+"numeric keypad. Alternatively, you can use the mouse and click on the tile "
+"you'd like to move to."
+msgstr ""
+"キー Q・W・E・A・S・D、またはテンキーを用いて移動してください。代わりに、移動"
+"したいタイルをマウスでクリックしても移動できます。"
+
+# type: Plain text
+#: debian/hex-a-hop.6:31
+msgid ""
+"Use 'U', backspace or the right mouse button to undo mistakes.  The 'Esc' "
+"key (or middle mouse button) brings up a menu from which you can restart if "
+"you get stuck."
+msgstr ""
+"間違いを取り消すには「U」やバックスペースキー、マウスの右ボタンを使用してくだ"
+"さい。行き詰まった場合は、「Esc」キー (またはマウスの中ボタン) を使用すると、"
+"メニューを立ち上げて最初からやりなおすことが可能です。"
+
+# type: Plain text
+#: debian/hex-a-hop.6:33
+msgid ""
+"Your goal is to break all the green tiles. You mainly do this by jumping on "
+"them. They will crack when you land on them, and only disintegrate when you "
+"jump off. Try not to trap yourself!"
+msgstr ""
+"目標は、緑色のタイルをすべて壊すことです。大抵の場合、壊すために、緑色のタイ"
+"ルを踏むことになります。タイルに足を踏み入れるとひびが入り、さらに別のものへ"
+"跳び移るだけでバラバラになります。自分で自分を罠にはめないようにしてください"
+"ね!"
+
+# type: Plain text
+#: debian/hex-a-hop.6:35
+msgid ""
+"During the game, you will be given hints and instructions on what to do. Use "
+"the cursor keys or click on the arrows to scroll through the help pages. "
+"More pages will be added as you progress through the game, as new tiles will "
+"keep appearing."
+msgstr ""
+"ゲーム内では、何をすべきかについてヒントや説明が与えられます。ヘルプページを"
+"スクロールするには、カーソルキーを使うか矢印をマウスでクリックしてください。"
+"ゲームが進むにつれて新しいタイルが追加されていくので、ヘルプページも追加され"
+"ていきます。"
+
+# type: Plain text
+#: debian/hex-a-hop.6:37
+msgid ""
+"You can choose which level to attempt next from the map screen. Silver "
+"levels are ones you've cleared. Black levels are ones you haven't completed "
+"yet, but are available to play."
+msgstr ""
+"マップ画面では、次に挑戦するレベルを選択できます。銀色のレベルはクリア済みの"
+"レベルです。黒色のレベルは、まだクリアしていないもののプレイ可能なレベルで"
+"す。"
+
+# type: Plain text
+#: debian/hex-a-hop.6:39
+msgid ""
+"There is no time limit and no real\\(hytime element, so take as long as you "
+"like."
+msgstr ""
+"時間制限も実時間要素もありませんので、好きなだけ時間をかけて解いてください。"
+
+# type: SH
+#: debian/hex-a-hop.6:39
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "関連項目"
+
+# type: Plain text
+#: debian/hex-a-hop.6:41
+msgid ""
+"You can find more about the game on its homepage: http://hexahop.sourceforge.net/"
+msgstr ""
+"本ゲームに関するさらに詳しい情報は、ホームページで参照できます: http://hexahop.sourceforge.net/"
+
+# type: Plain text
+#: debian/hex-a-hop.6:43
+msgid ""
+"In Debian's version, game data is stored in the directory $HOME/.hex-a-hop/. "
+"If the environment variable $HOME is not set, it'll use /tmp/ instead."
+msgstr ""
+"Debian のバージョンでは、ゲームデータはディレクトリ $HOME/.hex-a-hop/ に保存"
+"されます。環境変数 $HOME が設定されていない場合は、代わりに /tmp/ を使用しま"
+"す。"
+
+# type: SH
+#: debian/hex-a-hop.6:44
+#, no-wrap
+msgid "AUTHOR"
+msgstr "著者"
+
+# type: Plain text
+#: debian/hex-a-hop.6:46
+msgid ""
+"The game has been written by Tom Beaumont, and is distributed under the GNU "
+"General Public License, either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"本ゲームは Tom Beaumont が書き、GNU General Public License バージョン 2 また"
+"は (オプションで) それ以降のバージョンの下で配布しています。"
+
+#~ msgid ""
+#~ "Welcome to Hex-a-hop!    This is a puzzle game based on hexagonal tiles.  "
+#~ "There is no time limit and no real-time element, so  take as long as you "
+#~ "like.    Use the cursor keys or click on the arrows to  scroll through "
+#~ "the help pages. More pages will be  added as you progress through the "
+#~ "game."
+#~ msgstr ""
+#~ "Hex-a-hopへようこそ!\n"
+#~ "\n"
+#~ "本ゲームは、六角形のタイルを用いたパズルゲームです。時間制限も実時間要素も"
+#~ "ありませんので、好きなだけ時間をかけて解いてください。\n"
+#~ "\n"
+#~ "ヘルプページをスクロールするには、カーソルキーを使うか矢印をマウスでクリッ"
+#~ "クしてください。ヘルプページは、ゲームが進むにつれて追加されていきます。"
+
+#~ msgid "Complete %d  more levels  to unlock!"
+#~ msgstr ""
+#~ "あと%d個のレベルを\n"
+#~ "クリアすると、\n"
+#~ "鍵が開きます!"

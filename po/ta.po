@@ -1,0 +1,1113 @@
+# translation of hex-a-hop to TAMIL
+# Copyright (C) 2007 Tom Beaumont
+# This file is distributed under the same license as the hex-a-hop package.
+#
+# Translators: A few hints:
+#
+# Support for translations is still experimental. You may find a few minor
+# flaws. If you do not understand a message please ask to allow us adding
+# helpful comments.
+#
+# The English help messages contain unusual spaces. "  " is internally
+# replaced by a newline, "    " starts a new paragraph. You may ignore
+# these spaces for now. You can also use "\n" (or "  ") in translations to
+# force a linebreak and "\n\n" (or "    ") to start a new paragraph. It is
+# suggested not to use fixed line breaks in paragraphs as this depends on
+# font settings. You should also avoid "  " or "    " as this is unusual.
+#
+# The manpage is also created from this file. If you want to add an extra
+# paragraph, e.g. describing your copyright for the translation or other
+# language dependent information, create a file named hex-a-hop.<lang>.add.
+# The first line of this file must read:
+# PO4A-HEADER:mode=after;position=AUTHOR;beginboundary=\.SH
+# Please *only* replace the word "AUTHOR" by the translation of this word to
+# your language. For more details read po4a(7).
+#
+# The manpage uses \\(hy. This is a hyphen sign (looks like -) and is used to
+# connect two words such as "real-time". If you use "-" it will be wrongly
+# rendered by po4a as minus sign (\- in output). See also
+# http://lists.debian.org/debian-devel/2003/03/msg01481.html. If you read
+# a message containing \\(hy consider it as usual hyphen. In your translation
+# you should also replace all hyphens by \\(hy. Commands, file names, ... never
+# contain hyphens but 7 bit minus signs!
+#
+# There is also a desktop file hex-a-hop.desktop containing two translatable
+# strings. Please update it as well.
+#
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: hex-a-hop\n"
+"Report-Msgid-Bugs-To: hex-a-hop@packages.debian.org\n"
+"POT-Creation-Date: 2009-03-15 02:02+0200\n"
+"PO-Revision-Date: 2007-09-07 15:08+0530\n"
+"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
+"Language-Team: TAMIL <ubuntu-l10n-tam@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/hex_puzzzle.cpp:1473
+#, c-format
+msgid "Complete 1  more level  to unlock!"
+msgid_plural "Complete %d  more levels  to unlock!"
+msgstr[0] "பூட்டை திறக்க இன்னும் 1 மட்டத்தை முடியுங்கள்!"
+msgstr[1] "பூட்டை திறக்க இன்னும் %d  மட்டங்களை முடியுங்கள்!"
+
+#: src/hex_puzzzle.cpp:1480
+msgid "<<NO NAME>>"
+msgstr "<<NO NAME>>"
+
+#. TRANSLATORS: Anti-Ice are pickups, which turn ice plates into solid
+#. plates once you step on them. Each pickup changes one ice plate
+#: src/hex_puzzzle.cpp:2577
+#, c-format
+msgid "Anti-Ice: %d"
+msgstr "ஆன்டி-ஐஸ்: %d"
+
+#: src/hex_puzzzle.cpp:2578
+#, c-format
+msgid "Jumps: %d"
+msgstr "தாவல்கள்: %d"
+
+#: src/hex_puzzzle.cpp:2579
+#, c-format
+msgid "Score: %d (%d)"
+msgstr "மதிப்பெண்: %d (%d)"
+
+#. TRANSLATORS: Par is similar to golf, a pre defined score which you
+#. can attempt to beat
+#: src/hex_puzzzle.cpp:2582
+#, c-format
+msgid "Par:   %d"
+msgstr "சராசரி:   %d"
+
+#: src/hex_puzzzle.cpp:2583
+#, c-format
+msgid "Diff:  %d"
+msgstr "வித்தியாசம்:   %d"
+
+#: src/hex_puzzzle.cpp:2586
+#, c-format
+msgid " Par: %d   Current: %d"
+msgstr "சராசரி:   %d நடப்பு: %d"
+
+#: src/hex_puzzzle.cpp:2589
+#, c-format
+msgid " Anti-Ice: %d"
+msgstr "ஆன்டி-ஐஸ்: %d"
+
+#: src/hex_puzzzle.cpp:2591
+#, c-format
+msgid " Jumps: %d"
+msgstr "தாவல்கள்: %d"
+
+#: src/hex_puzzzle.cpp:2597
+#, c-format
+msgid "Points: %d"
+msgstr "புள்ளிகள்: %d"
+
+#: src/hex_puzzzle.cpp:2598
+#, c-format
+msgid "Discovered: %d%% (%d/%d)"
+msgstr "கண்டுபிடிக்கப்பட்டது: %d%% (%d/%d)"
+
+#: src/hex_puzzzle.cpp:2599
+#, c-format
+msgid "Complete: %d%% (%d)"
+msgstr "முடிந்தது: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2600
+#, c-format
+msgid "Mastered: %d%% (%d)"
+msgstr "வெற்றி கொண்டது: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2603
+#, c-format
+msgid " %d%% Mastered"
+msgstr " %d%% வெற்றி கொள்ளப்பட்டது"
+
+#: src/hex_puzzzle.cpp:2605
+#, c-format
+msgid " %d%% Complete"
+msgstr " %d%% முடிந்தது"
+
+#: src/hex_puzzzle.cpp:2657
+#, c-format
+msgid "Best:% 3d"
+msgstr "சிறந்தது:% 3d"
+
+#: src/hex_puzzzle.cpp:2658
+#, c-format
+msgid "Par:% 3d"
+msgstr "சராசரி:% 3d"
+
+#: src/hex_puzzzle.cpp:2661
+msgid "Completed"
+msgstr "நிறைவேறியது"
+
+#: src/hex_puzzzle.cpp:2664
+msgid "Incomplete"
+msgstr "நிறைவேறாதது"
+
+#: src/hex_puzzzle.cpp:2705 src/menus.h:574
+msgid "Level Complete!"
+msgstr "நிலை முடிந்தது!"
+
+#: src/hex_puzzzle.cpp:2821
+#, c-format
+msgid "Special(%d,%d): %s (%d)"
+msgstr "சிறப்பு(%d,%d): %s (%d)"
+
+#: src/hex_puzzzle.cpp:2821
+msgid "<None>"
+msgstr "<எதுவுமில்லை>"
+
+#: src/hex_puzzzle.cpp:2966
+msgid "Select level"
+msgstr "மட்டத்தை தேர்ந்தெடு"
+
+#: src/hex_puzzzle.cpp:4068
+msgid "Save level"
+msgstr "மட்டத்தை சேமி"
+
+#: src/hex_puzzzle.cpp:4074
+msgid "Open level"
+msgstr "மட்டத்தை திற"
+
+#: src/menus.h:88
+msgid ""
+"Basic controls:|Move around with the keys Q,W,E,A,S,D or the numeric  "
+"keypad. Alternatively, you can use the mouse and  click on the tile you'd "
+"like to move to.    Use 'U', backspace or the right mouse button to  undo "
+"mistakes.    The 'Esc' key (or middle mouse button) brings up a  menu from "
+"which you can restart if you get stuck."
+msgstr ""
+"அடிப்படை கட்டுப்பாடு:| Q W E A S D விசைகளால் நகருங்க. அல்லது எண் விசை பலகத்தால. "
+"இல்லாவிட்டால் சொடுக்கியையும் பயன்படுத்தலாம். போக வேண்டிய ஓடு மேல சொடுக்குங்க.   தவறுகளை "
+"சரி செய்ய  'U' விசை backspace அல்லது வலது சொடுக்கி பொத்தான் பயன்படுத்துங்க.   "
+"எங்காவது மாட்டிக் கொண்டா 'Esc' விசை அல்லது நடு சொடுக்கி பொத்தானை சொடுக்கியோ கிடைக்கும் "
+"பட்டியிலிருந்து திரும்பி முதலிலிருந்து ஆரம்பிக்கலாம்."
+
+#: src/menus.h:92
+msgid ""
+"Objective:|Your goal is to break all the green tiles.    You mainly do this "
+"by jumping on them.    They will crack when you land on them, and  only "
+"disintegrate when you jump off.    Try not to trap yourself!"
+msgstr ""
+"இலக்கு:|அனைத்து பச்சை ஓடுகளையும் உடைக்க வேண்டும்.   இதை நீங்கள் முக்கியமாக அதன் மீது "
+"குதிப்பதால் செய்கிறீகள்.    நீங்கள் அதன் மீது குதிக்கும்போது அவை விரிசல் விடும். அதன் "
+"மீதிருந்து எழும்பும் போது அவை உடையும்.    இக்கட்டில் மாட்டாதீர்கள்."
+
+#: src/menus.h:94
+msgid ""
+"The coloured walls flatten themselves when there  are no matching coloured "
+"tiles remaining."
+msgstr "நிறமிட்ட சுவர்கள் பொருத்தமான ஓடுகள் மீதம் இல்லாதபோது தட்டையாகும்."
+
+#: src/menus.h:96
+msgid ""
+"You can bounce on the purple trampoline tiles to  get around.    But try not "
+"to fall in the water.    If you do, remember you can undo with 'U',  "
+"backspace or the right mouse button!"
+msgstr ""
+"நீங்கள் ஊதா வீழ்தடுப்புரை ஓடுகள் மீது குதித்து தாவலாம்.    தண்ணீரில் விழாமல் "
+"பாத்துக்குங்க!    ஒரு வேளை விழுந்தா நகர்வை ரத்து செய்யலாம், 'U'  backspace அல்லது "
+"வலது சொடுக்கி பொத்தான் மூலமாக!"
+
+#: src/menus.h:98
+msgid ""
+"A red spinner tile will rotate the pieces around  it when you step on it."
+msgstr "சிவப்பு சுத்தும் ஓடு அதன் மேல் கால் வைத்தால் சுற்றி உள்ள ஓடுகளை சுழற்றும்."
+
+#: src/menus.h:102
+msgid ""
+"You don't need to destroy blue tiles to complete  the level.    But they'll "
+"turn green when you step off them, and  you know what you have to do to "
+"green tiles..."
+msgstr ""
+"நீங்கள் இந்த மட்டத்தை முடிக்க நீல ஓடுகளை உடைக்க வேண்டாம். ஆனால் அவற்றின் மீதிருந்து வெளியே "
+"போனால் அவை பச்சையாக மாறும். பச்சை ஓட்டை என்ன செய்யனும்னுதான் தெரியுமே..."
+
+#: src/menus.h:106
+msgid ""
+"Yellow laser tiles fire when you step on them.    Shooting other laser tiles "
+"is more destructive."
+msgstr ""
+"மஞ்சள் லேசர் ஓடுகள் மீது கால் வைத்தால் அவை துப்பாக்கி போல சுடும்.    மத்த லேசர் ஓடுகளை "
+"சுடுவது இன்னும் நாசம் பண்ணும்."
+
+#: src/menus.h:108
+msgid "Ice is slippery!    Please be careful!!"
+msgstr "ஐஸ் வழுக்கும்!     தயவு செய்து ஜாக்கிரதையாக இருங்க!"
+
+#: src/menus.h:112
+msgid ""
+"The dark grey tiles with arrows on are builders.    Landing on one creates "
+"green tiles in any adjacent  empty tile, and turns green tiles into walls."
+msgstr ""
+"அம்பு குறியுள்ள சாம்பல் நிற ஓடுகள் கட்டுமானம் செய்பவை. ஒன்று மீது இறங்கினால் பக்கத்தில் "
+"ஏதாவது காலி ஓட்டில் பச்சை ஓடுகள் உருவாக்கப்படும். மற்றும் பச்சை ஓடுகள் சுவர்களாகும்."
+
+#. TRANSLATORS: pop means vanish and Emy drowns (you loose)
+#: src/menus.h:117
+msgid ""
+"You can ride on the pink floating boats to get  across water.    They'll pop "
+"if you try and float off the edge of the  screen though, so look where "
+"you're going."
+msgstr ""
+"நீங்கள் பிங்க் படகுகளில் ஏறி தண்ணீரை கடந்து போகலாம். ஆனால் திரை ஓரம் வந்துவிட்டால் அவை "
+"உடைந்து விடும். அதனால எங்க போறோம்னு பாருங்க."
+
+#: src/menus.h:119
+msgid "The blue lifts go up or down when you land on them."
+msgstr "நீல ஓடுகள் மேல கால் வச்சா அவை மேல அல்லது கீழே போகும்.."
+
+#: src/menus.h:125
+msgid ""
+"The spiky anti-ice pickups turn icy tiles into blue ones.    They get used "
+"automatically when you land on ice."
+msgstr ""
+"முள் உள்ள ஆன்டி ஐஸ் தூக்கிகள் ஐஸ் ஓடுகளை நீல ஓடுகளாக்கும்.    அவை நீங்கள் ஐஸ் மேல குதிச்சா "
+"தானாக பயன்படும்."
+
+#. TRANSLATORS: Normally you jump from one plate to another. The golden jump (a
+#. pickup) allows you to jump and land on the *same* plate
+#: src/menus.h:129
+msgid ""
+"Collecting the golden jump pickups will allow you to  do a big vertical "
+"jump.    Try it out on different types of tiles.    Use the space bar or "
+"return key to jump. Or click  on the tile you're currently on with the mouse."
+msgstr ""
+"தங்க நிற குதி தூக்கிகளை சேகரித்தால் அவை நீங்கள் பெரிய உயரமான குதி போட "
+"அனுமதிக்கும்.    வித்தியாசமான ஓடுகளை முயற்சி பண்ணி பாருங்க.    என்டர் விசை அல்லது "
+"ஸ்பேஸ் விசைகளை பயன்படுத்துங்க. அல்லது நீங்க இப்ப இருக்கும் ஓடு மேல சொடுக்குங்க."
+
+#: src/menus.h:134
+msgid ""
+"Map Screen:|You can choose which level to attempt next from  the map "
+"screen.    Silver levels are ones you've cleared.    Black levels are ones "
+"you haven't completed yet,  but are available to play."
+msgstr ""
+"இயல்பட திரை:| நீங்கள் எந்த மட்டம் அடுத்து போகலாம்னு வரைபடத்திலிருந்து தேர்ந்தெடுக்கலாம்.    "
+"வெள்ளி மட்டம் நீங்க முடிச்சவை.  கருப்பு முடியாதது, நீங்க விளையாட கிடைப்பது."
+
+#. TRANSLATORS: Levels are depicted as black balls. Once you passed them, they
+#. turn silver. If you reached the par, they turn golden (with a crown), and if
+#. you beat the par, they turn their shape/color once more
+#: src/menus.h:140
+msgid ""
+"New feature unlocked!|Each level has an efficiency target for you to try  "
+"and beat.    Every move you make and each non-green tile  you destroy counts "
+"against you.    Why not try replaying some levels and going  for gold?"
+msgstr ""
+"புதிய சிறப்பு அம்சம் திறக்கப்பட்டது!| ஒவ்வொரு மட்டத்துக்கும் ஒரு செயல் திறன் இலக்கு உண்டு. "
+"அதை முயற்சி பண்ணி கடக்கணும்.    நீங்கள் பண்ணும் ஒவ்வொரு நகர்வும் உடைக்கும் பச்சையில்லாத "
+"கல்லும் கணக்கில வரும்.   சில மட்டங்களை திருப்பியும் ஆடி தங்கம் வாங்கலாமே?"
+
+#: src/menus.h:145
+msgid ""
+"Thanks for playing this little game.    I hope you  enjoy it!    -- --    "
+"All content is Copyright 2005 Tom Beaumont    email: tombeaumont@yahoo.com  "
+"Any constructive criticism gratefully received!"
+msgstr ""
+"இந்த சின்ன விளையாட்டை ஆடியதுக்கு நன்றி.    ஜாலியா இருந்ததுன்னு நினைக்கிறேன்.    -- "
+"--    அனைத்தும் பதிப்புரிமை 2005 டாம் பியோமௌன் மின்னஞ்சல் tombeaumont@yahoo.com "
+"ஏதாவது நல்ல விமரிசனம் இருந்தா நன்றியோட வரவேற்போம்!"
+
+#. TRANSLATORS: This string is copied twice into the POT file to workaround a
+#. gettext limitation (no macro expansion). The extracted string "Welcome to "
+#. will not be used.
+#: src/menus.h:151
+msgid "Welcome to "
+msgstr "நல்வரவு!"
+
+#: src/menus.h:197
+msgid "Info:"
+msgstr ""
+
+#: src/menus.h:229
+msgid "Press any key"
+msgstr "ஏதாவது விசையை அழுத்துங்க"
+
+#. TRANSLATORS: This specifies how the text in the help dialog should
+#. be aligned. Do *not* translate the text itself but use one of "left",
+#. "center" or "right" (untranslated!). The default is "center".
+#: src/menus.h:251
+msgid "text alignment"
+msgstr ""
+
+#: src/menus.h:337
+#, c-format
+msgid "Help (Page --)"
+msgstr "உதவி (பக்கம் --)"
+
+#: src/menus.h:339
+#, c-format
+msgid "Help (Page %d/%d)"
+msgstr "உதவி (பக்கம் %d/%d)"
+
+#: src/menus.h:426
+msgid "Resume"
+msgstr "மீண்டும் தொடர்க"
+
+#: src/menus.h:427
+msgid "Restart Level"
+msgstr "மட்டத்தை மீட்டமை"
+
+#: src/menus.h:428
+msgid "Return to Map"
+msgstr "படத்துக்கு திரும்புக"
+
+#: src/menus.h:429
+msgid "Continue"
+msgstr "தொடர்க"
+
+#: src/menus.h:430
+msgid "Toggle Fullscreen"
+msgstr "முழுத்திரைக்கு மாற்று"
+
+#: src/menus.h:431 src/menus.h:1109
+msgid "Options"
+msgstr "தேர்வுகள்"
+
+#: src/menus.h:432
+msgid "Quit"
+msgstr "வெளிச்செல்"
+
+#: src/menus.h:433
+msgid "Yes"
+msgstr "ஆம்"
+
+#: src/menus.h:434
+msgid "No"
+msgstr "இல்லை"
+
+#: src/menus.h:435
+msgid "Return to Title"
+msgstr "தலைப்புக்கு திரும்புக"
+
+#: src/menus.h:436
+msgid "Help"
+msgstr "உதவி"
+
+#: src/menus.h:437
+msgid "Start New Game"
+msgstr "புதிய விளையாட்டை துவக்குக"
+
+#: src/menus.h:438
+msgid "Yes, really delete it!"
+msgstr "ஆம், உண்மையாக நீக்குக!"
+
+#: src/menus.h:439
+msgid "Don't do it!"
+msgstr "ஓ, செய்யாதே!"
+
+#: src/menus.h:440
+msgid "Undo Last Move"
+msgstr "கடைசி நகர்த்தலை செயல் நீக்கு"
+
+#: src/menus.h:441
+msgid "OK"
+msgstr "சரி"
+
+#: src/menus.h:442
+msgid "View Credits Sequence"
+msgstr "நன்றிகள் காட்சி வரிசையில்"
+
+#: src/menus.h:574
+msgid "Emi can't swim..."
+msgstr "எமியால் நீந்த முடியாது..."
+
+#: src/menus.h:613
+#, c-format
+msgid "New Best Score: %d  Par Score: %d  Par Beaten!"
+msgstr "புதிய சிறந்த மதிப்பெண்: %d  சராசரி மதிப்பெண்: %d சராசரி கடக்கப்பட்டது!"
+
+#: src/menus.h:615
+#, c-format
+msgid "New Best Score: %d  Par Score: %d"
+msgstr "புதிய சிறந்த மதிப்பெண்: %d  சராசரி மதிப்பெண்: %d"
+
+#: src/menus.h:617
+#, c-format
+msgid "Score: %d  Previous Best: %d  Par Score: %d"
+msgstr "மதிப்பெண்: %d முந்தைய சிறந்த: %d  சராசரி மதிப்பெண்: %d"
+
+#: src/menus.h:619
+msgid "Well Done!  Level Completed!"
+msgstr "நன்கு முடிந்தது! நிலை நிறைவேறியது!"
+
+#: src/menus.h:698
+msgid " Very Well Done! "
+msgstr " மிகச் சிறப்பாக முடித்தீர்கள்! "
+
+#: src/menus.h:703
+msgid "All Levels Cleared!"
+msgstr "அனைத்தும் மட்டங்கள் நீக்கப்பட்டுவிட்டன!"
+
+#: src/menus.h:707
+msgid "Not a single green hexagon is left unbroken."
+msgstr "ஒரு தனி பச்சை ஓடும் உடையாமல் இல்லை "
+
+#: src/menus.h:709
+msgid "Truly, you are a master of hexagon hopping!"
+msgstr "உண்மையில் அறுகோண தாவலில் நீங்கள் ஒரு மேதை!"
+
+#: src/menus.h:713
+msgid "Credits"
+msgstr "நன்றிகள்"
+
+#: src/menus.h:714
+msgid "<Design & Direction:"
+msgstr "<வடிவம் & திசை:"
+
+#: src/menus.h:715
+msgid "<Programming:"
+msgstr "<நிரலாக்கம்:"
+
+#: src/menus.h:716
+msgid "<Graphics:"
+msgstr "<வரைகலைகள்:"
+
+#: src/menus.h:717
+msgid "<Thanks to:"
+msgstr "<நன்றிக்குரியோர்:"
+
+#: src/menus.h:719
+msgid "<Tools and libraries used:"
+msgstr "<கருவிகள் மற்றும் நூலகங்கள் பயன்பட்டது:"
+
+#: src/menus.h:720
+msgid "<Fonts used:"
+msgstr "<எழுத்துருக்கள் பயன்பட்டது:"
+
+#: src/menus.h:724
+msgid "Thanks for playing!"
+msgstr "விளையாடியதற்கு நன்றி!"
+
+#: src/menus.h:728
+msgid " Absolutely Amazing! "
+msgstr " மிக மிக அத்புதம்! "
+
+#: src/menus.h:733
+msgid "All Levels Mastered!!"
+msgstr "அனைத்து மட்டங்களிளும் பாண்டித்யம் அடையப்பட்டது!!"
+
+#: src/menus.h:737
+msgid "You crushed every last green hexagon with"
+msgstr "நீங்கள் கடைசி பச்சை ஓட்டையும் உடைத்தீர்கள்"
+
+#: src/menus.h:738
+msgid "breathtaking efficiency!"
+msgstr "ஆச்சரியப்படும் செயல் திறனுடன்!"
+
+#: src/menus.h:740
+msgid "You truly are a grand master of hexagon hopping!"
+msgstr "உண்மையில் அறுகோண தாவலில் நீங்கள் ஒரு பெரிய மேதை!"
+
+#: src/menus.h:890
+msgid "The End"
+msgstr "நிறைந்தது"
+
+#: src/menus.h:979
+#, c-format
+msgid "Continue game %d (All Clear!)"
+msgstr "%d விளையாட்டை தொடர் (அனைத்தும் துடை!)"
+
+#: src/menus.h:981
+#, c-format
+msgid "Continue game %d (%d%% + %d%%)"
+msgstr "விளையாட்டை தொடர் %d (%d%% + %d%%)"
+
+#: src/menus.h:983
+#, c-format
+msgid "Continue game %d (%d%% complete)"
+msgstr "விளையாட்டை தொடர் %d (%d%% முடிந்தது)"
+
+#: src/menus.h:1022
+msgid "Quit: Are you sure?"
+msgstr "நிச்சயமாக வெளிச்செல்ல வேண்டுமா?"
+
+#: src/menus.h:1042
+#, c-format
+msgid "Really delete game %d?"
+msgstr "நிச்சயமாக விளையாட்டு %d ஐ நீக்கவா?"
+
+#: src/menus.h:1082
+msgid "Paused"
+msgstr "தற்காலிகமாக நிறுத்தப்பட்டது"
+
+#. TRANSLATORS: The following strings (in level_list.h) are level names, which
+#. should give (in a humerous way) the player an indication about this level.
+#: src/level_list.h:27
+msgid "  Map"
+msgstr "  படம்"
+
+#: src/level_list.h:28
+msgid "  Orbital"
+msgstr "  வட்டப்பாதை"
+
+#: src/level_list.h:29
+msgid "  Hive"
+msgstr "  தேன்கூடு"
+
+#: src/level_list.h:30
+msgid "  There  and Back"
+msgstr "  அங்கும் இங்கும்"
+
+#: src/level_list.h:31
+msgid "  Triangular"
+msgstr "  முக்கோணம்"
+
+#: src/level_list.h:32
+msgid "  Mini  Island"
+msgstr "  சிறு தீவு"
+
+#: src/level_list.h:33
+msgid "  Island  Variation"
+msgstr "  மாறுபாடான  தீவு"
+
+#: src/level_list.h:34
+msgid "  Archipelago"
+msgstr "  தீப கற்பம்"
+
+#: src/level_list.h:35
+msgid "  Weathervane"
+msgstr "  வானிலை காற்றாடி"
+
+#: src/level_list.h:36
+msgid "  Bridges"
+msgstr "  பாலங்கள்"
+
+#: src/level_list.h:37
+msgid "  Explorer"
+msgstr "  ஆராய்ச்சியாளர்"
+
+#: src/level_list.h:38
+msgid "  Trampolines"
+msgstr "  வீழ்தடுப்புரைகள்"
+
+#: src/level_list.h:39
+msgid "  Not a Knot"
+msgstr "  முடிச்சு இல்லை "
+
+#: src/level_list.h:40
+msgid "  Another  Mountain"
+msgstr "  இன்னொரு  மலை"
+
+#: src/level_list.h:41
+msgid "  A  Mountain"
+msgstr "  ஒரு  மலை"
+
+#: src/level_list.h:42
+msgid "  Green  Walls"
+msgstr "  பச்சை  சுவர்கள்"
+
+#: src/level_list.h:43
+msgid "  Winding  Order"
+msgstr "  சுற்று வரிசை"
+
+#: src/level_list.h:44
+msgid "  Rental  Boat"
+msgstr "  வாடகை  படகு"
+
+#: src/level_list.h:45
+msgid "  Ferrying"
+msgstr "  தோணி"
+
+#: src/level_list.h:46
+msgid "  Transport  Hub"
+msgstr "  போக்குவரத்து  மையம்"
+
+#: src/level_list.h:47
+msgid "  Lifts"
+msgstr "  தூக்கிகள்"
+
+#: src/level_list.h:48
+msgid "  Leftovers"
+msgstr "  எச்சங்கள்"
+
+#: src/level_list.h:49
+msgid "  Trampoline  Retrieval"
+msgstr "  வீழ்தடுப்புரை  மீட்பு"
+
+#: src/level_list.h:50
+msgid "  Rolling  Hexagons"
+msgstr "  உருளும்  அறுகோணங்கள்"
+
+#: src/level_list.h:51
+msgid "  Telephone"
+msgstr "  தொலைபேசி"
+
+#: src/level_list.h:52
+msgid "  Breakthrough"
+msgstr "  வல் ஊடு வழி"
+
+#: src/level_list.h:53
+msgid "  Laser  Safety"
+msgstr "  லேசர்  பாதுகாப்பு"
+
+#: src/level_list.h:54
+msgid "  Branching  Pathway"
+msgstr "  கிளை பிரியும்  பாதை"
+
+#: src/level_list.h:55
+msgid "  Only One  Way Up"
+msgstr "மேலே  ஒரே ஒரு  வழி மட்டும்"
+
+#: src/level_list.h:56
+msgid "  Outposts"
+msgstr "  புறக்காவல் நிலையம்"
+
+#: src/level_list.h:57
+msgid "  Roundabouts"
+msgstr "  திருப்புமுனைகள்"
+
+#: src/level_list.h:58
+msgid "  Two  Fish"
+msgstr "  இரண்டு  மீன்கள்"
+
+#: src/level_list.h:59
+msgid "All  Wound  Up"
+msgstr "அனைத்தும்  கட்டப்பட்டன"
+
+#: src/level_list.h:60
+msgid "  Toughened  Tiles"
+msgstr "  கடினப்படுத்திய  ஓடுகள்"
+
+#: src/level_list.h:61
+msgid "  Island"
+msgstr "  தீவு"
+
+#: src/level_list.h:62
+msgid "  More  Stripes"
+msgstr "  மேலும்  வரிகள்"
+
+#: src/level_list.h:63
+msgid "  Stripes"
+msgstr "  வரிகள்"
+
+#: src/level_list.h:64
+msgid "  One Two  One Two"
+msgstr "  ஒன்று இரண்டு  ஒன்று இரண்டு"
+
+#: src/level_list.h:65
+msgid "  Turtle"
+msgstr "  ஆமை"
+
+#: src/level_list.h:66
+msgid "  Wand"
+msgstr "  மந்திரக்கோல்"
+
+#: src/level_list.h:67
+msgid "  Deathtrap"
+msgstr "  சாவுப்பொறி"
+
+#: src/level_list.h:68
+msgid "  Eagerness"
+msgstr "  ஆர்வம்"
+
+#: src/level_list.h:69
+msgid "  Gun  Platform"
+msgstr "  துப்பாக்கி  தளம்"
+
+#: src/level_list.h:70
+msgid "  Nucleus"
+msgstr "  உட்கரு"
+
+#: src/level_list.h:71
+msgid "  Sniper"
+msgstr "  துப்பாக்கி வீரன்"
+
+#: src/level_list.h:72
+msgid "  Deadly  Snowflake"
+msgstr "  பயங்கர  பனித்துண்டு"
+
+#: src/level_list.h:73
+msgid "  Snowflake"
+msgstr "  பனித்துண்டு"
+
+#: src/level_list.h:74
+msgid "  Laser  Tiles"
+msgstr "  லேசர்  ஓடுகள்"
+
+#: src/level_list.h:75
+msgid "  Trigger  Happy"
+msgstr "  விசைவில்  மகிழ்ச்சி"
+
+#: src/level_list.h:76
+msgid "  Lure"
+msgstr "  கவர்"
+
+#: src/level_list.h:77
+msgid "  Maze"
+msgstr "  மேஸ்"
+
+#: src/level_list.h:78
+msgid "  Motion  Sickness"
+msgstr "  நகர்வு  மயக்கம்"
+
+#: src/level_list.h:79
+msgid "  All About  Preparation"
+msgstr "தயார்படுத்தல்  பற்றி  அனைத்தும்"
+
+#: src/level_list.h:80
+msgid "  Revolver  Cannon"
+msgstr "  கைத்துப்பாக்கி  பீரங்கி"
+
+#: src/level_list.h:81
+msgid "  Small  Cog"
+msgstr "  சிறிய  பல்சக்கரம்"
+
+#: src/level_list.h:82
+msgid "  Sprocket"
+msgstr "  கண்ணிப்பல்"
+
+#: src/level_list.h:83
+msgid "  Switch"
+msgstr "  மாற்றி"
+
+#: src/level_list.h:84
+msgid "  Spinner  Tiles"
+msgstr "  சுழலும்  ஓடுகள்"
+
+#: src/level_list.h:85
+msgid "  Three  More Ways"
+msgstr "  மேலும்  மூன்று வழிகள்"
+
+#: src/level_list.h:86
+msgid "  Three  Ways To Go"
+msgstr "  போக  மூன்று வழிகள்"
+
+#: src/level_list.h:87
+msgid "Please  Skate  Safely"
+msgstr "தயவு செய்து பாதுகாப்பா சறுக்குங்க"
+
+#: src/level_list.h:88
+msgid "  Refraction"
+msgstr "  கதிர்சிதர்வு"
+
+#: src/level_list.h:89
+msgid "  Route  Finder"
+msgstr "  வழி  கண்டுபிடிப்பான்"
+
+#: src/level_list.h:90
+msgid "A  Slippery  Situation"
+msgstr "ஒரு  வழுக்கும்  நிலை"
+
+#: src/level_list.h:91
+msgid "  Crooked"
+msgstr "  வக்கிரமான"
+
+#: src/level_list.h:92
+msgid "  Green  Honey"
+msgstr "  பச்சை  தேன்"
+
+#: src/level_list.h:93
+msgid "  Carefully  Does It"
+msgstr "  கவனமாக  செய்யுங்க"
+
+#: src/level_list.h:94
+msgid "  Radioactive  Ice"
+msgstr "  கதிரூட்ட  ஐஸ்"
+
+#: src/level_list.h:95
+msgid "  Pro  Skater"
+msgstr "   பிஸ்தா  சறுக்கி"
+
+#: src/level_list.h:96
+msgid "  Spinners  II"
+msgstr "  சுழல் ஓடுகள் II"
+
+#: src/level_list.h:97
+msgid "  Spinners"
+msgstr "  சுழல் ஓடுகள் "
+
+#. TRANSLATORS: There is a special kind of pickup, which will turn ice
+#. plates into "normal" plates (you won't slip on them). So the name
+#. is (probably) related to "Make less slippery".
+#: src/level_list.h:101
+msgid "  Deslippify"
+msgstr "  வழுக்கல் நீக்கு"
+
+#: src/level_list.h:102
+msgid "  Tri Mesh"
+msgstr "  மூன்று வலைகள் "
+
+#: src/level_list.h:103
+msgid "  Wheel"
+msgstr "  சக்கரம்"
+
+#: src/level_list.h:104
+msgid "  Finishing  Strike"
+msgstr "  முடிக்கும்  அடி"
+
+#: src/level_list.h:105
+msgid "  Big  Jumps"
+msgstr "  பெரிய  தாவல்கள்"
+
+#: src/level_list.h:106
+msgid "  Wave  Cannon"
+msgstr "  அலை  பீரங்கி"
+
+#: src/level_list.h:107
+msgid "  Clearance"
+msgstr "  வெளியாக்கல்"
+
+#: src/level_list.h:108
+msgid "  Floating"
+msgstr "  மிதக்கும்"
+
+#: src/level_list.h:109
+msgid "  Forced  Fire"
+msgstr "  வலுக்கட்டாய  தீ"
+
+#: src/level_list.h:110
+msgid "No  Swimming  Allowed"
+msgstr "நீந்த  அனுமதி  இல்லை"
+
+#: src/level_list.h:111
+msgid "A Little  Light  Lifting"
+msgstr "கொஞ்சம்  வெளிச்ச  திருடு"
+
+#: src/level_list.h:112
+msgid "  House"
+msgstr "  வீடு"
+
+#: src/level_list.h:113
+msgid "  Hunting"
+msgstr "  வேட்டை"
+
+#: src/level_list.h:114
+msgid "  More  Lifting"
+msgstr "  மேலும்  தூக்கல்"
+
+#: src/level_list.h:115
+msgid "  Opportunist"
+msgstr "  சந்தர்ப்பவாதி"
+
+#: src/level_list.h:116
+msgid "  Demolition"
+msgstr "  உடைப்பு"
+
+#: src/level_list.h:117
+msgid "  Upper"
+msgstr "  மேல்"
+
+#: src/level_list.h:118
+msgid "Beware  Feedback  Loops"
+msgstr "நிலையறி  சுழல்கள் குறித்து விழிப்பாக இருக்கவும்"
+
+#: src/level_list.h:119
+msgid "  Somewhat  Constructive"
+msgstr "  எதோ கொஞ்சம்  கட்டுமானம்"
+
+#: src/level_list.h:120
+msgid "  Overbuild"
+msgstr "  அதிக கட்டுமானம்"
+
+#: src/level_list.h:121
+msgid "  Reversing  Space"
+msgstr "  இடைவெளி  திருப்பம்"
+
+#: src/level_list.h:122
+msgid "Burn  Your  Bridges"
+msgstr "உன் பாலங்களை எரி"
+
+#: src/level_list.h:123
+msgid "A  Strange  Place"
+msgstr "ஒரு  வித்தியாசமான  இடம்"
+
+#: src/level_list.h:124
+msgid "  Commute"
+msgstr "  பயணம்செய்"
+
+#: src/level_list.h:125
+msgid "  Bouncing  Required"
+msgstr "  துள்ளல்  தேவை"
+
+#: src/level_list.h:126
+msgid "  Fetch  Quest"
+msgstr "  கொண்டு வர வேட்டை"
+
+#: src/level_list.h:127
+msgid "  Laser  Surgery"
+msgstr "  லேசர்  அறுவை சிகித்சை"
+
+#: src/level_list.h:128
+msgid "  Icy  Tiles"
+msgstr "  பனிக்கட்டி  ஓடுகள்"
+
+#: src/level_list.h:129
+msgid "  Icy  Road"
+msgstr "  பனிக்கட்டி  சாலை"
+
+#: src/level_list.h:130
+msgid "  Inversion"
+msgstr "  எதிர்மாறாக்கல்"
+
+#: src/level_list.h:132 src/level_list.h:133 src/level_list.h:134
+#: src/level_list.h:135 src/level_list.h:136
+msgid "Complete __ levels to unlock"
+msgstr "பூட்டை திறக்க __ மட்டங்கள் முடி"
+
+# type: TH
+#: debian/hex-a-hop.6:18
+#, no-wrap
+msgid "Hex\\(hya\\(hyhop"
+msgstr "Hex\\(hya\\(hyhop"
+
+# type: SH
+#: debian/hex-a-hop.6:19
+#, no-wrap
+msgid "NAME"
+msgstr "NAME"
+
+# type: Plain text
+#: debian/hex-a-hop.6:21
+msgid "hex-a-hop - puzzle game based on hexagonal tiles"
+msgstr "hex-a-hop - ஹெக்ஸ்- அ- ஹாப் அறுகோண ஓடுகள் உள்ள புதிர் விளையாட்டு."
+
+# type: SH
+#: debian/hex-a-hop.6:21
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "DESCRIPTION"
+
+# type: Plain text
+#: debian/hex-a-hop.6:23
+msgid ""
+"Hex\\(hya\\(hyhop is a puzzle game based on hexagonal tiles. There is no "
+"time limit and no real\\(hytime element."
+msgstr ""
+"ஹெக்ஸ்\\(hyஅ \\(hyஹாப் அறுகோண ஓடுகள் உள்ள புதிர் விளையாட்டு. இதுக்கு நேர வரையரை "
+"கிடையாது. நிகழ் நேர சமாசாரமும் கிடையாது."
+
+# type: Plain text
+#: debian/hex-a-hop.6:25
+msgid ""
+"The objective is simply to destroy all the green hexagonal tiles on each of "
+"the 100 levels. As you progress through the game, more types of tiles are "
+"introduced which make things more difficult and interesting."
+msgstr ""
+"இலக்கு: நூறு மட்டங்களிலும் அனைத்து பச்சை ஓடுகளையும் உடைக்க வேண்டும். போகப் போக புதிய "
+"வகை ஓடுகள் வரும். இவை விளையாட்டை இன்னும் கஷ்டமாகவும் சுவாரசியமாகவும் ஆக்கும்."
+
+# type: SH
+#: debian/hex-a-hop.6:26
+#, no-wrap
+msgid "USAGE"
+msgstr "USAGE"
+
+# type: Plain text
+#: debian/hex-a-hop.6:28
+msgid ""
+"You can move the character around with the keys Q,W,E,A,S,D, or with the "
+"numeric keypad. Alternatively, you can use the mouse and click on the tile "
+"you'd like to move to."
+msgstr ""
+"Q W E A S D விசைகளால் நகருங்க. அல்லது எண் விசை பலகத்தால. இல்லாவிட்டால் சொடுக்கியையும் "
+"பயன்படுத்தலாம். போக வேண்டிய ஓடு மேல சொடுக்குங்க.   "
+
+#: debian/hex-a-hop.6:31
+msgid ""
+"Use 'U', backspace or the right mouse button to undo mistakes.  The 'Esc' "
+"key (or middle mouse button) brings up a menu from which you can restart if "
+"you get stuck."
+msgstr ""
+"தவறுகளை சரி செய்ய  'U' விசை backspace அல்லது வலது சுட்டி பொத்தான் பயன்படுத்துங்க.   "
+"எங்காவது மாட்டிக் கொண்டா 'Esc' விசை அல்லது நடு சொடுக்கி பொத்தான் ஒரு பட்டியை காட்டும். "
+"அது வழியா திரும்பி ஆரம்பிக்கலாம்."
+
+#: debian/hex-a-hop.6:33
+msgid ""
+"Your goal is to break all the green tiles. You mainly do this by jumping on "
+"them. They will crack when you land on them, and only disintegrate when you "
+"jump off. Try not to trap yourself!"
+msgstr ""
+"இலக்கு: அனைத்து பச்சை ஓடுகளையும் உடைக்க வேண்டும்.   இதை நீங்கள் முக்கியமாக அதன் மீது "
+"குதிப்பதால் செய்கிறீகள்.    நீங்கள் அதன் மீது குதிக்கும்போது அவை விரிசல் விடும். அதன் "
+"மீதிருந்து எழும்பும் போது அவை உடையும்.    இக்கட்டில் மாட்டாதீங்க!"
+
+#: debian/hex-a-hop.6:35
+msgid ""
+"During the game, you will be given hints and instructions on what to do. Use "
+"the cursor keys or click on the arrows to scroll through the help pages. "
+"More pages will be added as you progress through the game, as new tiles will "
+"keep appearing."
+msgstr ""
+"விளையாட்டின்போது என்ன செய்யனும்னு உங்களுக்கு குறிப்புகளும் அறிவுறுத்தல்களும் தரப்படும்."
+"நிலைகாட்டி விசைகளையோ அம்பு குறியை சொடுக்கியோ உதவி பக்கங்களை உருட்டிப்பாருங்க. நீங்க "
+"விளையாட்டில் போகப்போக மேலும் உதவி பக்கங்கள் வரும்."
+
+#: debian/hex-a-hop.6:37
+msgid ""
+"You can choose which level to attempt next from the map screen. Silver "
+"levels are ones you've cleared. Black levels are ones you haven't completed "
+"yet, but are available to play."
+msgstr ""
+"நீங்கள் எந்த மட்டம் அடுத்து போகலாம்னு வரைபடத்திலிருந்து தேர்ந்தெடுக்கலாம்.    வெள்ளி மட்டம் "
+"நீங்க முடிச்சவை.  கருப்பு முடியாதது, நீங்க விளையாட கிடைப்பது."
+
+# type: Plain text
+#: debian/hex-a-hop.6:39
+msgid ""
+"There is no time limit and no real\\(hytime element, so take as long as you "
+"like."
+msgstr ""
+"இதுக்கு நேர வரையரை கிடையாது. நிகழ் நேர சமாசாரமும் கிடையாது. அதனால் மெதுவாகவே "
+"ஆடலாம்."
+
+# type: SH
+#: debian/hex-a-hop.6:39
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "SEE ALSO"
+
+# type: Plain text
+#: debian/hex-a-hop.6:41
+msgid ""
+"You can find more about the game on its homepage: http://hexahop.sourceforge.net/"
+msgstr ""
+"இந்த பிணைய பக்கத்தில் விளையாட்டைப்பற்றி மேலும் பாக்கலாம். http://hexahop.sourceforge.net/"
+
+# type: Plain text
+#: debian/hex-a-hop.6:43
+msgid ""
+"In Debian's version, game data is stored in the directory $HOME/.hex-a-hop/. "
+"If the environment variable $HOME is not set, it'll use /tmp/ instead."
+msgstr ""
+"டெபியன் பதிப்பில் விளையாட்டு தரவு இந்த அடைவில் உள்ளது: $HOME/.hex-a-hop/. சூழ்நிலை "
+"மாறி $HOME அமைக்கப்படாவிட்டால் அது /tmp/ ஐ பயன்படுத்தும்."
+
+# type: SH
+#: debian/hex-a-hop.6:44
+#, no-wrap
+msgid "AUTHOR"
+msgstr "AUTHOR"
+
+# type: Plain text
+#: debian/hex-a-hop.6:46
+msgid ""
+"The game has been written by Tom Beaumont, and is distributed under the GNU "
+"General Public License, either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"டாம் பியோமௌன் ஆல் இந்த விளையாட்டு எழுதப்பட்டது. மற்றும்    ஜிஎன்யு பொது அனுமதிக்கான "
+"விதிகளின் இந்த 2 ம் பதிப்புப் படியோ அல்லது (உங்கள் விருப்பப்படி) அடுத்த பதிப்புகள் படியோ "
+"பறிமாறப்படுகிறது."
+
+#~ msgid ""
+#~ "Welcome to Hex-a-hop!    This is a puzzle game based on hexagonal tiles.  "
+#~ "There is no time limit and no real-time element, so  take as long as you "
+#~ "like.    Use the cursor keys or click on the arrows to  scroll through "
+#~ "the help pages. More pages will be  added as you progress through the "
+#~ "game."
+#~ msgstr ""
+#~ "ஹெக்ஸ் அ ஹாப் க்கு நல்வரவு!    இது அறுகோண ஓடுகள் உள்ள புதிர் விளையாட்டு. இதுக்கு "
+#~ "நேர வரையரை கிடையாது. நிகழ் நேர சமாசாரமும் கிடையாது. அதனால் மெதுவாகவே "
+#~ "ஆடலாம்.    நிலைகாட்டி விசிஅகளையோ அம்பு குறியை சொடுக்கியோ உதவி பக்கங்களை "
+#~ "உருட்டிப்பாருங்க. நீங்க விளையாட்டில் போகப்போக மேலும் உதவி பக்கங்கள் வரும்."

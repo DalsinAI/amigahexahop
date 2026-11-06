@@ -1,0 +1,6 @@
+PROJECT_NAME = Hex-a-hop
+HTML_OUTPUT = ../website/htdocs/assets/
+HTML_BODY_PREFIX = <h1>Hex-a-hop Assets</h1><p></p>
+HTML_BODY_SUFFIX = <p></p>
+HTML_DOWNLOAD_ENABLED = YES
+HTML_DOWNLOAD_PREFIX = http://hexahop.svn.sourceforge.net/viewvc/hexahop/trunk/data/

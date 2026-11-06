@@ -1,0 +1,1119 @@
+# translation of bg.po to Bulgarian
+# This file is distributed under the same license as the hex-a-hop package.
+#
+# Translators: A few hints:
+#
+# Support for translations is still experimental. You may find a few minor
+# flaws. If you do not understand a message please ask to allow us adding
+# helpful comments.
+#
+# The English help messages contain unusual spaces. "  " is internally
+# replaced by a newline, "    " starts a new paragraph. You may ignore
+# these spaces for now. You can also use "\n" (or "  ") in translations to
+# force a linebreak and "\n\n" (or "    ") to start a new paragraph. It is
+# suggested not to use fixed line breaks in paragraphs as this depends on
+# font settings. You should also avoid "  " or "    " as this is unusual.
+#
+# The manpage is also created from this file. If you want to add an extra
+# paragraph, e.g. describing your copyright for the translation or other
+# language dependent information, create a file named hex-a-hop.<lang>.add.
+# The first line of this file must read:
+# PO4A-HEADER:mode=after;position=AUTHOR;beginboundary=\.SH
+# Please *only* replace the word "AUTHOR" by the translation of this word to
+# your language. For more details read po4a(7).
+#
+# The manpage uses \\(hy. This is a hyphen sign (looks like -) and is used to
+# connect two words such as "real-time". If you use "-" it will be wrongly
+# rendered by po4a as minus sign (\- in output). See also
+# http://lists.debian.org/debian-devel/2003/03/msg01481.html. If you read
+# a message containing \\(hy consider it as usual hyphen. In your translation
+# you should also replace all hyphens by \\(hy. Commands, file names, ... never
+# contain hyphens but 7 bit minus signs!
+#
+# There is also a desktop file hex-a-hop.desktop containing two translatable
+# strings. Please update it as well.
+#
+# Damyan Ivanov <dam@modsoftsys.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: hex-a-hop\n"
+"Report-Msgid-Bugs-To: hex-a-hop@packages.debian.org\n"
+"POT-Creation-Date: 2009-03-15 02:02+0200\n"
+"PO-Revision-Date: 2007-08-23 21:16+0300\n"
+"Last-Translator: Damyan Ivanov <dam@modsoftsys.com>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/hex_puzzzle.cpp:1473
+#, c-format
+msgid "Complete 1  more level  to unlock!"
+msgid_plural "Complete %d  more levels  to unlock!"
+msgstr[0] "Преминете още едно ниво за отключване!"
+msgstr[1] "Преминете още %d нива за отключване!"
+
+#: src/hex_puzzzle.cpp:1480
+msgid "<<NO NAME>>"
+msgstr "<<БЕЗ ИМЕ>>"
+
+#. TRANSLATORS: Anti-Ice are pickups, which turn ice plates into solid
+#. plates once you step on them. Each pickup changes one ice plate
+#: src/hex_puzzzle.cpp:2577
+#, c-format
+msgid "Anti-Ice: %d"
+msgstr "Котки: %d"
+
+#: src/hex_puzzzle.cpp:2578
+#, c-format
+msgid "Jumps: %d"
+msgstr "Пружини: %d"
+
+#: src/hex_puzzzle.cpp:2579
+#, c-format
+msgid "Score: %d (%d)"
+msgstr "Точки: %d (%d)"
+
+#. TRANSLATORS: Par is similar to golf, a pre defined score which you
+#. can attempt to beat
+#: src/hex_puzzzle.cpp:2582
+#, c-format
+msgid "Par:   %d"
+msgstr "Норма: %d"
+
+#: src/hex_puzzzle.cpp:2583
+#, c-format
+msgid "Diff:  %d"
+msgstr "Разлика: %d"
+
+#: src/hex_puzzzle.cpp:2586
+#, c-format
+msgid " Par: %d   Current: %d"
+msgstr "Норма: %d   Текущо: %d"
+
+#: src/hex_puzzzle.cpp:2589
+#, c-format
+msgid " Anti-Ice: %d"
+msgstr " Котки: %d"
+
+#: src/hex_puzzzle.cpp:2591
+#, c-format
+msgid " Jumps: %d"
+msgstr " Пружини: %d"
+
+#: src/hex_puzzzle.cpp:2597
+#, c-format
+msgid "Points: %d"
+msgstr "Точки: %d"
+
+#: src/hex_puzzzle.cpp:2598
+#, c-format
+msgid "Discovered: %d%% (%d/%d)"
+msgstr "Разкрити: %d%% (%d/%d)"
+
+#: src/hex_puzzzle.cpp:2599
+#, c-format
+msgid "Complete: %d%% (%d)"
+msgstr "Преминати: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2600
+#, c-format
+msgid "Mastered: %d%% (%d)"
+msgstr "Овладени: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2603
+#, c-format
+msgid " %d%% Mastered"
+msgstr " овладени %d%%"
+
+#: src/hex_puzzzle.cpp:2605
+#, c-format
+msgid " %d%% Complete"
+msgstr " преминати %d%%"
+
+#: src/hex_puzzzle.cpp:2657
+#, c-format
+msgid "Best:% 3d"
+msgstr "Рекорд:% 3d"
+
+#: src/hex_puzzzle.cpp:2658
+#, c-format
+msgid "Par:% 3d"
+msgstr "Норма:% 3d"
+
+#: src/hex_puzzzle.cpp:2661
+msgid "Completed"
+msgstr "Преминато"
+
+#: src/hex_puzzzle.cpp:2664
+msgid "Incomplete"
+msgstr "Предстоящо"
+
+#: src/hex_puzzzle.cpp:2705 src/menus.h:574
+msgid "Level Complete!"
+msgstr "Нивото е преминато!"
+
+#: src/hex_puzzzle.cpp:2821
+#, c-format
+msgid "Special(%d,%d): %s (%d)"
+msgstr "Специални(%d,%d): %s (%d)"
+
+#: src/hex_puzzzle.cpp:2821
+msgid "<None>"
+msgstr "<Няма>"
+
+#: src/hex_puzzzle.cpp:2966
+msgid "Select level"
+msgstr "Избор на ниво"
+
+#: src/hex_puzzzle.cpp:4068
+msgid "Save level"
+msgstr "Запис на ниво"
+
+#: src/hex_puzzzle.cpp:4074
+msgid "Open level"
+msgstr "Отваряне на ниво"
+
+#: src/menus.h:88
+msgid ""
+"Basic controls:|Move around with the keys Q,W,E,A,S,D or the numeric  "
+"keypad. Alternatively, you can use the mouse and  click on the tile you'd "
+"like to move to.    Use 'U', backspace or the right mouse button to  undo "
+"mistakes.    The 'Esc' key (or middle mouse button) brings up a  menu from "
+"which you can restart if you get stuck."
+msgstr ""
+"Управление:|Преместването става с Q,W,E,A,S,D или с цифровата клавиатура. "
+"Можете да се местите и чрез щракване с мишката върху съседна плочка.    "
+"Клавишите „U“, „Backspace“ и десният бутон на мишката връщат назад.    „Esc“ "
+"и средният бутон на мишката показват меню, от което можете да рестартирате, "
+"в случай, че се заклещите."
+
+#: src/menus.h:92
+msgid ""
+"Objective:|Your goal is to break all the green tiles.    You mainly do this "
+"by jumping on them.    They will crack when you land on them, and  only "
+"disintegrate when you jump off.    Try not to trap yourself!"
+msgstr ""
+"Правила:|Целта на играта е да счупите всички зелени плочки.    Това става "
+"основно чрез скачане върху тях.    Плочките се пропукват когато сте отгоре "
+"им и се чупят едва след като отскочите.    Пазете се да не се заклещите!"
+
+#: src/menus.h:94
+msgid ""
+"The coloured walls flatten themselves when there  are no matching coloured "
+"tiles remaining."
+msgstr ""
+"Цветните стени стават на плочки, когато на полето не останат здрави плочки "
+"от същия цвят."
+
+#: src/menus.h:96
+msgid ""
+"You can bounce on the purple trampoline tiles to  get around.    But try not "
+"to fall in the water.    If you do, remember you can undo with 'U',  "
+"backspace or the right mouse button!"
+msgstr ""
+"Можете да отскачате от цикламените плочки-трамплини. Пазете се да не паднете "
+"във водата.    Ако все пак паднете, помнете, че можете да се върнете назад с "
+"клавиша „U“, „Backspace“ или десния бутон на мишката."
+
+#: src/menus.h:98
+msgid ""
+"A red spinner tile will rotate the pieces around  it when you step on it."
+msgstr ""
+"Ако стъпите червената плочка-ротор, тя ще завърти съседните плочки около "
+"себе."
+
+#: src/menus.h:102
+msgid ""
+"You don't need to destroy blue tiles to complete  the level.    But they'll "
+"turn green when you step off them, and  you know what you have to do to "
+"green tiles..."
+msgstr ""
+"За да преминете нивото не е задължително да счупите сините плочки.    Ако "
+"обаче стъпите върху тях, те ще се превърнат в зелени, а тях вече знаете "
+"какво трябва да правите..."
+
+#: src/menus.h:106
+msgid ""
+"Yellow laser tiles fire when you step on them.    Shooting other laser tiles "
+"is more destructive."
+msgstr ""
+"Жълтите лазерни плочки стрелят когато стъпите върху тях.    Стрелянето по "
+"други лазерни плочки е още по-унищожително."
+
+#: src/menus.h:108
+msgid "Ice is slippery!    Please be careful!!"
+msgstr "Внимателно!    Ледът е хлъзгав!"
+
+#: src/menus.h:112
+msgid ""
+"The dark grey tiles with arrows on are builders.    Landing on one creates "
+"green tiles in any adjacent  empty tile, and turns green tiles into walls."
+msgstr ""
+"Тъмносивите плочки със стрелки са строители.    Стъпването върху строител го "
+"активира. В празните места наоколо се появяват зелени плочки, а зелените "
+"плочки се издигат в стени."
+
+#. TRANSLATORS: pop means vanish and Emy drowns (you loose)
+#: src/menus.h:117
+msgid ""
+"You can ride on the pink floating boats to get  across water.    They'll pop "
+"if you try and float off the edge of the  screen though, so look where "
+"you're going."
+msgstr ""
+"Розовите плаващи плочки могат да се използват за плаване през водата.    Ако "
+"обаче стигнете до края на полето с плаваща плочка, тя ще се спука, така че "
+"внимавайте."
+
+#: src/menus.h:119
+msgid "The blue lifts go up or down when you land on them."
+msgstr "Сините асансьори се издигат или спускат когато стъпите върху тях."
+
+#: src/menus.h:125
+msgid ""
+"The spiky anti-ice pickups turn icy tiles into blue ones.    They get used "
+"automatically when you land on ice."
+msgstr ""
+"Котките против лед превръщат ледените плочки в сини.    Котките се използват "
+"автоматично в случай, че стъпите върху лед."
+
+#. TRANSLATORS: Normally you jump from one plate to another. The golden jump (a
+#. pickup) allows you to jump and land on the *same* plate
+#: src/menus.h:129
+msgid ""
+"Collecting the golden jump pickups will allow you to  do a big vertical "
+"jump.    Try it out on different types of tiles.    Use the space bar or "
+"return key to jump. Or click  on the tile you're currently on with the mouse."
+msgstr ""
+"Събирането на златните пружини ви дава възможност за високи подскоци.    "
+"Опитайте ги на различни видове плочки.    Използвайте клавиша за интервал "
+"или нов ред. Или пък щракнете с мишката на плочката, върху която стоите."
+
+#: src/menus.h:134
+msgid ""
+"Map Screen:|You can choose which level to attempt next from  the map "
+"screen.    Silver levels are ones you've cleared.    Black levels are ones "
+"you haven't completed yet,  but are available to play."
+msgstr ""
+"Карта:|Изберете кое от посочените на картата нива искате да играете.    "
+"Сребърните нива са вече преминати.    Черните още не са."
+
+#. TRANSLATORS: Levels are depicted as black balls. Once you passed them, they
+#. turn silver. If you reached the par, they turn golden (with a crown), and if
+#. you beat the par, they turn their shape/color once more
+#: src/menus.h:140
+msgid ""
+"New feature unlocked!|Each level has an efficiency target for you to try  "
+"and beat.    Every move you make and each non-green tile  you destroy counts "
+"against you.    Why not try replaying some levels and going  for gold?"
+msgstr ""
+"Отключихте ново съревнование! Всяко ниво има норма, към която можете да се "
+"стремите и дори да подобрите.    Всеки направен ход и всяка плочка с цвят, "
+"различен от зелен, която унищожите се брои против вас.    Защо не опитате да "
+"преиграете няколко нива и да станете медалист?"
+
+#: src/menus.h:145
+msgid ""
+"Thanks for playing this little game.    I hope you  enjoy it!    -- --    "
+"All content is Copyright 2005 Tom Beaumont    email: tombeaumont@yahoo.com  "
+"Any constructive criticism gratefully received!"
+msgstr ""
+"Благодаря би, че играхте тази игра.    Надявам се, че сте се забавлявали!    "
+"-- --    © 2005 Tom Beamount    email: tombeamount@yahoo.com  Градивни "
+"критики са добре дошли."
+
+#. TRANSLATORS: This string is copied twice into the POT file to workaround a
+#. gettext limitation (no macro expansion). The extracted string "Welcome to "
+#. will not be used.
+#: src/menus.h:151
+msgid "Welcome to "
+msgstr "Welcome to "
+
+#: src/menus.h:197
+msgid "Info:"
+msgstr ""
+
+#: src/menus.h:229
+msgid "Press any key"
+msgstr "Натиснете клавиш"
+
+#. TRANSLATORS: This specifies how the text in the help dialog should
+#. be aligned. Do *not* translate the text itself but use one of "left",
+#. "center" or "right" (untranslated!). The default is "center".
+#: src/menus.h:251
+msgid "text alignment"
+msgstr ""
+
+#: src/menus.h:337
+#, c-format
+msgid "Help (Page --)"
+msgstr "Помощ (Страница --)"
+
+#: src/menus.h:339
+#, c-format
+msgid "Help (Page %d/%d)"
+msgstr "Помощ (Страница %d/%d)"
+
+#: src/menus.h:426
+msgid "Resume"
+msgstr "Продължаване"
+
+#: src/menus.h:427
+msgid "Restart Level"
+msgstr "Започване отначало"
+
+#: src/menus.h:428
+msgid "Return to Map"
+msgstr "Карта"
+
+#: src/menus.h:429
+msgid "Continue"
+msgstr "Продължаване"
+
+#: src/menus.h:430
+msgid "Toggle Fullscreen"
+msgstr "Прозорец/Цял екран"
+
+#: src/menus.h:431 src/menus.h:1109
+msgid "Options"
+msgstr "Настройки"
+
+#: src/menus.h:432
+msgid "Quit"
+msgstr "Изход"
+
+#: src/menus.h:433
+msgid "Yes"
+msgstr "Да"
+
+#: src/menus.h:434
+msgid "No"
+msgstr "Не"
+
+#: src/menus.h:435
+msgid "Return to Title"
+msgstr "Начален екран"
+
+#: src/menus.h:436
+msgid "Help"
+msgstr "Помощ"
+
+#: src/menus.h:437
+msgid "Start New Game"
+msgstr "Нова игра"
+
+#: src/menus.h:438
+msgid "Yes, really delete it!"
+msgstr "Да, изтриване!"
+
+#: src/menus.h:439
+msgid "Don't do it!"
+msgstr "Не, благодаря!"
+
+#: src/menus.h:440
+msgid "Undo Last Move"
+msgstr "Ход назад"
+
+#: src/menus.h:441
+msgid "OK"
+msgstr "Добре"
+
+#: src/menus.h:442
+msgid "View Credits Sequence"
+msgstr "Информация за авторите"
+
+#: src/menus.h:574
+msgid "Emi can't swim..."
+msgstr "Еми не може да плува..."
+
+#: src/menus.h:613
+#, c-format
+msgid "New Best Score: %d  Par Score: %d  Par Beaten!"
+msgstr "Нов рекорд: %d  Норма: %d  Преминахте нормата!"
+
+#: src/menus.h:615
+#, c-format
+msgid "New Best Score: %d  Par Score: %d"
+msgstr "Нов рекорд: %d  Норма: %d"
+
+#: src/menus.h:617
+#, c-format
+msgid "Score: %d  Previous Best: %d  Par Score: %d"
+msgstr "Точки: %d  Предишен рекорд: %d  Норма: %d"
+
+#: src/menus.h:619
+msgid "Well Done!  Level Completed!"
+msgstr "Много добре!  Преминахте нивото!"
+
+#: src/menus.h:698
+msgid " Very Well Done! "
+msgstr " Отлично! "
+
+#: src/menus.h:703
+msgid "All Levels Cleared!"
+msgstr "Преминахте всички нива!"
+
+#: src/menus.h:707
+msgid "Not a single green hexagon is left unbroken."
+msgstr "Няма останали зелени плочки!"
+
+#: src/menus.h:709
+msgid "Truly, you are a master of hexagon hopping!"
+msgstr "Наистина сте майстор по скачане по шестоъгълни плочки!"
+
+#: src/menus.h:713
+msgid "Credits"
+msgstr "Автори"
+
+#: src/menus.h:714
+msgid "<Design & Direction:"
+msgstr "<Дизайн и Идеи:"
+
+#: src/menus.h:715
+msgid "<Programming:"
+msgstr "<Програмиране:"
+
+#: src/menus.h:716
+msgid "<Graphics:"
+msgstr "<Графика:"
+
+#: src/menus.h:717
+msgid "<Thanks to:"
+msgstr "<Благодарности:"
+
+#: src/menus.h:719
+msgid "<Tools and libraries used:"
+msgstr "<Използвани програми и библиотеки:"
+
+#: src/menus.h:720
+msgid "<Fonts used:"
+msgstr "<Използвани шрифтове:"
+
+#: src/menus.h:724
+msgid "Thanks for playing!"
+msgstr "Благодаря ви, че играхте!"
+
+#: src/menus.h:728
+msgid " Absolutely Amazing! "
+msgstr " Направо невероятно!"
+
+#: src/menus.h:733
+msgid "All Levels Mastered!!"
+msgstr "Покорихте всички нива!!"
+
+#: src/menus.h:737
+msgid "You crushed every last green hexagon with"
+msgstr "Строшихте всяка зелена плочка с"
+
+#: src/menus.h:738
+msgid "breathtaking efficiency!"
+msgstr "ефективност, която спира дъха!"
+
+#: src/menus.h:740
+msgid "You truly are a grand master of hexagon hopping!"
+msgstr "Наистина сте голям майстор по скачане по шестоъгълни плочки!"
+
+#: src/menus.h:890
+msgid "The End"
+msgstr "Край"
+
+#: src/menus.h:979
+#, c-format
+msgid "Continue game %d (All Clear!)"
+msgstr "Продължаване на игра %d (всичко преминато!)"
+
+#: src/menus.h:981
+#, c-format
+msgid "Continue game %d (%d%% + %d%%)"
+msgstr "Продължаване на игра %d (%d%% + %d%%)"
+
+#: src/menus.h:983
+#, c-format
+msgid "Continue game %d (%d%% complete)"
+msgstr "Продължаване на игра %d (преминати %d%%)"
+
+#: src/menus.h:1022
+msgid "Quit: Are you sure?"
+msgstr "Край: сигурни ли сте?"
+
+#: src/menus.h:1042
+#, c-format
+msgid "Really delete game %d?"
+msgstr "Изтриване на игра %d?"
+
+#: src/menus.h:1082
+msgid "Paused"
+msgstr "Пауза"
+
+#. TRANSLATORS: The following strings (in level_list.h) are level names, which
+#. should give (in a humerous way) the player an indication about this level.
+#: src/level_list.h:27
+msgid "  Map"
+msgstr "Карта"
+
+#: src/level_list.h:28
+msgid "  Orbital"
+msgstr "Орбита"
+
+#: src/level_list.h:29
+msgid "  Hive"
+msgstr "Мравуняк"
+
+#: src/level_list.h:30
+msgid "  There  and Back"
+msgstr "Дотам и обратно"
+
+#: src/level_list.h:31
+msgid "  Triangular"
+msgstr "Триъгълник"
+
+#: src/level_list.h:32
+msgid "  Mini  Island"
+msgstr "Островче"
+
+#: src/level_list.h:33
+msgid "  Island  Variation"
+msgstr "Островен вариант"
+
+#: src/level_list.h:34
+msgid "  Archipelago"
+msgstr "Архипелаг"
+
+#: src/level_list.h:35
+msgid "  Weathervane"
+msgstr "Ветропоказател"
+
+#: src/level_list.h:36
+msgid "  Bridges"
+msgstr "Мостове"
+
+#: src/level_list.h:37
+msgid "  Explorer"
+msgstr "Изследовател"
+
+#: src/level_list.h:38
+msgid "  Trampolines"
+msgstr "Трамплини"
+
+#: src/level_list.h:39
+msgid "  Not a Knot"
+msgstr "Не е възел"
+
+#: src/level_list.h:40
+msgid "  Another  Mountain"
+msgstr "Още една планина"
+
+#: src/level_list.h:41
+msgid "  A  Mountain"
+msgstr "Планина"
+
+#: src/level_list.h:42
+msgid "  Green  Walls"
+msgstr "Зелени стени"
+
+#: src/level_list.h:43
+msgid "  Winding  Order"
+msgstr "Завъртане"
+
+#: src/level_list.h:44
+msgid "  Rental  Boat"
+msgstr "Лодка под наем"
+
+#: src/level_list.h:45
+msgid "  Ferrying"
+msgstr "Ферибот"
+
+#: src/level_list.h:46
+msgid "  Transport  Hub"
+msgstr "Транспортен център"
+
+#: src/level_list.h:47
+msgid "  Lifts"
+msgstr "Асансьори"
+
+#: src/level_list.h:48
+msgid "  Leftovers"
+msgstr "Остатъци"
+
+#: src/level_list.h:49
+msgid "  Trampoline  Retrieval"
+msgstr "Доставка на трамплини"
+
+#: src/level_list.h:50
+msgid "  Rolling  Hexagons"
+msgstr "Търкалящи се шестоъгълници"
+
+#: src/level_list.h:51
+msgid "  Telephone"
+msgstr "Телефон"
+
+#: src/level_list.h:52
+msgid "  Breakthrough"
+msgstr "Пробив"
+
+#: src/level_list.h:53
+msgid "  Laser  Safety"
+msgstr "Лазерна безопасност"
+
+#: src/level_list.h:54
+msgid "  Branching  Pathway"
+msgstr "Разклон"
+
+#: src/level_list.h:55
+msgid "  Only One  Way Up"
+msgstr "Единствен път нагоре"
+
+#: src/level_list.h:56
+msgid "  Outposts"
+msgstr "Предни постове"
+
+#: src/level_list.h:57
+msgid "  Roundabouts"
+msgstr "Въртележки"
+
+#: src/level_list.h:58
+msgid "  Two  Fish"
+msgstr "Две риби"
+
+#: src/level_list.h:59
+msgid "All  Wound  Up"
+msgstr "Всичко нагоре"
+
+#: src/level_list.h:60
+msgid "  Toughened  Tiles"
+msgstr "Закалени плочки"
+
+#: src/level_list.h:61
+msgid "  Island"
+msgstr "Остров"
+
+#: src/level_list.h:62
+msgid "  More  Stripes"
+msgstr "Още ивици"
+
+#: src/level_list.h:63
+msgid "  Stripes"
+msgstr "Ивици"
+
+#: src/level_list.h:64
+msgid "  One Two  One Two"
+msgstr "Едно-две едно-две"
+
+#: src/level_list.h:65
+msgid "  Turtle"
+msgstr "Костенурка"
+
+#: src/level_list.h:66
+msgid "  Wand"
+msgstr "Вълшебна пръчка"
+
+#: src/level_list.h:67
+msgid "  Deathtrap"
+msgstr "Капан"
+
+#: src/level_list.h:68
+msgid "  Eagerness"
+msgstr "Нетърпение"
+
+#: src/level_list.h:69
+msgid "  Gun  Platform"
+msgstr "Оръжейна платформа"
+
+#: src/level_list.h:70
+msgid "  Nucleus"
+msgstr "Ядрено"
+
+#: src/level_list.h:71
+msgid "  Sniper"
+msgstr "Снайпер"
+
+#: src/level_list.h:72
+msgid "  Deadly  Snowflake"
+msgstr "Смъртоносна снежинка"
+
+#: src/level_list.h:73
+msgid "  Snowflake"
+msgstr "Снежинка"
+
+#: src/level_list.h:74
+msgid "  Laser  Tiles"
+msgstr "Лазерни плочки"
+
+#: src/level_list.h:75
+msgid "  Trigger  Happy"
+msgstr "Спусък"
+
+#: src/level_list.h:76
+msgid "  Lure"
+msgstr "Примамка"
+
+#: src/level_list.h:77
+msgid "  Maze"
+msgstr "Лабиринт"
+
+#: src/level_list.h:78
+msgid "  Motion  Sickness"
+msgstr "Морска болест"
+
+#: src/level_list.h:79
+msgid "  All About  Preparation"
+msgstr "Важна е подготовката"
+
+#: src/level_list.h:80
+msgid "  Revolver  Cannon"
+msgstr "Многоцевно оръдие"
+
+#: src/level_list.h:81
+msgid "  Small  Cog"
+msgstr "Брънка от веригата"
+
+#: src/level_list.h:82
+msgid "  Sprocket"
+msgstr "Зъбно колело"
+
+#: src/level_list.h:83
+msgid "  Switch"
+msgstr "Превключвател"
+
+#: src/level_list.h:84
+msgid "  Spinner  Tiles"
+msgstr "Ротори"
+
+#: src/level_list.h:85
+msgid "  Three  More Ways"
+msgstr "Още три пътя"
+
+#: src/level_list.h:86
+msgid "  Three  Ways To Go"
+msgstr "Три пътя"
+
+#: src/level_list.h:87
+msgid "Please  Skate  Safely"
+msgstr "Внимавайте с кънките"
+
+#: src/level_list.h:88
+msgid "  Refraction"
+msgstr "Рефракция"
+
+#: src/level_list.h:89
+msgid "  Route  Finder"
+msgstr "Търсач на пътища"
+
+#: src/level_list.h:90
+msgid "A  Slippery  Situation"
+msgstr "Хлъзгава ситуация"
+
+#: src/level_list.h:91
+msgid "  Crooked"
+msgstr "Измамен"
+
+#: src/level_list.h:92
+msgid "  Green  Honey"
+msgstr "Зелен мед"
+
+#: src/level_list.h:93
+msgid "  Carefully  Does It"
+msgstr "Внимателните печелят"
+
+#: src/level_list.h:94
+msgid "  Radioactive  Ice"
+msgstr "Радиоактивен лед"
+
+#: src/level_list.h:95
+msgid "  Pro  Skater"
+msgstr "Професонален кънкьор"
+
+#: src/level_list.h:96
+msgid "  Spinners  II"
+msgstr "Ротори 2"
+
+#: src/level_list.h:97
+msgid "  Spinners"
+msgstr "Ротори"
+
+#. TRANSLATORS: There is a special kind of pickup, which will turn ice
+#. plates into "normal" plates (you won't slip on them). So the name
+#. is (probably) related to "Make less slippery".
+#: src/level_list.h:101
+msgid "  Deslippify"
+msgstr "Без хлъзгане"
+
+#: src/level_list.h:102
+msgid "  Tri Mesh"
+msgstr "Тройна примка"
+
+#: src/level_list.h:103
+msgid "  Wheel"
+msgstr "Колело"
+
+#: src/level_list.h:104
+msgid "  Finishing  Strike"
+msgstr "Последен щрих"
+
+#: src/level_list.h:105
+msgid "  Big  Jumps"
+msgstr "Големи скокове"
+
+#: src/level_list.h:106
+msgid "  Wave  Cannon"
+msgstr "Вълново оръдие"
+
+#: src/level_list.h:107
+msgid "  Clearance"
+msgstr "Разчистване"
+
+#: src/level_list.h:108
+msgid "  Floating"
+msgstr "Плаване"
+
+#: src/level_list.h:109
+msgid "  Forced  Fire"
+msgstr "Отвръщане на огъня"
+
+#: src/level_list.h:110
+msgid "No  Swimming  Allowed"
+msgstr "Плуването забранено"
+
+#: src/level_list.h:111
+msgid "A Little  Light  Lifting"
+msgstr "Леко повдигане"
+
+#: src/level_list.h:112
+msgid "  House"
+msgstr "Къща"
+
+#: src/level_list.h:113
+msgid "  Hunting"
+msgstr "Лов"
+
+#: src/level_list.h:114
+msgid "  More  Lifting"
+msgstr "Още повдигане"
+
+#: src/level_list.h:115
+msgid "  Opportunist"
+msgstr "Удобен случай"
+
+#: src/level_list.h:116
+msgid "  Demolition"
+msgstr "Разрушаване"
+
+#: src/level_list.h:117
+msgid "  Upper"
+msgstr "По-нагоре"
+
+#: src/level_list.h:118
+msgid "Beware  Feedback  Loops"
+msgstr "Зацикляне"
+
+#: src/level_list.h:119
+msgid "  Somewhat  Constructive"
+msgstr "Малко строежи"
+
+#: src/level_list.h:120
+msgid "  Overbuild"
+msgstr "Свръхзастрояване"
+
+#: src/level_list.h:121
+msgid "  Reversing  Space"
+msgstr "Обръщане"
+
+#: src/level_list.h:122
+msgid "Burn  Your  Bridges"
+msgstr "Изгаряне на мостове"
+
+#: src/level_list.h:123
+msgid "A  Strange  Place"
+msgstr "Странно място"
+
+#: src/level_list.h:124
+msgid "  Commute"
+msgstr "Размяна"
+
+#: src/level_list.h:125
+msgid "  Bouncing  Required"
+msgstr "Нужно е подскачане"
+
+#: src/level_list.h:126
+msgid "  Fetch  Quest"
+msgstr "Иди и донеси"
+
+#: src/level_list.h:127
+msgid "  Laser  Surgery"
+msgstr "Лазерна хирургия"
+
+#: src/level_list.h:128
+msgid "  Icy  Tiles"
+msgstr "Ледени плочки"
+
+#: src/level_list.h:129
+msgid "  Icy  Road"
+msgstr "Леден път"
+
+#: src/level_list.h:130
+msgid "  Inversion"
+msgstr "Обръщане"
+
+#: src/level_list.h:132 src/level_list.h:133 src/level_list.h:134
+#: src/level_list.h:135 src/level_list.h:136
+msgid "Complete __ levels to unlock"
+msgstr "Преминете още __ нива за отключване"
+
+# type: TH
+#: debian/hex-a-hop.6:18
+#, no-wrap
+msgid "Hex\\(hya\\(hyhop"
+msgstr "Хекс\\(hyа\\(hyхоп"
+
+# type: SH
+#: debian/hex-a-hop.6:19
+#, no-wrap
+msgid "NAME"
+msgstr "ИМЕ"
+
+# type: Plain text
+#: debian/hex-a-hop.6:21
+msgid "hex-a-hop - puzzle game based on hexagonal tiles"
+msgstr "hex-а-hop - логическа игра върху шестоъгълни плочки"
+
+# type: SH
+#: debian/hex-a-hop.6:21
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "ОПИСАНИЕ"
+
+# type: Plain text
+#: debian/hex-a-hop.6:23
+msgid ""
+"Hex\\(hya\\(hyhop is a puzzle game based on hexagonal tiles. There is no "
+"time limit and no real\\(hytime element."
+msgstr ""
+"Хекс\\(hyа\\(hyхоп е логическа игра върху шестоъгълни плочки. Няма "
+"ограничения във времето и действието не изисква реакции в реално време."
+
+# type: Plain text
+#: debian/hex-a-hop.6:25
+msgid ""
+"The objective is simply to destroy all the green hexagonal tiles on each of "
+"the 100 levels. As you progress through the game, more types of tiles are "
+"introduced which make things more difficult and interesting."
+msgstr ""
+"Целта на играта е да се унищожат всички зелени шестоъгълни плочки във всяко "
+"от стоте нива. С напредването на играта се включват нови видове плочки и "
+"преминаването става все по\\(hyтрудно и интересно."
+
+# type: SH
+#: debian/hex-a-hop.6:26
+#, no-wrap
+msgid "USAGE"
+msgstr "УПОТРЕБА"
+
+# type: Plain text
+#: debian/hex-a-hop.6:28
+msgid ""
+"You can move the character around with the keys Q,W,E,A,S,D, or with the "
+"numeric keypad. Alternatively, you can use the mouse and click on the tile "
+"you'd like to move to."
+msgstr ""
+"Човечето се движи с клавишите Q, W, E, A, S и D или с цифровата клавиатура. "
+"Придвижването е възможно и чрез щракане на мишката върху съседна плочка."
+
+#: debian/hex-a-hop.6:31
+msgid ""
+"Use 'U', backspace or the right mouse button to undo mistakes.  The 'Esc' "
+"key (or middle mouse button) brings up a menu from which you can restart if "
+"you get stuck."
+msgstr ""
+"Клавишите „U“, „Backspace“ и десният бутон на мишката връщат назад. „Esc“ и "
+"средният бутон на мишката показват меню, от което можете да рестартирате, в "
+"случай, че се заклещите."
+
+#: debian/hex-a-hop.6:33
+msgid ""
+"Your goal is to break all the green tiles. You mainly do this by jumping on "
+"them. They will crack when you land on them, and only disintegrate when you "
+"jump off. Try not to trap yourself!"
+msgstr ""
+"Целта на играта е да счупите всички зелени плочки. Това става основно чрез "
+"скачане върху тях. Плочките се пропукват когато сте отгоре им и се чупят "
+"едва след като отскочите. Пазете се да не се заклещите!"
+
+#: debian/hex-a-hop.6:35
+msgid ""
+"During the game, you will be given hints and instructions on what to do. Use "
+"the cursor keys or click on the arrows to scroll through the help pages. "
+"More pages will be added as you progress through the game, as new tiles will "
+"keep appearing."
+msgstr ""
+"По време на играта ще получавате допълнителни указания. Използвайте "
+"стрелките за да разлиствате страниците с помощна информация. С напредването "
+"и въвеждането на нови видове плочки ще се появяват и нови страници с "
+"указания."
+
+#: debian/hex-a-hop.6:37
+msgid ""
+"You can choose which level to attempt next from the map screen. Silver "
+"levels are ones you've cleared. Black levels are ones you haven't completed "
+"yet, but are available to play."
+msgstr ""
+"На картата можете да изберете кое ниво да играете. Сребърните нива са вече "
+"преминати. Черните - още."
+
+# type: Plain text
+#: debian/hex-a-hop.6:39
+msgid ""
+"There is no time limit and no real\\(hytime element, so take as long as you "
+"like."
+msgstr "Няма ограничения във времето."
+
+# type: SH
+#: debian/hex-a-hop.6:39
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "ВЖ. ОЩЕ"
+
+# type: Plain text
+#: debian/hex-a-hop.6:41
+msgid ""
+"You can find more about the game on its homepage: http://hexahop.sourceforge.net/"
+msgstr ""
+"Можете да прочетете повече за играта на страницата ѝ в Интернет: http://hexahop.sourceforge.net/"
+
+# type: Plain text
+#: debian/hex-a-hop.6:43
+msgid ""
+"In Debian's version, game data is stored in the directory $HOME/.hex-a-hop/. "
+"If the environment variable $HOME is not set, it'll use /tmp/ instead."
+msgstr ""
+"Във версията за Дебиан, данните за играта се съхраняват в директорията "
+"$HOME/.hex-a-hop/. Ако променливата $HOME няма стойност се използва /tmp/."
+
+# type: SH
+#: debian/hex-a-hop.6:44
+#, no-wrap
+msgid "AUTHOR"
+msgstr "АВТОР"
+
+# type: Plain text
+#: debian/hex-a-hop.6:46
+msgid ""
+"The game has been written by Tom Beaumont, and is distributed under the GNU "
+"General Public License, either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Тази игра е написана от Tom Beaumont и се разпространява съгласно условията "
+"на общия публичен лиценз на фондацията ГНУ, версия 2 или по\\(hyкъсна."
+
+#~ msgid ""
+#~ "Welcome to Hex-a-hop!    This is a puzzle game based on hexagonal tiles.  "
+#~ "There is no time limit and no real-time element, so  take as long as you "
+#~ "like.    Use the cursor keys or click on the arrows to  scroll through "
+#~ "the help pages. More pages will be  added as you progress through the "
+#~ "game."
+#~ msgstr ""
+#~ "Добре дошли в Хекс-а-хоп!    Това е игра-пъзъл с шестоъгълни плочки. Няма "
+#~ "ограничения във времето и играта е на ходове.    Използвайте клавишите-"
+#~ "стрелки или използвайте мишката за да прелиствате страниците с помощна "
+#~ "информация. По време на играта ще получавате допълнителна информация."

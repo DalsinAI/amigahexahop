@@ -1,0 +1,1142 @@
+# Vietnamese translation for Hex-a-hop.
+# Copyright © 2007 Tom Beaumont.
+# Clytie Siddall <clytie@riverland.net.au>, 2007
+#
+# Translators: A few hints:
+#
+# Support for translations is still experimental. You may find a few minor
+# flaws. If you do not understand a message please ask to allow us adding
+# helpful comments.
+#
+# The English help messages contain unusual spaces. "  " is internally
+# replaced by a newline, "    " starts a new paragraph. You may ignore
+# these spaces for now. You can also use "\n" (or "  ") in translations to
+# force a linebreak and "\n\n" (or "    ") to start a new paragraph. It is
+# suggested not to use fixed line breaks in paragraphs as this depends on
+# font settings. You should also avoid "  " or "    " as this is unusual.
+#
+# The manpage is also created from this file. If you want to add an extra
+# paragraph, e.g. describing your copyright for the translation or other
+# language dependent information, create a file named hex-a-hop.<lang>.add.
+# The first line of this file must read:
+# PO4A-HEADER:mode=after;position=AUTHOR;beginboundary=\.SH
+# Please *only* replace the word "AUTHOR" by the translation of this word to
+# your language. For more details read po4a(7).
+#
+# There is also a desktop file hex-a-hop.desktop containing two translatable
+# strings. Please update it as well.
+msgid ""
+msgstr ""
+"Project-Id-Version: hex-a-hop\n"
+"Report-Msgid-Bugs-To: hex-a-hop@packages.debian.org\n"
+"POT-Creation-Date: 2009-03-15 02:02+0200\n"
+"PO-Revision-Date: 2007-08-24 14:23+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b1\n"
+
+#: src/hex_puzzzle.cpp:1473
+#, c-format
+msgid "Complete 1  more level  to unlock!"
+msgid_plural "Complete %d  more levels  to unlock!"
+msgstr[0] "Hoàn thành %d cấp thêm để bỏ khoá !"
+
+#: src/hex_puzzzle.cpp:1480
+msgid "<<NO NAME>>"
+msgstr "<<KHÔNG TÊN>>"
+
+#. TRANSLATORS: Anti-Ice are pickups, which turn ice plates into solid
+#. plates once you step on them. Each pickup changes one ice plate
+#: src/hex_puzzzle.cpp:2577
+#, c-format
+msgid "Anti-Ice: %d"
+msgstr "Chống băng: %d"
+
+#: src/hex_puzzzle.cpp:2578
+#, c-format
+msgid "Jumps: %d"
+msgstr "Nhảy: %d"
+
+#: src/hex_puzzzle.cpp:2579
+#, c-format
+msgid "Score: %d (%d)"
+msgstr "Điểm: %d (%d)"
+
+#. TRANSLATORS: Par is similar to golf, a pre defined score which you
+#. can attempt to beat
+#: src/hex_puzzzle.cpp:2582
+#, c-format
+msgid "Par:   %d"
+msgstr "Quy định:   %d"
+
+#: src/hex_puzzzle.cpp:2583
+#, c-format
+msgid "Diff:  %d"
+msgstr "Khác biệt:  %d"
+
+#: src/hex_puzzzle.cpp:2586
+#, c-format
+msgid " Par: %d   Current: %d"
+msgstr " Quy định: %d   Hiện tại: %d"
+
+#: src/hex_puzzzle.cpp:2589
+#, c-format
+msgid " Anti-Ice: %d"
+msgstr " Chống băng: %d"
+
+#: src/hex_puzzzle.cpp:2591
+#, c-format
+msgid " Jumps: %d"
+msgstr " Nhảy: %d"
+
+#: src/hex_puzzzle.cpp:2597
+#, c-format
+msgid "Points: %d"
+msgstr "Điểm: %d"
+
+#: src/hex_puzzzle.cpp:2598
+#, c-format
+msgid "Discovered: %d%% (%d/%d)"
+msgstr "Tìm ra: %d%% (%d/%d)"
+
+#: src/hex_puzzzle.cpp:2599
+#, c-format
+msgid "Complete: %d%% (%d)"
+msgstr "Hoàn tất: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2600
+#, c-format
+msgid "Mastered: %d%% (%d)"
+msgstr "Khắc phục: %d%% (%d)"
+
+#: src/hex_puzzzle.cpp:2603
+#, c-format
+msgid " %d%% Mastered"
+msgstr " %d%% Khắc phục"
+
+#: src/hex_puzzzle.cpp:2605
+#, c-format
+msgid " %d%% Complete"
+msgstr " %d%% Hoàn tất"
+
+#: src/hex_puzzzle.cpp:2657
+#, c-format
+msgid "Best:% 3d"
+msgstr "Tốt nhất: % 3d"
+
+#: src/hex_puzzzle.cpp:2658
+#, c-format
+msgid "Par:% 3d"
+msgstr "Quy định: % 3d"
+
+#: src/hex_puzzzle.cpp:2661
+msgid "Completed"
+msgstr "Hoàn tất"
+
+#: src/hex_puzzzle.cpp:2664
+msgid "Incomplete"
+msgstr "Chưa hoàn tất"
+
+#: src/hex_puzzzle.cpp:2705 src/menus.h:574
+msgid "Level Complete!"
+msgstr "Cấp hoàn tất !"
+
+#: src/hex_puzzzle.cpp:2821
+#, c-format
+msgid "Special(%d,%d): %s (%d)"
+msgstr "Đặc biệt (%d,%d): %s (%d)"
+
+#: src/hex_puzzzle.cpp:2821
+msgid "<None>"
+msgstr "<Không có>"
+
+#: src/hex_puzzzle.cpp:2966
+msgid "Select level"
+msgstr "Chọn cấp"
+
+#: src/hex_puzzzle.cpp:4068
+msgid "Save level"
+msgstr "Lưu cấp"
+
+#: src/hex_puzzzle.cpp:4074
+msgid "Open level"
+msgstr "Mở cấp"
+
+#: src/menus.h:88
+msgid ""
+"Basic controls:|Move around with the keys Q,W,E,A,S,D or the numeric  "
+"keypad. Alternatively, you can use the mouse and  click on the tile you'd "
+"like to move to.    Use 'U', backspace or the right mouse button to  undo "
+"mistakes.    The 'Esc' key (or middle mouse button) brings up a  menu from "
+"which you can restart if you get stuck."
+msgstr ""
+"Điều khiển cơ bản:|Di chuyển dùng các phím Q,W,E,A,S,D hay vùng phím số. "
+"Hoặc bạn có thể sử dụng con chuột để nhấn vào cái ngói tới đó bạn muốn di "
+"chuyển.\n"
+"\n"
+"Dùng phím U, phím xoá lùi hay cái nút bên phải trên chuột để hủy bước làm "
+"lỗi.\n"
+"\n"
+"Phím Esc (hay cái nút ở giữa trên chuột) sẽ hiển thị trình đơn cho phép bạn "
+"khởi chạy lại trong trường hợp không thể tiếp tục."
+
+#: src/menus.h:92
+msgid ""
+"Objective:|Your goal is to break all the green tiles.    You mainly do this "
+"by jumping on them.    They will crack when you land on them, and  only "
+"disintegrate when you jump off.    Try not to trap yourself!"
+msgstr ""
+"Mục đích:|Mục đích là bổ tất cả các cái ngói màu lục.\n"
+"\n"
+"Thường có thể bổ ngói bằng cách nhảy lên nó.\n"
+"\n"
+"Nó sẽ nứt khi bạn đến, rồi tan rã chỉ khi bạn nhảy ra.\n"
+"\n"
+"Hãy cố gắng tránh trường hợp đặt tự bẫy !"
+
+#: src/menus.h:94
+msgid ""
+"The coloured walls flatten themselves when there  are no matching coloured "
+"tiles remaining."
+msgstr ""
+"Những cái tường có màu riêng sẽ tự làm phẳng khi không có cái ngói cùng màu "
+"còn lại."
+
+#: src/menus.h:96
+msgid ""
+"You can bounce on the purple trampoline tiles to  get around.    But try not "
+"to fall in the water.    If you do, remember you can undo with 'U',  "
+"backspace or the right mouse button!"
+msgstr ""
+"Bạn cũng có thể nảy lên cái ngói bạt lò xo màu tím để nhảy qua nhiều ngói "
+"khác.\n"
+"\n"
+"Tuy nhiên, hãy cố gắng tránh rơi vào nước.\n"
+"\n"
+"Có phải rời, hãy nhớ lại bạn vẫn còn có khả năng hủy bước bằng phím U, phím "
+"xoá lùi hay cái nút bên phải trên chuột !"
+
+#: src/menus.h:98
+msgid ""
+"A red spinner tile will rotate the pieces around  it when you step on it."
+msgstr "Cái ngói quay màu đỏ sẽ xoay các cái chung quanh khi bạn đến nó."
+
+#: src/menus.h:102
+msgid ""
+"You don't need to destroy blue tiles to complete  the level.    But they'll "
+"turn green when you step off them, and  you know what you have to do to "
+"green tiles..."
+msgstr ""
+"Bạn không cần hủy các cái ngói màu xanh để hoàn thành cấp.\n"
+"\n"
+"Tuy nhiên, cái ngói màu xanh sẽ trở thành màu lục khi bạn nhảy ra, và bạn "
+"biết được việc nào cần làm với ngói màu lục..."
+
+#: src/menus.h:106
+msgid ""
+"Yellow laser tiles fire when you step on them.    Shooting other laser tiles "
+"is more destructive."
+msgstr ""
+"Cái ngói la-de màu vàng sẽ bắn khi bạn đến nó.\n"
+"\n"
+"Bắn cái ngói la-de khác thì phá hủy thêm. ;)"
+
+#: src/menus.h:108
+msgid "Ice is slippery!    Please be careful!!"
+msgstr ""
+"Đường trơn trên băng !\n"
+"\n"
+"Hãy cẩn thận !"
+
+#: src/menus.h:112
+msgid ""
+"The dark grey tiles with arrows on are builders.    Landing on one creates "
+"green tiles in any adjacent  empty tile, and turns green tiles into walls."
+msgstr ""
+"Cái ngói màu xám tối hiển thị mũi tên là ngói xây dựng.\n"
+"\n"
+"Đến nó thì tạo cái ngói màu lục ở nơi của ngói trống nào, cũng chuyển dạng "
+"ngói lục sang tường."
+
+#. TRANSLATORS: pop means vanish and Emy drowns (you loose)
+#: src/menus.h:117
+msgid ""
+"You can ride on the pink floating boats to get  across water.    They'll pop "
+"if you try and float off the edge of the  screen though, so look where "
+"you're going."
+msgstr ""
+"Bạn cũng có thể đáp tàu màu hồng đi qua nước.\n"
+"\n"
+"Tùy nhiên, tàu biến mất ở cạnh màn hình: hãy chạy cẩn thận."
+
+#: src/menus.h:119
+msgid "The blue lifts go up or down when you land on them."
+msgstr "Thang máy màu xanh sẽ nâng lên hay hạ xuống khi bạn đến."
+
+#: src/menus.h:125
+msgid ""
+"The spiky anti-ice pickups turn icy tiles into blue ones.    They get used "
+"automatically when you land on ice."
+msgstr ""
+"Cái nhặt gai chống băng thì chuyển dạng ngói băng sang ngói màu xanh.\n"
+"\n"
+"Cái nhặt này được kích hoạt tự động khi bạn đến băng."
+
+#. TRANSLATORS: Normally you jump from one plate to another. The golden jump (a
+#. pickup) allows you to jump and land on the *same* plate
+#: src/menus.h:129
+msgid ""
+"Collecting the golden jump pickups will allow you to  do a big vertical "
+"jump.    Try it out on different types of tiles.    Use the space bar or "
+"return key to jump. Or click  on the tile you're currently on with the mouse."
+msgstr ""
+"Thu thập các cái nhặt nhảy màu vàng thì cho phép bạn nhảy cao một lần.\n"
+"\n"
+"Hãy thử nó trên cái ngói kiểu khác nhau.\n"
+"\n"
+"Dùng phím dài hay phím Return để nhảy lên. Hoặc nhấn chuột vào cái ngói bạn "
+"ở."
+
+#: src/menus.h:134
+msgid ""
+"Map Screen:|You can choose which level to attempt next from  the map "
+"screen.    Silver levels are ones you've cleared.    Black levels are ones "
+"you haven't completed yet,  but are available to play."
+msgstr ""
+"Màn hình bản đồ :|Bạn có thể chọn cấp kế tiếp trên màn hình bản đồ.\n"
+"\n"
+"Cấp màu bạc đã được xoá trống.\n"
+"Cấp màu đen thì chưa xoá, còn sẵn sàng chơi."
+
+#. TRANSLATORS: Levels are depicted as black balls. Once you passed them, they
+#. turn silver. If you reached the par, they turn golden (with a crown), and if
+#. you beat the par, they turn their shape/color once more
+#: src/menus.h:140
+msgid ""
+"New feature unlocked!|Each level has an efficiency target for you to try  "
+"and beat.    Every move you make and each non-green tile  you destroy counts "
+"against you.    Why not try replaying some levels and going  for gold?"
+msgstr ""
+"Tính năng mới được mở khoá !|Mỗi cấp có mục tiêu hiệu quả cần thắng.\n"
+"\n"
+"Mỗi lượt bạn làm và mỗi cái ngói khác lục bạn hủy thì giảm điểm.\n"
+"\n"
+"Hãy thử chơi lại một số cấp để đặt được màu vàng."
+
+#: src/menus.h:145
+msgid ""
+"Thanks for playing this little game.    I hope you  enjoy it!    -- --    "
+"All content is Copyright 2005 Tom Beaumont    email: tombeaumont@yahoo.com  "
+"Any constructive criticism gratefully received!"
+msgstr ""
+"Cám ơn bạn đã chơi. Chúc bạn chơi vui vẻ.\n"
+"\n"
+"Tác quyền © 2007 Tom Beaumont <tombeaumont@yahoo.com>.\n"
+"\n"
+"Mời bạn ghi chú và gửi báo cáo lỗi."
+
+#. TRANSLATORS: This string is copied twice into the POT file to workaround a
+#. gettext limitation (no macro expansion). The extracted string "Welcome to "
+#. will not be used.
+#: src/menus.h:151
+msgid "Welcome to "
+msgstr "Welcome to "
+
+#: src/menus.h:197
+msgid "Info:"
+msgstr ""
+
+#: src/menus.h:229
+msgid "Press any key"
+msgstr "Bấm bất cứ phím nào"
+
+#. TRANSLATORS: This specifies how the text in the help dialog should
+#. be aligned. Do *not* translate the text itself but use one of "left",
+#. "center" or "right" (untranslated!). The default is "center".
+#: src/menus.h:251
+msgid "text alignment"
+msgstr ""
+
+#: src/menus.h:337
+#, c-format
+msgid "Help (Page --)"
+msgstr "Trợ giúp (Trang --)"
+
+#: src/menus.h:339
+#, c-format
+msgid "Help (Page %d/%d)"
+msgstr "Trợ giúp (Trang %d/%d)"
+
+#: src/menus.h:426
+msgid "Resume"
+msgstr "Tiếp tục lại"
+
+#: src/menus.h:427
+msgid "Restart Level"
+msgstr "Chạy lại cấp"
+
+#: src/menus.h:428
+msgid "Return to Map"
+msgstr "Trở về Bản đồ"
+
+#: src/menus.h:429
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: src/menus.h:430
+msgid "Toggle Fullscreen"
+msgstr "Hiện/ẩn toàn màn hình"
+
+#: src/menus.h:431 src/menus.h:1109
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: src/menus.h:432
+msgid "Quit"
+msgstr "Thoát"
+
+#: src/menus.h:433
+msgid "Yes"
+msgstr "Có"
+
+#: src/menus.h:434
+msgid "No"
+msgstr "Không"
+
+#: src/menus.h:435
+msgid "Return to Title"
+msgstr "Trở về Tựa đề"
+
+#: src/menus.h:436
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: src/menus.h:437
+msgid "Start New Game"
+msgstr "Chạy lượt chơi mới"
+
+#: src/menus.h:438
+msgid "Yes, really delete it!"
+msgstr "Có phải, thực sự xoá."
+
+#: src/menus.h:439
+msgid "Don't do it!"
+msgstr "Đừng làm."
+
+#: src/menus.h:440
+msgid "Undo Last Move"
+msgstr "Hủy bước"
+
+#: src/menus.h:441
+msgid "OK"
+msgstr "OK"
+
+#: src/menus.h:442
+msgid "View Credits Sequence"
+msgstr "Xem dãy công trạng"
+
+#: src/menus.h:574
+msgid "Emi can't swim..."
+msgstr "Emi không bơi được..."
+
+#: src/menus.h:613
+#, c-format
+msgid "New Best Score: %d  Par Score: %d  Par Beaten!"
+msgstr "Điểm cao nhất mới: %d  Điểm quy định: %d  Thắng mức quy định !"
+
+#: src/menus.h:615
+#, c-format
+msgid "New Best Score: %d  Par Score: %d"
+msgstr "Điểm cao nhất mới: %d  Điểm quy định: %d"
+
+#: src/menus.h:617
+#, c-format
+msgid "Score: %d  Previous Best: %d  Par Score: %d"
+msgstr "Điểm: %d  Cao nhất trước: %d  Điểm quy định: %d"
+
+#: src/menus.h:619
+msgid "Well Done!  Level Completed!"
+msgstr "Giỏi ! Cấp hoàn tất !"
+
+#: src/menus.h:698
+msgid " Very Well Done! "
+msgstr " Giỏi lắm ! "
+
+#: src/menus.h:703
+msgid "All Levels Cleared!"
+msgstr "Mọi cấp đã được xoá trống !"
+
+#: src/menus.h:707
+msgid "Not a single green hexagon is left unbroken."
+msgstr "Không có một hình lục giác màu lục nào cả còn lại nguyên vẹn."
+
+#: src/menus.h:709
+msgid "Truly, you are a master of hexagon hopping!"
+msgstr "Thực sự bạn nắm vững thủ tục nhảy qua hình lục giác !"
+
+#: src/menus.h:713
+msgid "Credits"
+msgstr "Công trạng"
+
+#: src/menus.h:714
+msgid "<Design & Direction:"
+msgstr "<Thiết kế và Điều khiển:"
+
+#: src/menus.h:715
+msgid "<Programming:"
+msgstr "<Lập trình:"
+
+#: src/menus.h:716
+msgid "<Graphics:"
+msgstr "<Đồ họa:"
+
+#: src/menus.h:717
+msgid "<Thanks to:"
+msgstr "<Cám ơn:"
+
+#: src/menus.h:719
+msgid "<Tools and libraries used:"
+msgstr "<Công cụ và thư viện được dùng:"
+
+#: src/menus.h:720
+msgid "<Fonts used:"
+msgstr "<Phông được dùng:"
+
+#: src/menus.h:724
+msgid "Thanks for playing!"
+msgstr "Cám ơn bạn đã chơi !"
+
+#: src/menus.h:728
+msgid " Absolutely Amazing! "
+msgstr " Hết sức ngạc nhiên ! "
+
+#: src/menus.h:733
+msgid "All Levels Mastered!!"
+msgstr "Mọi cấp đã được khắc phục !!"
+
+#: src/menus.h:737
+msgid "You crushed every last green hexagon with"
+msgstr "Bạn đã hủy mỗi hình lục giác màu lục còn lại"
+
+#: src/menus.h:738
+msgid "breathtaking efficiency!"
+msgstr "một cách hiệu quả làm kinh ngạc !"
+
+#: src/menus.h:740
+msgid "You truly are a grand master of hexagon hopping!"
+msgstr "Thực sự bạn nắm vững hoàn toàn thủ tục nhảy qua hình lục giác !"
+
+#: src/menus.h:890
+msgid "The End"
+msgstr "Kết thúc"
+
+#: src/menus.h:979
+#, c-format
+msgid "Continue game %d (All Clear!)"
+msgstr "Tiếp tục lượt chơi %d (Toàn trống !)"
+
+#: src/menus.h:981
+#, c-format
+msgid "Continue game %d (%d%% + %d%%)"
+msgstr "Tiếp tục lượt chơi %d (%d%% + %d%%)"
+
+#: src/menus.h:983
+#, c-format
+msgid "Continue game %d (%d%% complete)"
+msgstr "Tiếp tục lượt chơi %d (%d%% hoàn tất)"
+
+#: src/menus.h:1022
+msgid "Quit: Are you sure?"
+msgstr "Thoát: bạn có chắc chưa?"
+
+#: src/menus.h:1042
+#, c-format
+msgid "Really delete game %d?"
+msgstr "Thực sự xoá lượt chơi %d không?"
+
+#: src/menus.h:1082
+msgid "Paused"
+msgstr "Bị tạm dừng"
+
+#. TRANSLATORS: The following strings (in level_list.h) are level names, which
+#. should give (in a humerous way) the player an indication about this level.
+#: src/level_list.h:27
+msgid "  Map"
+msgstr "  Bản đồ"
+
+#: src/level_list.h:28
+msgid "  Orbital"
+msgstr "  Quỹ đạo"
+
+#: src/level_list.h:29
+msgid "  Hive"
+msgstr "  Tổ ong"
+
+#: src/level_list.h:30
+msgid "  There  and Back"
+msgstr "  Tới và Về"
+
+#: src/level_list.h:31
+msgid "  Triangular"
+msgstr "  Tam giác"
+
+#: src/level_list.h:32
+msgid "  Mini  Island"
+msgstr "  Hòn đảo nhỏ"
+
+#: src/level_list.h:33
+msgid "  Island  Variation"
+msgstr "  Hòn đảo biến đổi"
+
+#: src/level_list.h:34
+msgid "  Archipelago"
+msgstr "  Quần đảo"
+
+#: src/level_list.h:35
+msgid "  Weathervane"
+msgstr "  Chỉ chiều gió"
+
+#: src/level_list.h:36
+msgid "  Bridges"
+msgstr "  Cái cầu"
+
+#: src/level_list.h:37
+msgid "  Explorer"
+msgstr "  Thám hiểm"
+
+#: src/level_list.h:38
+msgid "  Trampolines"
+msgstr "  Bạt lò xo"
+
+#: src/level_list.h:39
+msgid "  Not a Knot"
+msgstr "  Không thắt nút"
+
+#: src/level_list.h:40
+msgid "  Another  Mountain"
+msgstr "  Núi khác"
+
+#: src/level_list.h:41
+msgid "  A  Mountain"
+msgstr "  Núi"
+
+#: src/level_list.h:42
+msgid "  Green  Walls"
+msgstr "  Tường lục"
+
+#: src/level_list.h:43
+msgid "  Winding  Order"
+msgstr "  Thứ tự quay lại"
+
+#: src/level_list.h:44
+msgid "  Rental  Boat"
+msgstr "  Tàu thuê"
+
+#: src/level_list.h:45
+msgid "  Ferrying"
+msgstr "  Phà"
+
+#: src/level_list.h:46
+msgid "  Transport  Hub"
+msgstr "  Tâm chuyên chở"
+
+#: src/level_list.h:47
+msgid "  Lifts"
+msgstr "  Thang máy"
+
+#: src/level_list.h:48
+msgid "  Leftovers"
+msgstr "  Còn lại"
+
+#: src/level_list.h:49
+msgid "  Trampoline  Retrieval"
+msgstr "  Lấy bằng bạt lò xo"
+
+#: src/level_list.h:50
+msgid "  Rolling  Hexagons"
+msgstr "  Lục giác cuộn lại"
+
+#: src/level_list.h:51
+msgid "  Telephone"
+msgstr "  Điện thoại"
+
+#: src/level_list.h:52
+msgid "  Breakthrough"
+msgstr "  Phá vỡ"
+
+#: src/level_list.h:53
+msgid "  Laser  Safety"
+msgstr "  An toàn la-de"
+
+#: src/level_list.h:54
+msgid "  Branching  Pathway"
+msgstr "  Đường dẫn có nhánh"
+
+#: src/level_list.h:55
+msgid "  Only One  Way Up"
+msgstr "  Chỉ một lối lên"
+
+#: src/level_list.h:56
+msgid "  Outposts"
+msgstr "  Biên giới"
+
+#: src/level_list.h:57
+msgid "  Roundabouts"
+msgstr "  Chổ đường vòng"
+
+#: src/level_list.h:58
+msgid "  Two  Fish"
+msgstr "  Hai cá"
+
+#: src/level_list.h:59
+msgid "All  Wound  Up"
+msgstr "Guồng quay hoàn toàn"
+
+#: src/level_list.h:60
+msgid "  Toughened  Tiles"
+msgstr "  Ngói mạnh hơn"
+
+#: src/level_list.h:61
+msgid "  Island"
+msgstr "  Hòn đảo"
+
+#: src/level_list.h:62
+msgid "  More  Stripes"
+msgstr "  Nhiều sọc"
+
+#: src/level_list.h:63
+msgid "  Stripes"
+msgstr "  Sọc"
+
+#: src/level_list.h:64
+msgid "  One Two  One Two"
+msgstr "  Một Hai Một Hai"
+
+#: src/level_list.h:65
+msgid "  Turtle"
+msgstr "  Rùa"
+
+#: src/level_list.h:66
+msgid "  Wand"
+msgstr "  Gậy"
+
+#: src/level_list.h:67
+msgid "  Deathtrap"
+msgstr "  Chỗ nguy hiểm"
+
+#: src/level_list.h:68
+msgid "  Eagerness"
+msgstr "  Háo hức"
+
+#: src/level_list.h:69
+msgid "  Gun  Platform"
+msgstr "  Nền súng"
+
+#: src/level_list.h:70
+msgid "  Nucleus"
+msgstr "  Nhân"
+
+#: src/level_list.h:71
+msgid "  Sniper"
+msgstr "  Bắn tỉa"
+
+#: src/level_list.h:72
+msgid "  Deadly  Snowflake"
+msgstr "  Bông tuyết chết người"
+
+#: src/level_list.h:73
+msgid "  Snowflake"
+msgstr "  Bông tuyết"
+
+#: src/level_list.h:74
+msgid "  Laser  Tiles"
+msgstr "  Ngói la-de"
+
+#: src/level_list.h:75
+msgid "  Trigger  Happy"
+msgstr "  Hiếu chiến"
+
+#: src/level_list.h:76
+msgid "  Lure"
+msgstr "  Nhử"
+
+#: src/level_list.h:77
+msgid "  Maze"
+msgstr "  Mê lộ"
+
+#: src/level_list.h:78
+msgid "  Motion  Sickness"
+msgstr "  Hoa mắt"
+
+#: src/level_list.h:79
+msgid "  All About  Preparation"
+msgstr "  Hãy chuẩn bị"
+
+#: src/level_list.h:80
+msgid "  Revolver  Cannon"
+msgstr "  Pháo quay"
+
+#: src/level_list.h:81
+msgid "  Small  Cog"
+msgstr "  Răng nhỏ"
+
+#: src/level_list.h:82
+msgid "  Sprocket"
+msgstr "  Răng đĩa xích"
+
+#: src/level_list.h:83
+msgid "  Switch"
+msgstr "  Cái chuyển"
+
+#: src/level_list.h:84
+msgid "  Spinner  Tiles"
+msgstr "  Ngói quay"
+
+#: src/level_list.h:85
+msgid "  Three  More Ways"
+msgstr "  Ba chiều thêm"
+
+#: src/level_list.h:86
+msgid "  Three  Ways To Go"
+msgstr "  Ba chiều đi"
+
+#: src/level_list.h:87
+msgid "Please  Skate  Safely"
+msgstr "Hãy trượt băng cẩn thận"
+
+#: src/level_list.h:88
+msgid "  Refraction"
+msgstr "  Khúc xạ"
+
+#: src/level_list.h:89
+msgid "  Route  Finder"
+msgstr "  Tìm đường"
+
+#: src/level_list.h:90
+msgid "A  Slippery  Situation"
+msgstr "Trường hợp đường trơn"
+
+#: src/level_list.h:91
+msgid "  Crooked"
+msgstr "  Oằn"
+
+#: src/level_list.h:92
+msgid "  Green  Honey"
+msgstr "  Mật ong lục"
+
+#: src/level_list.h:93
+msgid "  Carefully  Does It"
+msgstr "  Hãy cẩn thận"
+
+#: src/level_list.h:94
+msgid "  Radioactive  Ice"
+msgstr "  Băng phóng xạ"
+
+#: src/level_list.h:95
+msgid "  Pro  Skater"
+msgstr "  Trượt băng giỏi"
+
+#: src/level_list.h:96
+msgid "  Spinners  II"
+msgstr "  Quay lại 2"
+
+#: src/level_list.h:97
+msgid "  Spinners"
+msgstr "  Quay lại"
+
+#. TRANSLATORS: There is a special kind of pickup, which will turn ice
+#. plates into "normal" plates (you won't slip on them). So the name
+#. is (probably) related to "Make less slippery".
+#: src/level_list.h:101
+msgid "  Deslippify"
+msgstr "  Ít trơn hơn"
+
+#: src/level_list.h:102
+msgid "  Tri Mesh"
+msgstr "  Lưới ba"
+
+#: src/level_list.h:103
+msgid "  Wheel"
+msgstr "  Bánh xe"
+
+#: src/level_list.h:104
+msgid "  Finishing  Strike"
+msgstr "  Đánh kết thúc"
+
+#: src/level_list.h:105
+msgid "  Big  Jumps"
+msgstr "  Nhảy lớn"
+
+#: src/level_list.h:106
+msgid "  Wave  Cannon"
+msgstr "  Pháo sóng"
+
+#: src/level_list.h:107
+msgid "  Clearance"
+msgstr "  Xoá trống"
+
+#: src/level_list.h:108
+msgid "  Floating"
+msgstr "  Nổi"
+
+#: src/level_list.h:109
+msgid "  Forced  Fire"
+msgstr "  Buộc bắn"
+
+#: src/level_list.h:110
+msgid "No  Swimming  Allowed"
+msgstr "Cấm bơi"
+
+#: src/level_list.h:111
+msgid "A Little  Light  Lifting"
+msgstr "Nâng lên một ít"
+
+#: src/level_list.h:112
+msgid "  House"
+msgstr "  Nhà"
+
+#: src/level_list.h:113
+msgid "  Hunting"
+msgstr "  Đi săn"
+
+#: src/level_list.h:114
+msgid "  More  Lifting"
+msgstr "  Nâng lên thêm"
+
+#: src/level_list.h:115
+msgid "  Opportunist"
+msgstr "  Cơ hội"
+
+#: src/level_list.h:116
+msgid "  Demolition"
+msgstr "  Phá hủy"
+
+#: src/level_list.h:117
+msgid "  Upper"
+msgstr "  Bên trên"
+
+#: src/level_list.h:118
+msgid "Beware  Feedback  Loops"
+msgstr "Cẩn thận, có vòng lặp hoàn ngược"
+
+#: src/level_list.h:119
+msgid "  Somewhat  Constructive"
+msgstr "  Cấu trúc một ít"
+
+#: src/level_list.h:120
+msgid "  Overbuild"
+msgstr "  Quá xây dựng"
+
+#: src/level_list.h:121
+msgid "  Reversing  Space"
+msgstr "  Chỗ ngược lại"
+
+#: src/level_list.h:122
+msgid "Burn  Your  Bridges"
+msgstr "Qua sông phá cầu"
+
+#: src/level_list.h:123
+msgid "A  Strange  Place"
+msgstr "Một nơi lạ"
+
+#: src/level_list.h:124
+msgid "  Commute"
+msgstr "  Đi lại đều đặn"
+
+#: src/level_list.h:125
+msgid "  Bouncing  Required"
+msgstr "  Yêu cầu nảy lên"
+
+#: src/level_list.h:126
+msgid "  Fetch  Quest"
+msgstr "  Truy tìm lấy"
+
+#: src/level_list.h:127
+msgid "  Laser  Surgery"
+msgstr "  Cắt bằng la-de"
+
+#: src/level_list.h:128
+msgid "  Icy  Tiles"
+msgstr "  Ngói băng"
+
+#: src/level_list.h:129
+msgid "  Icy  Road"
+msgstr "  Đường băng"
+
+#: src/level_list.h:130
+msgid "  Inversion"
+msgstr "  Đảo ngược"
+
+#: src/level_list.h:132 src/level_list.h:133 src/level_list.h:134
+#: src/level_list.h:135 src/level_list.h:136
+msgid "Complete __ levels to unlock"
+msgstr "Hoàn tất __ cấp để mở khoá"
+
+# type: TH
+#: debian/hex-a-hop.6:18
+#, no-wrap
+msgid "Hex\\(hya\\(hyhop"
+msgstr "Hex\\(hya\\(hyhop"
+
+# type: SH
+#: debian/hex-a-hop.6:19
+#, no-wrap
+msgid "NAME"
+msgstr "TÊN"
+
+# type: Plain text
+#: debian/hex-a-hop.6:21
+msgid "hex-a-hop - puzzle game based on hexagonal tiles"
+msgstr "hex-a-hop - trờ chối đố dựa vào cái ngói hình sáu cạnh"
+
+# type: SH
+#: debian/hex-a-hop.6:21
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "MÔ TẢ"
+
+# type: Plain text
+#: debian/hex-a-hop.6:23
+msgid ""
+"Hex\\(hya\\(hyhop is a puzzle game based on hexagonal tiles. There is no "
+"time limit and no real\\(hytime element."
+msgstr ""
+"Hex\\(hya\\(hyhop là một trờ chối đố dựa vào cái ngói hình sáu cạnh. Thời "
+"gian không bị hạn chế, cũng không có yếu tố thời gian thật."
+
+# type: Plain text
+#: debian/hex-a-hop.6:25
+msgid ""
+"The objective is simply to destroy all the green hexagonal tiles on each of "
+"the 100 levels. As you progress through the game, more types of tiles are "
+"introduced which make things more difficult and interesting."
+msgstr ""
+"Mục đích đơn giản là hủy mọi cái ngói hình sáu cạnh màu lục trên mỗi cấp "
+"trong 100 cấp. Lên cấp thì gặp kiểu ngói thêm mà làm cho lượt chơi khó hơn "
+"và thú vi hơn."
+
+# type: SH
+#: debian/hex-a-hop.6:26
+#, no-wrap
+msgid "USAGE"
+msgstr "SỬ DỤNG"
+
+# type: Plain text
+#: debian/hex-a-hop.6:28
+msgid ""
+"You can move the character around with the keys Q,W,E,A,S,D, or with the "
+"numeric keypad. Alternatively, you can use the mouse and click on the tile "
+"you'd like to move to."
+msgstr ""
+"Bạn có thể di chuyển con người chung quanh bảng chơi bằng phím Q,W,E,A,S,D, "
+"hoặc bằng vùng phím số. Hoặc bạn có thể sử dụng con chuột để nhấn vào ngói "
+"tới đó bạn muốn nhảy."
+
+#: debian/hex-a-hop.6:31
+msgid ""
+"Use 'U', backspace or the right mouse button to undo mistakes.  The 'Esc' "
+"key (or middle mouse button) brings up a menu from which you can restart if "
+"you get stuck."
+msgstr ""
+"Dùng phím U, phím xoá lùi hay cái nút bên phải trên chuột để hủy bước làm "
+"lỗi. Phím Esc (hay cái nút ở giữa trên chuột) sẽ hiển thị trình đơn cho phép "
+"bạn khởi chạy lại trong trường hợp không thể tiếp tục."
+
+#: debian/hex-a-hop.6:33
+msgid ""
+"Your goal is to break all the green tiles. You mainly do this by jumping on "
+"them. They will crack when you land on them, and only disintegrate when you "
+"jump off. Try not to trap yourself!"
+msgstr ""
+"Mục đích là bổ tất cả các cái ngói màu lục. Thường có thể bổ ngói bằng cách "
+"nhảy lên nó. Nó sẽ nứt khi bạn đến, rồi tan rã chỉ khi bạn nhảy ra. Hãy cố "
+"gắng tránh trường hợp đặt tự bẫy !"
+
+#: debian/hex-a-hop.6:35
+msgid ""
+"During the game, you will be given hints and instructions on what to do. Use "
+"the cursor keys or click on the arrows to scroll through the help pages. "
+"More pages will be added as you progress through the game, as new tiles will "
+"keep appearing."
+msgstr ""
+"Trong khi chơi, bạn sẽ thấy lời gọi ý và hướng dẫn về phương pháp chơi đúng. "
+"Dùng phím con trỏ hay nhấn vào mũi tên để cuộn qua trợ giúp. Trang trợ giúp "
+"thêm sẽ được hiển thị khi bạn tiến lên qua trò chơi, vì kiểu ngói mới sẽ cứ "
+"xuất hiện."
+
+#: debian/hex-a-hop.6:37
+msgid ""
+"You can choose which level to attempt next from the map screen. Silver "
+"levels are ones you've cleared. Black levels are ones you haven't completed "
+"yet, but are available to play."
+msgstr ""
+"Bạn có thể chọn cấp kế tiếp trên màn hình bản đồ. Cấp màu bạc đã được xoá "
+"trống. Cấp màu đen thì chưa xoá, còn sẵn sàng chơi."
+
+# type: Plain text
+#: debian/hex-a-hop.6:39
+msgid ""
+"There is no time limit and no real\\(hytime element, so take as long as you "
+"like."
+msgstr ""
+"Thời hạn không bị hạn chế, cũng không có yếu tố thời gian thật, vậy bạn có "
+"thể chạy tự do."
+
+# type: SH
+#: debian/hex-a-hop.6:39
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "XEM CŨNG"
+
+# type: Plain text
+#: debian/hex-a-hop.6:41
+msgid ""
+"You can find more about the game on its homepage: http://hexahop.sourceforge.net/"
+msgstr ""
+"Có thông tin thêm về trò chơi này trên trang chủ : http://hexahop.sourceforge.net/"
+
+# type: Plain text
+#: debian/hex-a-hop.6:43
+msgid ""
+"In Debian's version, game data is stored in the directory $HOME/.hex-a-hop/. "
+"If the environment variable $HOME is not set, it'll use /tmp/ instead."
+msgstr ""
+"Trong phiên bản Debian, dữ liệu trò chơi được cất giữ trong thư mục « $HOME/."
+"hex-a-hop/ ». Chưa đặt biến môi trường $HOME thì nó dùng « /tmp/ » thay vào "
+"đó."
+
+# type: SH
+#: debian/hex-a-hop.6:44
+#, no-wrap
+msgid "AUTHOR"
+msgstr "TÁC GIẢ"
+
+# type: Plain text
+#: debian/hex-a-hop.6:46
+msgid ""
+"The game has been written by Tom Beaumont, and is distributed under the GNU "
+"General Public License, either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Trò chơi này được Tom Beaumont tạo ; nó được phân phối dưới điều kiện của "
+"Giấy Phép Công Cộng GNU (GPL), hoặc phiên bản 2 của Giấy Phép, hoặc (tùy "
+"chọn) bất cứ phiên bản sau nào."
+
+#~ msgid ""
+#~ "Welcome to Hex-a-hop!    This is a puzzle game based on hexagonal tiles.  "
+#~ "There is no time limit and no real-time element, so  take as long as you "
+#~ "like.    Use the cursor keys or click on the arrows to  scroll through "
+#~ "the help pages. More pages will be  added as you progress through the "
+#~ "game."
+#~ msgstr ""
+#~ "Chào mừng bạn chơi Hex-a-hop !\n"
+#~ "\n"
+#~ "Đây là một trờ chối đố dựa vào cái ngói hình sáu cạnh. Thời gian không bị "
+#~ "hạn chế, vậy bạn có thể chơi tự do.\n"
+#~ "\n"
+#~ "Dùng phím con trỏ hay nhấn vào mũi tên để cuộn qua trợ giúp. Trang trợ "
+#~ "giúp thêm sẽ xuất hiện khi bạn tiến lên qua trò chơi."
