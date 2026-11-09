@@ -102,6 +102,7 @@ dist: $(BUILD)/$(PROG) $(ICONS) AMIGA_PORT.md
 	  python3 amiga/tools/ogg2wav.py adpcm $$f $(OUT)/data/$$b.wav || exit 1; done
 	cp amiga/fonts/DejaVuSans-Bold.ttf $(OUT)/data/
 	cp AMIGA_PORT.md $(OUT)/ReadMe
+	cp amiga/Controls $(OUT)/Controls
 	cp COPYING $(OUT)/COPYING.txt
 	cp amiga/data-LICENCES.txt $(OUT)/data/LICENCES.txt
 	cp amiga/fonts/DejaVu-LICENSE.txt $(OUT)/data/DejaVu-LICENSE.txt
