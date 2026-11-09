@@ -108,7 +108,6 @@ dist: $(BUILD)/$(PROG) $(ICONS) AMIGA_PORT.md
 	cp amiga/sdl_ttf/COPYING $(OUT)/SDL_ttf-COPYING.txt
 	cp amiga/icons/HexAHop.info amiga/icons/ReadMe.info $(OUT)/
 	for f in COPYING.txt SDL_ttf-COPYING.txt; do cp amiga/icons/ReadMe.info $(OUT)/$$f.info; done
-	cp amiga/icons/Folder.info $(OUT)/data.info
 	cp amiga/icons/HexAHop-drawer.info dist/HexAHop.info
 
 -include $(OBJS:.o=.d)
